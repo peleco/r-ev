@@ -1,18 +1,17 @@
 backend:
   name: github
-  repo: https://github.com/peleco/r-ev
-  branch: master
+  repo: peleco/r-ev # Path to your Github repository
+  branch: master # Branch to update (master by default)
 
-collections:
-  - name: "noticias" # Used in routes, e.g. /admin/collections/blog
-    label: "News" # Used in the UI
-    folder: "post" # The path to the folder where the documents are stored
+media_folder: "img/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
