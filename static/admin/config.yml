@@ -1,4 +1,4 @@
 backend:
   name: github
-  repo: peleco/r-ev
+  repo: https://github.com/peleco/r-ev
   branch: master
