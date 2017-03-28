@@ -3,6 +3,8 @@ backend:
   repo: peleco/r-ev # Path to your Github repository
   branch: master # Branch to update (master by default)
 
+netlify.configure({'site_id': r-ev.netlify.com});
+
 publish_mode: editorial_workflow
 
 media_folder: "static/img/uploads"
