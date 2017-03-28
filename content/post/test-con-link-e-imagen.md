@@ -11,4 +11,3 @@ categories:
 este es un [link](www.deningunaparte.com)
 
 ![shaka](/img/uploads/shaka.png)
-
