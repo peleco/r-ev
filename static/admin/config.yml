@@ -11,7 +11,6 @@ media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-
   - name: "news-post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News post" # Used in the UI, ie.: "New Post"
     folder: "content/post" # The path to the folder where the documents are stored
@@ -23,7 +22,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       #- {label: "Tags", name: "tags", widget: "list"}
       #- {label: "Categories", name: "categories", widget: "list"}
-
     - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
       label: "Article" # Used in the UI, ie.: "New Post"
       folder: "content/article" # The path to the folder where the documents are stored
