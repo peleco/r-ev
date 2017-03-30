@@ -3,12 +3,10 @@
 		<H2>News</H2>
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
+			{{ partial "news_post.html" . }}
 		{{ end }}
 		{{ partial "pagination.html" . }}
+
 		<H2>Article</H2>
-
-
 	</main>
-{{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
