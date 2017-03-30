@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       #- {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      #- {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
       #- {label: "Categories", name: "categories", widget: "list"}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
@@ -34,5 +34,5 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       #- {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      #- {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
       #- {label: "Categories", name: "categories", widget: "list"}
