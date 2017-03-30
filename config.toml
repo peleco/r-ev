@@ -1,4 +1,4 @@
 title = "r-ev"
 baseURL = "/"
 languageCode = "en-us"
-theme = "blank"
+theme = "hugo_r-ev"

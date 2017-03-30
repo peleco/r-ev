@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+	<main>
+		<H2>News</H2>
+		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ range $paginator.Pages }}
+		<!-- {{ partial "summary.html" . }} -->
+			{{ .Render "summary"}}
+		{{ end }}
+		{{ partial "pagination.html" . }}
+		<H2>Article</H2>
+		{{ $paginator := .Paginate (where .Site.Pages "Type" "article") }}
+		{{ range $paginator.Pages }}
+			<!-- {{ partial "summary.html" . }} -->
+			{{ .Render "summary"}}
+		{{ end }}
+		{{ partial "pagination.html" . }}
+	</main>
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}
