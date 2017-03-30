@@ -7,11 +7,8 @@
 		{{ end }}
 		{{ partial "pagination.html" . }}
 		<H2>Article</H2>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "article") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+
+
 	</main>
 {{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
