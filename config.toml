@@ -2,3 +2,15 @@ title = "r-ev"
 baseURL = "/"
 languageCode = "en-us"
 theme = "blank"
+
+[[menu.main]]
+    name = "about"
+    #pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/content/about/"
+[[menu.main]]
+    name = "archive"
+    #pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/content/getting-started/"
