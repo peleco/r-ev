@@ -6,11 +6,11 @@ theme = "blank"
 [[menu.main]]
     name = "about"
     #pre = "<i class='fa fa-heart'></i>"
-    weight = -110
+    #weight = -110
     identifier = "about"
-    url = "/content/about/"
+    url = "/content/about.md"
 [[menu.main]]
-    name = "archive"
+    name = "articulos"
     #pre = "<i class='fa fa-road'></i>"
-    weight = -100
-    url = "/content/getting-started/"
+    #weight = -100
+    url = "/content/articulos/"
