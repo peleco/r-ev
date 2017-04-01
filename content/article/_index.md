@@ -1,16 +1,15 @@
 +++
-type = "page"
-title = "About"
-slug = ""
-draft = false
-description = "Que es la r-ev?"
-date = "2017-04-01T19:06:26+02:00"
-aliases = []
-weight = 0
+title = "article"
 
+date = "2012-04-06"
+categories = [
+  "Articles"
+]
+slug = "article"
+type = "article"
 +++
 
-# About
+# Articles
 
 
 **Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Nulla laoreet massa id enim elementum, et molestie tortor cursus. Donec nibh sapien, varius vel magna non, vestibulum sollicitudin quam. In hac habitasse platea dictumst. In vel nisi et arcu egestas tincidunt ac efficitur ipsum. Praesent posuere augue ornare pharetra accumsan. Donec eu nisi ac turpis convallis pretium at vel mi. Suspendisse quis laoreet massa, a volutpat risus. Mauris eu varius tortor, imperdiet gravida sem. Sed in dolor a risus pharetra porttitor. Etiam posuere est a est aliquam, in facilisis risus tristique.

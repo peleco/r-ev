@@ -8,9 +8,9 @@ theme = "hugo_r-ev"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "about"
-    url = "/content/about.md"
+    url = "/about/"
 [[menu.main]]
     name = "articulos"
     #pre = "<i class='fa fa-road'></i>"
     #weight = -100
-    url = "/content/articulos/"
+    url = "/article/"

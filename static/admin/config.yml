@@ -12,6 +12,7 @@ public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "news-post" # Used in routes, ie.: /admin/collections/:slug/edit
+    type: "post"
     label: "News" # Used in the UI, ie.: "New Post"
     folder: "content/post" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
@@ -32,6 +33,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Image", name: "image", widget: "image", optional: true}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
+    type: "article"
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "content/article" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
