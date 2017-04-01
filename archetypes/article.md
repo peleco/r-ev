@@ -1,5 +1,4 @@
 +++
-aliases      = []
 categories   = []
 date         = ""
 description  = ""
@@ -8,5 +7,4 @@ slug         = ""
 tags         = []
 title        = ""
 type         = "article"
-weight       = 0
 +++

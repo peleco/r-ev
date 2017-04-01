@@ -2,8 +2,6 @@
 type = "article"
 tags = []
 categories = []
-aliases = []
-weight = 0
 slug = ""
 description = ""
 title = "Articulo 2"

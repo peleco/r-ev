@@ -2,13 +2,11 @@
 title = "Articulo 1"
 tags = []
 draft = false
-weight = 0
 type = "article"
 slug = ""
 description = ""
 date = "2017-04-01T22:37:28+02:00"
 categories = []
-aliases = []
 
 +++
 

@@ -3,15 +3,18 @@
 		<H2>News</H2>
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
-			{{ partial "new_post.html" . }}
+			{{ if eq .Type "post"}}
+				{{ partial "new_post.html" . }}
+			{{ end }}
 		{{ end }}
 		{{ partial "pagination.html" . }}
 
 		<H2>Article</H2>
-		{{ range first 1 .Data.Pages }}
-    {{ .Render "summary" }}
+		{{ range first 2 .Data.Pages }}
+			{{ if eq .Type "article"}}
+				{{ .Render "summary" }}
+			{{ end }}
 		{{ end }}
-
 
 
 	</main>
