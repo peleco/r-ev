@@ -1,4 +1,5 @@
 ---
+type : "post"
 title: test desde CMS 1
 date: 2017-04-01T21:58:43.872Z
 tags:
