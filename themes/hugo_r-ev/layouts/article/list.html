@@ -2,7 +2,7 @@
 	<main>
 layout article list!
 		{{ .Content }}
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ $paginator := .Paginate (where .Site.Pages "Section" "article") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
