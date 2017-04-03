@@ -1,5 +1,5 @@
 +++
-title = "Articulo 1"
+title = "Articulos"
 tags = []
 draft = false
 

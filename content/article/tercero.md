@@ -3,7 +3,7 @@ slug = ""
 categories = []
 tags = []
 description = ""
-type = "article"
+
 date = "2017-04-01T22:46:12+02:00"
 title = "Articulo 3"
 draft = false

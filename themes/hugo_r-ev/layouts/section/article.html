@@ -1,11 +1,10 @@
 {{ partial "header.html" . }}
-{{ .Content }}
 	<main>
-layout article list!
+layout article
 		{{ .Content }}
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
+		{{ $paginator2 := .Paginate (where .Site.Pages "Type" "post") }}
+		{{ range $paginator2.Pages }}
+				{{ partial "summary.html" . }}
 		{{ end }}
 		{{ partial "pagination.html" . }}
 	</main>

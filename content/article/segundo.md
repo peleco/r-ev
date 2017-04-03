@@ -1,5 +1,5 @@
 +++
-type = "article"
+
 tags = []
 categories = []
 slug = ""
