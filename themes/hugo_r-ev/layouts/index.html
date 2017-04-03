@@ -10,7 +10,7 @@
 		{{ partial "pagination.html" . }}
 
 		<H2>Article</H2>
-		{{ range first 2 .Data.Pages }}
+		{{ range first 1 .Data.Pages }}
 			{{ if eq .Type "article"}}
 				{{ .Render "summary" }}
 			{{ end }}
