@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 	<main>
-layout article list!
-
+layout article article index!
+		{{ .Content }}
 		{{ $paginator2 := .Paginate (where .Site.Pages "Section" "article") }}
 		{{ range $paginator2.Pages }}
 				{{ partial "summary.html" . }}
