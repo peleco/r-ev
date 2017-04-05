@@ -8,12 +8,14 @@
 		{{ partial "pagination.html" . }}
 
 		<H2>Article</H2>
-		{{ range first 1 .Data.Pages }}
+		<!-- {{ range first 3 .Data.Pages }} // el contador, cuenta las paginas de post tambien!!!! CAMBIAR
 			{{ if eq .Section "article"}}
 				{{ .Render "summary" }}
 			{{ end }}
+		{{ end }} -->
+		{{ range first 1 (where .Data.Pages "Section" "article") }}
+			{{ .Render "summary" }}
 		{{ end }}
-
 
 	</main>
 {{ partial "footer.html" . }}
