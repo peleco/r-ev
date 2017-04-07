@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Image"
         name: "imageAttachments"
         widget: "list"
-        optional: true
+        required: false
         fields:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
