@@ -18,6 +18,7 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    file: "data/authors.yml"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -31,6 +32,11 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", optional: true}
+       - name: authors
+            label: Authors
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
