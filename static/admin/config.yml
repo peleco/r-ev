@@ -32,6 +32,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image", optional: true}
+      - {label: "Author", name: "author", widget: "list", authors: ["peleco", "marek"]}
       #- name: authors
       #    label: Authors
       #    widget: list
