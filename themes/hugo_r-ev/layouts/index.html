@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 	<main>
+		
 		<H2>News</H2>
 		{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
 		{{ range $paginator.Pages }}
@@ -8,11 +9,6 @@
 		{{ partial "pagination.html" . }}
 
 		<H2>Article</H2>
-		<!-- {{ range first 3 .Data.Pages }} // el contador, cuenta las paginas de post tambien!!!! CAMBIAR
-			{{ if eq .Section "article"}}
-				{{ .Render "summary" }}
-			{{ end }}
-		{{ end }} -->
 		{{ range first 1 (where .Data.Pages "Section" "article") }}
 			{{ .Render "summary" }}
 		{{ end }}
