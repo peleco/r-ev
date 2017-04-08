@@ -4,6 +4,13 @@
 		{{ range .Params.tags }}
 		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 		{{ end }}
+
+		{{ if and (isset .Params "image") .Params.image }}
+		<div>
+				<img src="{{ .Params.image }}" alt="" class="img-responsive">
+		</div>
+		{{ end }}
+		
 		<div>
 			{{ .Summary }}
 			{{ if .Truncated }}
