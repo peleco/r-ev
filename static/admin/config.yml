@@ -29,12 +29,12 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Image"
         name: "imageAttachments"
         widget: "list"
-        required: false
+        #required: false
         fields:
-          #- {label: "Description", name: "description", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Author", name: "author", widget: "list", authors: ["peleco", "marek"]}
+      #- {label: "Author", name: "author", widget: "list", authors: ["peleco", "marek"]}
       #- name: authors
       #    label: Authors
       #    widget: list
