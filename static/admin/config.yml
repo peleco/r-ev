@@ -18,28 +18,20 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    #file: "data/authors.yml"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-      #- {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       #- {label: "Categories", name: "categories", widget: "list"}
       - label: "Image"
         name: "imageAttachments"
         widget: "list"
-        #required: false
+        required: false
         fields:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
-      #- {label: "Author", name: "author", widget: "string"}
-      #- {label: "Author", name: "author", widget: "list", authors: ["peleco", "marek"]}
-      #- name: authors
-      #    label: Authors
-      #    widget: list
-      #    fields:
-      #    - {label: "Name", name: "name", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
@@ -50,7 +42,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-      #- {label: "Foo", name: "foo", widget: "foo"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       #- {label: "Categories", name: "categories", widget: "list"}
