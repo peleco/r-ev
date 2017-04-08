@@ -23,14 +23,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "image", widget: "image", required: false}
       #- {label: "Categories", name: "categories", widget: "list"}
-      - label: "Image"
-        name: "imageAttachments"
-        widget: "list"
+      #- label: "Image"
+      #  name: "imageAttachments"
+      #  widget: "list"
         #required: false
-        fields:
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Image", name: "image", widget: "image", required: false}
+      #  fields:
+      #    - {label: "Description", name: "description", widget: "string", required: false}
+      #    - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Author", name: "author", widget: "string"}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
