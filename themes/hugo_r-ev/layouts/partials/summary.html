@@ -10,11 +10,12 @@
 				<img src="{{ .Params.image }}" alt="" class="img-responsive">
 		</div>
 		{{ end }}
-		
+
 		<div>
 			{{ .Summary }}
 			{{ if .Truncated }}
 				<a href="{{ .Permalink }}">Read more...</a>
 			{{ end }}
+			{{ .Params.author }}
 		</div>
 	</article>
