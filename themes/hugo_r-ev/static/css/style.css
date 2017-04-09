@@ -81,7 +81,8 @@ body {
   height: 88%;
   margin: 1.5%;
   padding: 1.5%;
-  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   /*margin: 1.5em;
   padding: 1.5em;*/
 }
