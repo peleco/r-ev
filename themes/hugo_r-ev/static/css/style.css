@@ -98,7 +98,7 @@ body {
 }
 .flex-item-2col {
   flex: 70%;
-  /*height: 88%;*/ 
+  /*height: 88%;*/
   margin: 1.5%;
   padding: 1.5%;
 }
@@ -115,6 +115,10 @@ article {
   font-family: "noe-display";
   margin: 0;
   padding: 0;
+}
+.featured-article {
+  font-size: 2.75em;
+  line-height: 1em;
 }
 /*h1 {
   font-family: "noe-display";
