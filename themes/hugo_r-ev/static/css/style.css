@@ -1,8 +1,95 @@
+@font-face {
+    font-family: "graphik";
+    src: url('/fonts/graphik/Graphik-Regular-Web.woff') format('woff'),
+         url('/fonts/apercu/Graphik-Regular-Web.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "graphik";
+    src: url('/fonts/graphik/Graphik-Bold-Web.woff') format('woff'),
+         url('/fonts/apercu/Graphik-Bold-Web.svg') format('svg');
+    font-weight: bold;
+    font-style: bold;
+
+}
+@font-face {
+    font-family: "apercu";
+    src: url('/fonts/apercu/apercu-regular-webfont.woff2') format('woff2'),
+         url('/fonts/apercu/apercu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "apercu";
+    src: url('/fonts/apercu/apercu-bold-webfont.woff2') format('woff2'),
+         url('/fonts/apercu/apercu-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+@font-face {
+    font-family: "noe-display";
+    src: url('/fonts/noe/noe-display-bold.woff') format('woff'),
+         url('/fonts/noe/noe-display-bold.eot') format('eot');
+    font-weight: bold;
+    font-style: bold;
+
+}
+html {
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "apercu", sans-serif;
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   /*font-weight: 300;*/
   font-size: 100%;
   line-height: 1.5;
+  margin: 0;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  /*height: 500px;*/
+  /*background-color: lightgrey;*/
+}
+.flex-item-1 {
+  /*background-color: cornflowerblue;*/
+  width: 20%;
   margin: 3em;
 }
+.flex-item-2 {
+  /*background-color: cornflowerblue;*/
+  width: 40%;
+  margin: 3em;
+}
+.flex-item-3 {
+  /*background-color: cornflowerblue;*/
+  width: 40%;
+  margin: 3em;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
+article {
+  margin-bottom: 4.5em;
+}
+.noe-display {
+  font-family: "noe-display"
+}
+/*h1 {
+  font-family: "noe-display";
+}
+articles h1 {
+  font-family: "apercuregular";
+}*/

@@ -1,17 +1,20 @@
 {{ partial "header.html" . }}
-	<main>
-		
-		<H2>News</H2>
-		{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
-		{{ range $paginator.Pages }}
-				{{ partial "new_post.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
+	<!-- <main> -->
+		<div class="flex-item-2">
+			<H2 class="noe-display">News</H2>
+			{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+			{{ range $paginator.Pages }}
+					{{ partial "new_post.html" . }}
+			{{ end }}
+			{{ partial "pagination.html" . }}
+		</div>
 
-		<H2>Article</H2>
-		{{ range first 1 (where .Data.Pages "Section" "article") }}
-			{{ .Render "summary" }}
-		{{ end }}
+		<div class="flex-item-3">
+			<H2 class="noe-display">Article</H2>
+			{{ range first 1 (where .Data.Pages "Section" "article") }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</div>
 
-	</main>
+	<!-- </main> -->
 {{ partial "footer.html" . }}

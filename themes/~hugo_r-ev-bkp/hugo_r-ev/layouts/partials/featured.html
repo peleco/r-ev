@@ -1,0 +1,10 @@
+	<article>
+		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		<div>
+			{{ range first 1 .Data.Pages }}
+				{{ if eq .Section "article"}}
+					{{ .Render "summary" }}
+				{{ end }}
+			{{ end }}
+		</div>
+	</article>

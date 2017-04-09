@@ -10,20 +10,16 @@
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,700" rel="stylesheet">
 </head>
 <body>
-
-	<div class="flex-container">
-
-		<div class="flex-item-1">
-			<header>
-				<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-				<nav>
-					<ul>
-						{{ range .Site.Menus.main }}
-						<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-						{{ end }}
-					</ul>
-				</nav>
-			</header>
-		</div>
+	<header>
+		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		<nav>
+			<ul>
+				{{ range .Site.Menus.main }}
+				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+	</header>
