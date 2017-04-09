@@ -64,17 +64,20 @@ body {
 .flex-item-1 {
   /*background-color: cornflowerblue;*/
   width: 20%;
-  margin: 3em;
+  margin: 1.5em;
+  padding: 1.5em;
 }
 .flex-item-2 {
   /*background-color: cornflowerblue;*/
   width: 40%;
-  margin: 3em;
+  margin: 1.5em;
+  padding: 1.5em;
 }
 .flex-item-3 {
-  /*background-color: cornflowerblue;*/
+  background-color: cornflowerblue;
   width: 40%;
-  margin: 3em;
+  margin: 1.5em;
+  padding: 1.5em;
 }
 .img-responsive {
   max-width: 100%;
@@ -86,7 +89,9 @@ article {
   margin-bottom: 4.5em;
 }
 .noe-display {
-  font-family: "noe-display"
+  font-family: "noe-display";
+  margin: 0;
+  padding: 0;
 }
 /*h1 {
   font-family: "noe-display";
