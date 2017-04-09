@@ -38,6 +38,9 @@
     font-style: bold;
 
 }
+html, body{
+  height:100%;
+}
 html {
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased;
@@ -58,26 +61,39 @@ body {
   -webkit-align-items: flex-start;
   align-items: flex-start;
   width: 100%;
+  height: 100%;
   /*height: 500px;*/
   /*background-color: lightgrey;*/
 }
 .flex-item-1 {
   /*background-color: cornflowerblue;*/
-  width: 20%;
-  margin: 1.5em;
-  padding: 1.5em;
+  /*width: 20%;*/
+  flex: 20%;
+  /*background-color: grey;*/
+  height: 88%;
+  margin: 1.5%;
+  padding: 1.5%;
 }
 .flex-item-2 {
-  /*background-color: cornflowerblue;*/
-  width: 40%;
-  margin: 1.5em;
-  padding: 1.5em;
+  /*background-color: green;*/
+  /*width: 40%;*/
+  flex: 40%;
+  height: 88%;
+  margin: 1.5%;
+  padding: 1.5%;
+  overflow: auto;
+  /*margin: 1.5em;
+  padding: 1.5em;*/
 }
 .flex-item-3 {
   background-color: cornflowerblue;
-  width: 40%;
-  margin: 1.5em;
-  padding: 1.5em;
+  flex: 40%;
+  height: 88%;
+  margin: 1.5%;
+  padding: 1.5%;
+  /*width: 40%;*/
+  /*margin: 1.5em;*/
+  /*padding: 1.5em;*/
 }
 .img-responsive {
   max-width: 100%;
