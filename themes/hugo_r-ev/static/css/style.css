@@ -96,6 +96,12 @@ body {
   /*margin: 1.5em;*/
   /*padding: 1.5em;*/
 }
+.flex-item-2col {
+  flex: 70%;
+  /*height: 88%;*/ 
+  margin: 1.5%;
+  padding: 1.5%;
+}
 .img-responsive {
   max-width: 100%;
   display: block;
