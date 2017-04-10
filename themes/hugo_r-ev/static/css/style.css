@@ -124,6 +124,7 @@ article {
 }
 .featured-article a {
     text-decoration: none;
+    color: #000;
 }
 /*h1 {
   font-family: "noe-display";
