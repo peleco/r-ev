@@ -126,6 +126,7 @@ body {
 /* ——————————————————————— General styles */
 .news_post {
   line-height: 1.5em;
+  margin: 3em 0;
 }
 .news_post time {
   margin-right: 1em;
