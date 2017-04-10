@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  font-family: "apercu", sans-serif;
+  font-family: "graphik", sans-serif;
   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
   /*font-weight: 300;*/
   font-size: 1em;
@@ -113,7 +113,7 @@ article {
   margin-bottom: 4.5em;
 }
 .noe-display {
-  font-family: "apercu";
+  font-family: "graphik";
   margin: 0;
   padding: 0;
 }
