@@ -1,3 +1,4 @@
+/* ——————————————————————— Fonts */
 @font-face {
     font-family: "graphik";
     src: url('/fonts/graphik/Graphik-Regular-Web.woff') format('woff'),
@@ -38,6 +39,8 @@
     font-style: bold;
 
 }
+
+/* ——————————————————————— Body */
 html, body{
   height:100%;
 }
@@ -56,6 +59,7 @@ body {
   margin: 0;
 }
 
+/* ——————————————————————— Layout */
 .flex-container {
   display: -webkit-flex;
   display: flex;
@@ -109,6 +113,7 @@ body {
   margin: 1em 0;
 }
 
+/* ——————————————————————— General styles */
 article {
   margin-bottom: 4.5em;
 }
