@@ -146,7 +146,7 @@ body {
 }
 
 .featured-article {
-
+  line-height: 1.5em;
 }
 .featured-article_text {
   margin: 3em 1em 0 17.21%;
@@ -161,7 +161,7 @@ body {
   font-size: 3.25em;
   line-height: 1em;
   font-weight: bolder;
-  margin: 0;
+  margin-bottom: 1rem;
 }
 .featured-article a {
     text-decoration: none;
