@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 	<!-- <main> -->
 		<div class="flex-item-2">
-			<H2 class="noe-display">News</H2>
 			{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
 			{{ range $paginator.Pages }}
 					{{ partial "new_post.html" . }}
@@ -10,7 +9,6 @@
 		</div>
 
 		<div class="flex-item-3">
-			<H2 class="noe-display">Article</H2>
 			{{ range first 1 (where .Data.Pages "Section" "article") }}
 				{{ .Render "summary" }}
 			{{ end }}
