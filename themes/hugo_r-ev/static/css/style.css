@@ -121,6 +121,9 @@ article {
   font-size: 2.75em;
   line-height: 1em;
 }
+.featured-article a {
+    text-decoration: none;
+}
 /*h1 {
   font-family: "noe-display";
 }
