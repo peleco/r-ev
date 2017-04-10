@@ -120,10 +120,10 @@ article {
 .featured-article {
   font-size: 2.75em;
   line-height: 1em;
+  margin: 1em 0;
 }
 .featured-article a {
     text-decoration: none;
-    margin: 1em 0;
 }
 /*h1 {
   font-family: "noe-display";
