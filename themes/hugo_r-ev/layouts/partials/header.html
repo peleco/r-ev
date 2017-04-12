@@ -17,9 +17,9 @@
 	<div class="flex-container">
 
 		<div class="flex-item-1">
-			<header>
+			<header class="main_header">
 				<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-				<nav>
+				<nav class="main_nav">
 					<ul>
 						{{ range .Site.Menus.main }}
 						<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>

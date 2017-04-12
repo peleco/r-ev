@@ -81,12 +81,11 @@ body {
   /*background-color: lightgrey;*/
 }
 .flex-item-1 {
-  /*background-color: cornflowerblue;*/
   /*width: 20%;*/
-  flex: 12.66%;
+  flex: 14.66%;
   /*background-color: grey;*/
-  height: 92%;
-  margin: 2%;
+  height: 100%;
+  margin: 0;
   /*padding: 2%;*/
 }
 .flex-item-2 {
@@ -122,6 +121,38 @@ body {
   display: block;
   margin: 1em 0;
 }
+
+/* ——————————————————————— Header & nav */
+.main_header {
+  margin: 1em 1em;
+  /*background-color: violet;*/
+}
+
+.main_nav {
+  margin-top: 4em;
+  /*background-color: green;*/
+}
+.main_nav a {
+  text-decoration: none;
+  color: #000;
+}
+.main_nav ul {
+  font-family: "noe-display";
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  /*background-color: green;*/
+  list-style-type: none;
+}
+.main_nav li {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 
 /* ——————————————————————— General styles */
 .news_post {
