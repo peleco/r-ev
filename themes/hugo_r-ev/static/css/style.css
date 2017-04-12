@@ -149,7 +149,8 @@ body {
   /*line-height: 1.5em;*/
 }
 .featured-article_text {
-  margin: 3em 1em 0 17.21%;
+  /*margin: 3em 1em 0 17.21%;*/
+  margin: 3em 1em 0 1em;
 }
 .noe-display {
   font-family: "noe-display";
