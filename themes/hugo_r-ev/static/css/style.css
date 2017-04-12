@@ -183,6 +183,7 @@ body {
 .featured-article_text {
   /*margin: 3em 1em 0 17.21%;*/
   margin: 3em 2em 0 2em;
+  width: 70%;
 }
 .noe-display {
   font-family: "noe-display";
