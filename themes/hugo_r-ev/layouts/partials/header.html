@@ -20,11 +20,13 @@
 			<header class="main_header">
 				<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 				<nav class="main_nav">
+					—
 					<ul>
 						{{ range .Site.Menus.main }}
 						<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
+					—
 				</nav>
 			</header>
 		</div>
