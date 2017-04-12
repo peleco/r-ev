@@ -2,7 +2,7 @@
 	<!-- <main> -->
 		<div class="flex-item-2">
 			{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
-			{{ range $paginator.Pages }}
+			{{ range first 6 $paginator.Pages }}
 					{{ partial "new_post.html" . }}
 			{{ end }}
 			{{ partial "pagination.html" . }}

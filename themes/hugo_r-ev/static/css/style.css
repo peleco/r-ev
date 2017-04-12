@@ -95,8 +95,8 @@ body {
   height: 92%;
   margin: 2%;
   /*padding: 2%;*/
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+  /*overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;*/
   /*margin: 1.5em;
   padding: 1.5em;*/
 }
@@ -125,6 +125,7 @@ body {
 /* ——————————————————————— Header & nav */
 .main_header {
   margin: 1em 1em;
+  position: fixed;
   /*background-color: violet;*/
 }
 
