@@ -142,7 +142,7 @@ body {
 .main_nav ul {
   font-family: "noe-display";
   font-size: 1.5rem;
-  /*line-height: 1.5em;*/
+  line-height: 1.5em;
   margin: 0;
   padding: 0;
   /*background-color: green;*/
