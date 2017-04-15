@@ -79,6 +79,7 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  padding: 1.25rem;
   /*background: grey;*/
 }
 .header {
