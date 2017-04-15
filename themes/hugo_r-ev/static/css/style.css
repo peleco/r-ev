@@ -226,6 +226,7 @@ header nav li {
   width: 100%;
   height: auto;
   min-height: 80vh;
+  margin-bottom: 2.5rem;
 }
 .featured-article_text {
   /*margin: 3em 1em 0 17.21%;*/
@@ -248,6 +249,30 @@ header nav li {
   padding: 0;
 }
 .featured-article a {
+    text-decoration: none;
+    color: #000;
+}
+.featured-lvl2 {
+  /*line-height: 1.5em;*/
+  background: lightgrey;
+  /*display: block;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  padding: 1.25rem;
+  /*background: grey;*/
+  width: 100%;
+  height: auto;
+}
+.featured-lvl2 h1 {
+  font-family: "noe-display";
+  font-weight: bolder;
+  font-size: 1.75rem;
+  line-height: 1em;
+  font-weight: bolder;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+.featured-lvl2 a {
     text-decoration: none;
     color: #000;
 }

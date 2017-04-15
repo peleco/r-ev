@@ -13,6 +13,9 @@
 				{{ range first 1 (where .Data.Pages "Section" "article") }}
 					{{ .Render "summary" }}
 				{{ end }}
+				{{ range first 1 (where .Data.Pages "Section" "benko") }}
+					{{ .Render "summary" }}
+				{{ end }}
 			</div>
 		</div>
 

@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 	<div class="content">
 	<div class="col-1-1">
-layout article article index!:°
+layout article archivo index!
 		{{ .Content }}
-		{{ $paginator := .Paginate (where .Site.Pages "Section" "article") }}
+		{{ $paginator := .Paginate (where .Site.Pages "Section" "archivo") }}
 		{{ range $paginator.Pages }}
 				{{ partial "summary.html" . }}
 		{{ end }}

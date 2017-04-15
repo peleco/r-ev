@@ -15,10 +15,10 @@ theme = "hugo_r-ev"
     #weight = -100
     url = "/article/"
 [[menu.main]]
-    name = "benko3D"
+    name = "benko"
     #pre = "<i class='fa fa-road'></i>"
     #weight = -100
-    url = "/benko3D/"
+    url = "/benko/"
 [[menu.main]]
     name = "archivo"
     #pre = "<i class='fa fa-road'></i>"
