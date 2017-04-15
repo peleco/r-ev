@@ -166,7 +166,7 @@ header nav li {
 
 
 /* ——————————————————————— Media query */
-@media all and (max-width: 48em) { /* -768px tablet portrait */
+@media all and (max-width: 56em) { /* -900px */
   .col-1-2, .col-2-2, .col-1-1 {
     width: 100%;
   }
@@ -177,7 +177,7 @@ header nav li {
     width: 75%;
   }
 }
-@media all and (max-width: 40em) { /* -640 nav para mobile */
+@media all and (max-width: 40em) { /* -650 nav para mobile */
   .header {
     width: 100%;
     height: auto;
