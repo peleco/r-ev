@@ -170,6 +170,12 @@ header nav li {
   .col-1-2, .col-2-2, .col-1-1 {
     width: 100%;
   }
+  .header {
+    width: 25%;
+  }
+  .content {
+    width: 75%;
+  }
 }
 @media all and (max-width: 40em) { /* -640 nav para mobile */
   .header {
