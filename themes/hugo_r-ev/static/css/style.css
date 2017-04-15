@@ -53,6 +53,9 @@
 }
 
 /* ——————————————————————— Body */
+* {
+  box-sizing: border-box;
+}
 html, body{
   height:100%;
 }
@@ -70,76 +73,83 @@ body {
 }
 
 /* ——————————————————————— Layout */
-.flex-container {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-  width: 100%;
+.main {
+  width: 100vw;
   max-width: 100rem;
-  min-width: 48rem;
-  height: 100%;
-  /*height: 500px;*/
-  /*background-color: lightgrey;*/
-}
-.flex-item-1 {
-  /*width: 20%;*/
-  flex: 14.66%;
-  /*background-color: grey;*/
-  height: 100%;
   margin: 0;
-  /*padding: 2%;*/
+  display: flex;
+  flex-wrap: wrap;
+  /*background: grey;*/
 }
-.flex-item-2 {
-  /*background-color: green;*/
-  /*width: 40%;*/
-  flex: 29.33%;
-  height: 92%;
-  margin: 2%;
-  /*padding: 2%;*/
-  /*overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;*/
-  /*margin: 1.5em;
-  padding: 1.5em;*/
+.header {
+  /*background: lightgrey;*/
+  position: relative;
+  width: 16.666666666666668%;
+  padding: 1.25rem;
+  /*background: darkgrey;*/
 }
-.flex-item-3 {
-  background-color: cornflowerblue;
-  flex: 46%;
-  height: 92%; /*88*/
-  margin: 2%;
-  /*padding: 2%;*/
-  /*width: 40%;*/
-  /*margin: 1.5em;*/
-  /*padding: 1.5em;*/
+.content {
+  width: 83.33333333333333%;
+  /*background: green;*/
 }
-.flex-item-2col {
-  flex: 81.34%;
-  /*height: 88%;*/
-  margin: 2%;
-  /*padding: 1.5%;*/
+.cols {
+  display: flex;
+  flex-wrap: wrap;
 }
+.col-1-2 {
+  width: 40%;
+  padding: 1.25rem;
+  /*background: grey;*/
+}
+.col-2-2 {
+  width: 60%;
+  padding: 1.25rem;
+  /*background: lightgrey;*/
+}
+.col-1-1 {
+  width: 80%;
+  padding: 1.25rem;
+}
+/*.col-2-2 p {
+  padding: 1.25rem;
+  background: grey;
+  width: 100%;
+  height: 10rem;
+}
+.col-1-2 p {
+  padding: 1.25rem;
+  background: lightgrey;
+  width: 100%;
+}
+.col-2-2 p:first-child {
+  height: 60vh;
+}*/
 .img-responsive {
   max-width: 100%;
   display: block;
   margin: 1rem 0;
 }
-
-/* ——————————————————————— Header & nav */
-.main_header {
-  margin: 1rem;
-  position: fixed;
-  /*background-color: violet;*/
+footer {
+  display: block;
+  margin: 0;
+  padding: 1.25rem;
+  /*background: lightgrey;*/
+  height: 100px;
+  /*background: slategrey;*/
 }
-
-.main_nav {
+/* ——————————————————————— Header & nav */
+header {
+  position: fixed;
+}
+header nav {
   margin-top: 3rem;
   /*background-color: green;*/
 }
-.main_nav a {
+header nav a {
   text-decoration: none;
   color: #000;
 }
-.main_nav ul {
+header nav ul {
   font-family: "noe-display";
   font-size: 1.5rem;
   line-height: 1.5em;
@@ -148,19 +158,38 @@ body {
   /*background-color: green;*/
   list-style-type: none;
 }
-.main_nav li {
+header nav li {
   margin: 0;
   padding: 0;
 }
 
 
+/* ——————————————————————— Media query */
+@media all and (max-width: 48em) { /* -768px tablet portrait */
+  .col-1-2, .col-2-2, .col-1-1 {
+    width: 100%;
+  }
+}
+@media all and (max-width: 40em) { /* -640 nav para mobile */
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    width: 100%;
+  }
+  header {
+    position: relative;
+  }
+}
 
 
 
 /* ——————————————————————— General styles */
 .news_post {
   /*line-height: 1.5em;*/
-  margin: 3rem 0;
+  margin-bottom: 3rem;
+  /*background: darkgrey;*/
 }
 .news_post time {
   margin-right: 1rem;
@@ -181,10 +210,18 @@ body {
 
 .featured-article {
   /*line-height: 1.5em;*/
+  background: cornflowerblue;
+  /*display: block;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  padding: 1.25rem;
+  /*background: grey;*/
+  width: 100%;
+  height: 80vh;
 }
 .featured-article_text {
   /*margin: 3em 1em 0 17.21%;*/
-  margin: 3rem 2rem 0 2rem;
+  /*margin: 1.25rem 0;*/
   width: 70%;
 }
 .noe-display {

@@ -1,17 +1,19 @@
 {{ partial "header.html" . }}
 	<!-- <main> -->
-		<div class="flex-item-2">
-			{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
-			{{ range first 6 $paginator.Pages }}
-					{{ partial "new_post.html" . }}
-			{{ end }}
-			{{ partial "pagination.html" . }}
-		</div>
-
-		<div class="flex-item-3">
-			{{ range first 1 (where .Data.Pages "Section" "article") }}
-				{{ .Render "summary" }}
-			{{ end }}
+	<div class="content">
+		<div class="cols">
+			<div class="col-1-2">
+				{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+				{{ range first 6 $paginator.Pages }}
+						{{ partial "new_post.html" . }}
+				{{ end }}
+				{{ partial "pagination.html" . }}
+			</div>
+			<div class="col-2-2">
+				{{ range first 1 (where .Data.Pages "Section" "article") }}
+					{{ .Render "summary" }}
+				{{ end }}
+			</div>
 		</div>
 
 	<!-- </main> -->

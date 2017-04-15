@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-	<div class="flex-item-2col">
+	<div class="content">
 layout article article index!
 		{{ .Content }}
 		{{ $paginator := .Paginate (where .Site.Pages "Section" "article") }}
