@@ -1,11 +1,12 @@
 {{ partial "header.html" . }}
-layout default list
-	<main>
+<div class="content">
+	layout default list
+	<div class="col-1-1">
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
 		{{ partial "pagination.html" . }}
-	</main>
-{{ partial "sidebar.html" . }}
+		{{ partial "sidebar.html" . }}
+	</div>
 {{ partial "footer.html" . }}

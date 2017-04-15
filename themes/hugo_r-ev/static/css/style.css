@@ -152,8 +152,8 @@ header nav a {
 }
 header nav ul {
   font-family: "noe-display";
-  font-size: 1.5rem;
-  line-height: 1.5em;
+  font-size: 1.25rem;
+  line-height: 2em;
   margin: 0;
   padding: 0;
   /*background-color: green;*/
@@ -232,17 +232,20 @@ header nav li {
   /*margin: 1.25rem 0;*/
   width: 70%;
 }
-.noe-display {
+/*.noe-display {
   font-family: "noe-display";
   font-weight: bolder;
   margin: 0;
   padding: 0;
-}
+}*/
 .featured-article h1 {
+  font-family: "noe-display";
+  font-weight: bolder;
   font-size: 3.25rem;
   line-height: 1em;
   font-weight: bolder;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
 }
 .featured-article a {
     text-decoration: none;

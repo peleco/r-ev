@@ -1,13 +1,14 @@
 {{ partial "header.html" . }}
 {{ .Content }}
-	<main>
-layout article list!
-		{{ .Content }}
-		{{ $paginator := .Paginate (where .Site.Pages "Section" "article") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
-	</main>
-{{ partial "sidebar.html" . }}
+	<div class="content">
+		<div class="col-1-1">
+			layout article list!
+			{{ .Content }}
+			{{ $paginator := .Paginate (where .Site.Pages "Section" "article") }}
+			{{ range $paginator.Pages }}
+				{{ partial "summary.html" . }}
+			{{ end }}
+			{{ partial "pagination.html" . }}
+			{{ partial "sidebar.html" . }}
+		</div>
 {{ partial "footer.html" . }}
