@@ -25,14 +25,14 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  padding: 1.25rem;
+  /*padding: 1.25rem;*/
   /*background: grey;*/
 }
 .header {
   /*background: lightgrey;*/
   position: relative;
   width: 16.666666666666668%;
-  padding: 1.25rem;
+  padding: 2.5rem;
   /*background: darkgrey;*/
 }
 .content {
@@ -45,17 +45,17 @@ body {
 }
 .col-1-2 {
   width: 40%;
-  padding: 1.25rem;
+  padding: 2.5rem;
   /*background: grey;*/
 }
 .col-2-2 {
   width: 60%;
-  padding: 1.25rem;
+  /*padding: 1.25rem;*/
   /*background: lightgrey;*/
 }
 .col-1-1 {
   width: 80%;
-  padding: 1.25rem;
+  padding: 2.5rem;
 }
 /*.col-2-2 p {
   padding: 1.25rem;
@@ -174,12 +174,12 @@ header nav li {
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  padding: 1.25rem;
+  padding: 2.5rem;
   /*background: grey;*/
   width: 100%;
   height: auto;
-  min-height: 80vh;
-  margin-bottom: 2.5rem;
+  min-height: 86vh;
+  /*margin-bottom: 2.5rem;*/
 }
 .featured-article_text {
   /*margin: 3em 1em 0 17.21%;*/
@@ -211,10 +211,11 @@ header nav li {
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  padding: 1.25rem;
+  padding: 2.5rem;
   /*background: grey;*/
   width: 100%;
   height: auto;
+  min-height: 43vh;
 }
 .featured-lvl2 h1 {
   font-family: "noe-display";
