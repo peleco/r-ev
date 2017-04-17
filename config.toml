@@ -3,6 +3,11 @@ baseURL = "/"
 languageCode = "en-us"
 theme = "hugo_r-ev"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
 [[menu.main]]
     name = "about"
     #pre = "<i class='fa fa-heart'></i>"

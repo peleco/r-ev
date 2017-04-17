@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+	<div class="content">
+			layout default taxonomy!
+      <div class="col-1-1">
+        <section id="main">
+          <div>
+            <h1 id="title">{{ .Title }}</h1>
+            <ul>
+            {{ $data := .Data }}
+            {{ range $key, $value := .Data.Terms.Alphabetical }}
+              <li><a href="{{ .Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $value.Name | urlize }}">{{ $value.Name }}</a> {{ $value.Count }}</li>
+            {{ end }}
+            </ul>
+          </div>
+        </section>
+      </div>
+{{ partial "footer.html" . }}
