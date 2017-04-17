@@ -1,57 +1,3 @@
-/* ——————————————————————— Fonts */
-@font-face {
-  font-family: 'graphik';
-  src: url('/fonts/graphik/Graphik-Regular-Web.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/graphik/Graphik-Regular-Web-.eot') format('embedded-opentype'), /* IE6-IE8 */
-       /*url('webfont.woff2') format('woff2'),*/ /* Super Modern Browsers */
-       url('/fonts/graphik/Graphik-Regular-Web.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/graphik/Graphik-Regular-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/graphik/Graphik-Regular-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'graphik';
-  src: url('/fonts/graphik/Graphik-Semibold-Web.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/graphik/Graphik-Semibold-Web-.eot') format('embedded-opentype'), /* IE6-IE8 */
-       /*url('webfont.woff2') format('woff2'),*/ /* Super Modern Browsers */
-       url('/fonts/graphik/Graphik-Semibold-Web.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/graphik/Graphik-Semibold-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/graphik/Graphik-Semibold-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
-  font-weight: bold;
-  font-style: bold;
-}
-@font-face {
-    font-family: "apercu";
-    src: url('/fonts/apercu/apercu-regular-webfont.woff2') format('woff2'),
-         url('/fonts/apercu/apercu-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: "apercu";
-    src: url('/fonts/apercu/apercu-bold-webfont.woff2') format('woff2'),
-         url('/fonts/apercu/apercu-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
-
-}
-@font-face {
-    font-family: "noe-display";
-    src: url('/fonts/noe/noe-display-bold.woff') format('woff'),
-         url('/fonts/noe/noe-display-bold.eot') format('eot');
-    font-weight: bold;
-    font-style: bold;
-}
-@font-face {
-    font-family: "noe-display";
-    src: url('/fonts/noe/noe-display-black.woff') format('woff'),
-         url('/fonts/noe/noe-display-black.eot') format('eot');
-    font-weight: bolder;
-    font-style: bolder;
-}
-
 /* ——————————————————————— Body */
 * {
   box-sizing: border-box;
@@ -193,6 +139,12 @@ header nav li {
 
 
 /* ——————————————————————— General styles */
+.col-label {
+  font: bold 1.25rem "noe-display";
+  margin: 0 0 2.5rem 0;
+  padding: 0 0 .5rem 0;
+  border-bottom: solid 2px #000;
+}
 .news_post {
   /*line-height: 1.5em;*/
   margin-bottom: 3rem;
@@ -241,7 +193,7 @@ header nav li {
 }*/
 .featured-article h1 {
   font-family: "noe-display";
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 3.25rem;
   line-height: 1em;
   font-weight: bolder;
@@ -265,7 +217,7 @@ header nav li {
 }
 .featured-lvl2 h1 {
   font-family: "noe-display";
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.75rem;
   line-height: 1em;
   font-weight: bolder;
