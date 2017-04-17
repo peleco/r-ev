@@ -140,10 +140,11 @@ header nav li {
 
 /* ——————————————————————— General styles */
 .col-label {
-  font: bold 1.25rem "noe-display";
-  margin: 0 0 2.5rem 0;
-  padding: 0 0 .5rem 0;
-  border-bottom: solid 2px #000;
+  font: bold .75rem "graphik";
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  /*border-bottom: solid 2px #000;*/
 }
 .news_post {
   /*line-height: 1.5em;*/
