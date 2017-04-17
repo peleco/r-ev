@@ -111,33 +111,6 @@ header nav li {
 }
 
 
-/* ——————————————————————— Media query */
-@media all and (max-width: 56em) { /* -900px */
-  .col-1-2, .col-2-2, .col-1-1 {
-    width: 100%;
-  }
-  .header {
-    width: 25%;
-  }
-  .content {
-    width: 75%;
-  }
-}
-@media all and (max-width: 40em) { /* -650 nav para mobile */
-  .header {
-    width: 100%;
-    height: auto;
-  }
-  .content {
-    width: 100%;
-  }
-  header {
-    position: relative;
-  }
-}
-
-
-
 /* ——————————————————————— General styles */
 .col-label {
   font: bold .75rem "graphik";
@@ -181,7 +154,7 @@ header nav li {
   min-height: 86vh;
   /*margin-bottom: 2.5rem;*/
 }
-.featured-article_text {
+.featured-article_text, .featured-lvl2_text {
   /*margin: 3em 1em 0 17.21%;*/
   /*margin: 1.25rem 0;*/
   width: 70%;
@@ -236,3 +209,30 @@ header nav li {
 articles h1 {
   font-family: "apercuregular";
 }*/
+/* ——————————————————————— Media query */
+@media all and (max-width: 56em) { /* -900px */
+  .col-1-2, .col-2-2, .col-1-1 {
+    width: 100%;
+  }
+  .header {
+    width: 25%;
+  }
+  .content {
+    width: 75%;
+  }
+  .featured-article_text, .featured-lvl2_text {
+    width: 100%;
+  }
+}
+@media all and (max-width: 40em) { /* -650 nav para mobile */
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    width: 100%;
+  }
+  header {
+    position: relative;
+  }
+}
