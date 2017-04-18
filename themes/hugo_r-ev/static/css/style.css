@@ -89,7 +89,7 @@ header {
   position: fixed;
 }
 header nav {
-  margin-top: 3rem;
+  margin-top: 1rem;
   /*background-color: green;*/
 }
 header nav a {
@@ -109,7 +109,9 @@ header nav li {
   margin: 0;
   padding: 0;
 }
-
+.header-logo {
+  width: 3.75rem;
+}
 
 /* ——————————————————————— General styles */
 .col-label {
