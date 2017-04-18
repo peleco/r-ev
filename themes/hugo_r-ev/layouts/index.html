@@ -13,10 +13,10 @@
 			<div class="col-2-2">
 				<!-- <h3 class="col-label">Especiales</h3> -->
 				{{ range first 1 (where .Data.Pages "Section" "article") }}
-					{{ .Render "summary" }}
+					{{ .Render "featured" }}
 				{{ end }}
 				{{ range first 1 (where .Data.Pages "Section" "benko") }}
-					{{ .Render "summary" }}
+					{{ .Render "featured" }}
 				{{ end }}
 			</div>
 		</div>
