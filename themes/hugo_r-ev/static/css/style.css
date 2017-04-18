@@ -84,7 +84,7 @@ a:hover {
 .img-responsive {
   max-width: 100%;
   display: block;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 footer {
   display: block;
@@ -151,15 +151,15 @@ header a:link, header a:visited {
 .news_post_content {
   margin-bottom: .5rem;
 }
-.news_post_meta, .news_post_author {
+.news_post_meta, .author {
   margin: 0;
   padding: 0;
   font-size: 0.75rem;
 }
 
-.featured-article {
-  /*line-height: 1.5em;*/
-  background: #000;
+.featured {
+  line-height: 1.5rem;
+  background: #CCCCCC;
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
@@ -167,14 +167,14 @@ header a:link, header a:visited {
   /*background: grey;*/
   width: 100%;
   height: auto;
-  min-height: 86vh;
-  color: #fff;
+  /*min-height: 86vh;*/
+  /*color: #fff;*/
   /*margin-bottom: 2.5rem;*/
 }
-.featured-article_text, .featured-lvl2_text {
+.featured_text {
   /*margin: 3em 1em 0 17.21%;*/
   /*margin: 1.25rem 0;*/
-  width: 70%;
+  width: 100%;
 }
 /*.noe-display {
   font-family: "noe-display";
@@ -182,53 +182,25 @@ header a:link, header a:visited {
   margin: 0;
   padding: 0;
 }*/
-.featured-article h1 {
+.featured h1 {
   font-family: "noe-display";
   font-weight: bold;
-  font-size: 3.25rem;
+  font-size: 2.25rem;
   line-height: 1em;
   font-weight: bolder;
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding: 0;
-  color: #fff;
+  /*color: #fff;*/
 }
-.featured-article a:link, .featured-article a:visited {
+.featured a:link, .featured a:visited {
     text-decoration: none;
-    color: #fff;
+    /*color: #fff;*/
     border-bottom: none;
 }
-.featured-lvl2 {
-  /*line-height: 1.5em;*/
-  background: lightgrey;
-  /*display: block;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
-  padding: 1.875rem;
-  /*background: grey;*/
-  width: 100%;
-  height: auto;
-  min-height: 43vh;
+.featured:first-child {
+  background-color: #3794a3;
 }
-.featured-lvl2 h1 {
-  font-family: "noe-display";
-  font-weight: bold;
-  font-size: 1.75rem;
-  line-height: 1em;
-  font-weight: bolder;
-  margin: 0 0 1rem 0;
-  padding: 0;
-}
-.featured-lvl2 a:link {
-    text-decoration: none;
-    color: #000;
-    border-bottom: none;
-}
-/*h1 {
-  font-family: "noe-display";
-}
-articles h1 {
-  font-family: "apercuregular";
-}*/
+
 /* ——————————————————————— Media query */
 @media all and (max-width: 56em) { /* -900px */
   .col-1-2, .col-2-2, .col-1-1 {

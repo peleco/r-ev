@@ -8,6 +8,7 @@ tags:
   - article
 image: /img/uploads/ion_test.jpg
 author: Erik
+color: "#CCCCCC"
 ---
 Romanian collage artist [Ion Bârlādeanu](http://www.gallevery.com/artists/ion-barladeanu), now 71, was made homeless following the 1989 revolution in his home country. He lived for almost 20 years in the rubbish tip under a block of flats, making collage artworks from magazines and other trash he found, satirising both the Communist former nation and the capitalist, celebrity culture he once admired. Ranging from the lighthearted to the darkly comical, and dangerously risky amid the tumultuous political era, the works were a relief for the artist and a candid social commentary.
 
