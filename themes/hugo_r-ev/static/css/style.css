@@ -197,9 +197,9 @@ header a:link, header a:visited {
     /*color: #fff;*/
     border-bottom: none;
 }
-.featured:first-child {
+/*.featured:first-child {
   background-color: #3794a3;
-}
+}*/
 
 /* ——————————————————————— Media query */
 @media all and (max-width: 56em) { /* -900px */
