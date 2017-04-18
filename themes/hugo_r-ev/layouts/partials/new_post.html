@@ -1,11 +1,12 @@
 	<article class="news_post">
-		<h1>{{ .Title }}</h1>
 
 		{{ if and (isset .Params "image") .Params.image }}
 		<div class="news_post_image">
 				<img src="{{ .Params.image }}" alt="" class="img-responsive">
 		</div>
 		{{ end }}
+
+		<h1>{{ .Title }}</h1>
 
 		<div class="news_post_content">{{ .Content }}</div>
 

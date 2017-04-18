@@ -13,11 +13,21 @@ html {
 
 body {
   font-family: "graphik", sans-serif;
-  font-size: 1em; 
+  font-size: 1em;
   line-height: 1.5em;
   margin: 0;
 }
 
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: solid 1px #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+  border-bottom: none;
+}
 /* ——————————————————————— Layout */
 .main {
   width: 100vw;
@@ -112,7 +122,11 @@ header nav li {
 .header-logo {
   width: 3.75rem;
 }
-
+header a:link, header a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: none;
+}
 /* ——————————————————————— General styles */
 .col-label {
   font: bold .75rem "graphik";
@@ -176,9 +190,10 @@ header nav li {
   margin: 0 0 1rem 0;
   padding: 0;
 }
-.featured-article a {
+.featured-article a:link {
     text-decoration: none;
     color: #000;
+    border-bottom: none;
 }
 .featured-lvl2 {
   /*line-height: 1.5em;*/
@@ -201,9 +216,10 @@ header nav li {
   margin: 0 0 1rem 0;
   padding: 0;
 }
-.featured-lvl2 a {
+.featured-lvl2 a:link {
     text-decoration: none;
     color: #000;
+    border-bottom: none;
 }
 /*h1 {
   font-family: "noe-display";
