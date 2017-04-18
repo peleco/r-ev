@@ -31,7 +31,7 @@ a:hover {
 /* ——————————————————————— Layout */
 .main {
   width: 100vw;
-  max-width: 100rem;
+  max-width: 100rem; /*1600px max*/
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +159,7 @@ header a:link, header a:visited {
 
 .featured-article {
   /*line-height: 1.5em;*/
-  background: cornflowerblue;
+  background: #000;
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
@@ -168,6 +168,7 @@ header a:link, header a:visited {
   width: 100%;
   height: auto;
   min-height: 86vh;
+  color: #fff;
   /*margin-bottom: 2.5rem;*/
 }
 .featured-article_text, .featured-lvl2_text {
@@ -189,10 +190,11 @@ header a:link, header a:visited {
   font-weight: bolder;
   margin: 0 0 1rem 0;
   padding: 0;
+  color: #fff;
 }
-.featured-article a:link {
+.featured-article a:link, .featured-article a:visited {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border-bottom: none;
 }
 .featured-lvl2 {
