@@ -24,13 +24,11 @@
 					<img class="header-logo" src="{{ .Site.BaseURL }}img/logo_r-ev.svg" alt="r-ev">
 				</a>
 				<nav>
-					—
 					<ul>
 						{{ range .Site.Menus.main }}
 						<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
-					—
 				</nav>
 			</header>
 		</div>
