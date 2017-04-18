@@ -32,7 +32,7 @@ body {
   /*background: lightgrey;*/
   position: relative;
   width: 16.666666666666668%;
-  padding: 1.25rem;
+  padding: 1.875rem;
   /*background: darkgrey;*/
 }
 .content {
@@ -45,7 +45,7 @@ body {
 }
 .col-1-2 {
   width: 40%;
-  padding: 1.25rem;
+  padding: 1.875rem;
   /*background: grey;*/
 }
 .col-2-2 {
@@ -55,7 +55,7 @@ body {
 }
 .col-1-1 {
   width: 80%;
-  padding: 1.25rem;
+  padding: 1.875rem;
 }
 /*.col-2-2 p {
   padding: 1.25rem;
@@ -79,7 +79,7 @@ body {
 footer {
   display: block;
   margin: 0;
-  padding: 1.25rem;
+  padding: 1.875rem;
   /*background: lightgrey;*/
   height: 100px;
   /*background: slategrey;*/
@@ -149,7 +149,7 @@ header nav li {
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  padding: 1.25rem;
+  padding: 1.875rem;
   /*background: grey;*/
   width: 100%;
   height: auto;
@@ -186,7 +186,7 @@ header nav li {
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  padding: 1.25rem;
+  padding: 1.875rem;
   /*background: grey;*/
   width: 100%;
   height: auto;
