@@ -13,10 +13,10 @@ html {
 
 body {
   font-family: "graphik", sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   margin: 0;
-  background: #FFBF00;
+  background: #fff;
 }
 
 a:link, a:visited {
@@ -45,8 +45,9 @@ a:hover {
   /*background: lightgrey;*/
   position: relative;
   width: 16.666666666666668%;
-  padding: 1.875rem;
-  /*background: darkgrey;*/
+  padding: 2.5rem 1.875rem 0 1.875rem;
+  /*padding: 2.5rem;*/
+  background: #FFF;
 }
 .content {
   width: 83.33333333333333%;
@@ -56,14 +57,16 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
 }
-.col-2-2 {
-  width: 40%;
-  padding: 1.875rem;
-  /*background: grey;*/
-  background: #FFBF00;
-}
 .col-1-2 {
+  width: 40%;
+  /*padding: 1.875rem;*/
+  padding-top: 2.5rem;
+  /*background: grey;*/
+  background: #fff;
+}
+.col-2-2 {
   width: 60%;
+  padding-top: 2.5rem;
   /*padding: 1.25rem;*/
   /*background: lightgrey;*/
   /*background: #3333ff;*/
@@ -71,6 +74,7 @@ a:hover {
 .col-1-1 {
   width: 80%;
   padding: 1.875rem;
+  /*padding: 2.5rem;*/
 }
 /*.col-2-2 p {
   padding: 1.25rem;
@@ -95,8 +99,9 @@ footer {
   display: block;
   margin: 0;
   padding: 1.875rem;
-  /*background: lightgrey;*/
+  background: #000;
   height: 100px;
+  color: #fff;
   /*background: slategrey;*/
 }
 /* ——————————————————————— Header & nav */
@@ -113,8 +118,8 @@ header nav a {
 }
 header nav ul {
   font-family: "noe-display";
-  font-size: 1.25rem;
-  line-height: 2em;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   margin: 0;
   padding: 0;
   /*background-color: green;*/
@@ -125,7 +130,7 @@ header nav li {
   padding: 0;
 }
 .header-logo {
-  width: 4.125rem;
+  width: 5rem;
 }
 .logo-r {
   /*fill-rule:evenodd;clip-rule:evenodd;fill:#BF0000;*/
@@ -136,14 +141,17 @@ header nav li {
   fill: #FFBF00;
   /*fill: #000;*/
 }
+.logo-ev {
+  fill: #000;
+}
 header a:link, header a:visited {
   color: #000;
   text-decoration: none;
   border-bottom: none;
 }
 /* ——————————————————————— General styles */
-.col-label {
-  font: bold .75rem "graphik";
+.article-label {
+  font: bold .875rem "graphik";
   text-transform: uppercase;
   margin: 0 0 1rem 0;
   padding: 0;
@@ -155,12 +163,17 @@ header a:link, header a:visited {
   /*background: darkgrey;*/
 }
 .news_post time {
-  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  display: inline;
+}
+.news_post h1 {
+  display: inline;
 }
 .news_post h1, .news_post p {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 .news_post_content {
   margin-bottom: .5rem;
@@ -168,27 +181,49 @@ header a:link, header a:visited {
 .news_post_meta, .author {
   margin: 0;
   padding: 0;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
+  display: inline;
+}
+.news_post_meta {
+  margin-left: 1rem;
 }
 
 .featured {
+  display: block;
   line-height: 1.5rem;
   /*background: #CCCCCC;*/
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  padding: 1.875rem;
+  padding-left: 1.875rem;
+  /*padding: 2.5rem;*/
   /*background: grey;*/
   width: 100%;
   height: auto;
   /*min-height: 86vh;*/
   /*color: #fff;*/
   /*margin-bottom: 2.5rem;*/
+  position: relative;
+  margin-bottom: 3.25rem;
+}
+.featured_image img {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 .featured_text {
   /*margin: 3em 1em 0 17.21%;*/
   /*margin: 1.25rem 0;*/
-  width: 100%;
+  width: 82.45614035087719%;
+  background: #fff;
+  padding: 1.875rem 1.875rem 1.875rem 0;
+  display: block;
+  margin: 0;
+  position: relative;
+  margin-top: -6rem;
+  /*position: absolute;
+  bottom: -6rem;*/
+  /*top: -120px;*/
 }
 /*.noe-display {
   font-family: "noe-display";
@@ -199,7 +234,7 @@ header a:link, header a:visited {
 .featured h1 {
   font-family: "noe-display";
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1em;
   font-weight: bolder;
   margin: 0 0 .5rem 0;

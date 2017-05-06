@@ -12,12 +12,12 @@
 }
 @font-face {
   font-family: 'graphik';
-  src: url('/fonts/graphik/Graphik-Semibold-Web.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/graphik/Graphik-Semibold-Web-.eot') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('/fonts/graphik/Graphik-Bold-Web.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/graphik/Graphik-Bold-Web-.eot') format('embedded-opentype'), /* IE6-IE8 */
        /*url('webfont.woff2') format('woff2'),*/ /* Super Modern Browsers */
-       url('/fonts/graphik/Graphik-Semibold-Web.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/fonts/graphik/Graphik-Semibold-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/graphik/Graphik-Semibold-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('/fonts/graphik/Graphik-Bold-Web.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/graphik/Graphik-Bold-Web.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/graphik/Graphik-Bold-Web.svg#svgFontName') format('svg'); /* Legacy iOS */
   font-weight: bold;
   font-style: bold;
 }
@@ -39,8 +39,8 @@
 }*/
 @font-face {
     font-family: "noe-display";
-    src: url('/fonts/noe/noe-display-bold.woff') format('woff'),
-         url('/fonts/noe/noe-display-bold.eot') format('eot');
+    src: url('/fonts/noe/noe-display-black.woff') format('woff'),
+         url('/fonts/noe/noe-display-black.eot') format('eot');
     font-weight: bold;
     font-style: bold;
 }
