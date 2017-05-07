@@ -13,7 +13,6 @@ image: /img/uploads/ar_3_thumb-100.jpg
 color: '#EEEEEE'
 author: r-ev
 type: "article"
-section: articulos
 ---
 An animated short structured like a zine was intriguing to Simeon as he started drawing parallels between the physical, comic-like equivalent. “There were interesting formal things about zines; often black and white, artefacts of reproduction, poorly bound. It occurred to me that most animations on the internet, like zines, are ‘self-published’. So it was also a context to celebrate a personal, solitary work,” explains the animator.
 

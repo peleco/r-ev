@@ -265,7 +265,6 @@ header a:link, header a:visited {
   font-weight: bold;
   font-size: 3rem;
   line-height: 1em;
-  font-weight: bolder;
   margin: 0 0 1rem 0;
   padding: 0;
   /*color: #fff;*/
@@ -280,6 +279,16 @@ header a:link, header a:visited {
 }*/
 
 /* ——————————————————————— Media query */
+@media all and (min-width: 81.25em) { /* +130000px */
+  /*body {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  }*/
+  .featured h1 {
+    font-size: 3.625rem;
+    line-height: 1em;
+  }
+}
 @media all and (max-width: 56em) { /* -900px */
   .col-1-2, .col-2-2, .col-1-1 {
     width: 100%;
@@ -293,6 +302,12 @@ header a:link, header a:visited {
   .featured-article_text, .featured-lvl2_text {
     width: 100%;
   }
+  .featured {
+    padding-left: 0rem;
+  }
+  .featured_text {
+    margin-top: -3.75rem;
+  }
 }
 @media all and (max-width: 40em) { /* -650 nav para mobile */
   .header {
@@ -301,8 +316,13 @@ header a:link, header a:visited {
   }
   .content {
     width: 100%;
+    padding: 1.875rem;
   }
   header {
     position: relative;
+  }
+  .featured h1 {
+    font-size: 2.625rem;
+    line-height: 1em;
   }
 }
