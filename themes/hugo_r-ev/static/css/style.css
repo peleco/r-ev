@@ -250,6 +250,8 @@ header a:link, header a:visited {
   /*position: absolute;
   bottom: -6rem;*/
   /*top: -120px;*/
+  /*border-top: solid 4px #000;*/
+  /*border-bottom: double .25rem #000;*/
 }
 .col-2-2 .featured:first-child .featured_text {
   margin-top: -10rem;
@@ -284,10 +286,10 @@ header a:link, header a:visited {
   font-size: 1.25rem;
   line-height: 1.75rem;
   }*/
-  .featured h1 {
-    font-size: 3.625rem;
+  /*.featured h1 {
+    font-size: 3rem;
     line-height: 1em;
-  }
+  }*/
 }
 @media all and (max-width: 56em) { /* -900px */
   .col-1-2, .col-2-2, .col-1-1 {
