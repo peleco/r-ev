@@ -201,6 +201,17 @@ header a:link, header a:visited {
   padding-bottom: 50%;
   margin-bottom: 1.25rem;
 }
+.news_post a:link, .news_post a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: solid .075rem #000;
+  /*background: #FFBF00;*/
+  transition: all ease-in-out .25s;
+}
+.news_post:hover a {
+  color: #3333ff;
+  border-bottom: solid .075rem #3333ff;
+}
 .featured {
   display: block;
   line-height: 1.5rem;
@@ -252,6 +263,22 @@ header a:link, header a:visited {
   /*top: -120px;*/
   /*border-top: solid 4px #000;*/
   /*border-bottom: double .25rem #000;*/
+}
+.featured_text p{
+  margin: 0;
+  padding: 0;
+}
+.featured a:link, .featured a:visited {
+  color: #000;
+  text-decoration: none;
+  /*background: #FFBF00;*/
+
+}
+.featured:hover .featured_text h1,.featured:hover .featured_text h3,.featured:hover .featured_text p{
+  transition: all ease-in-out .25s;
+  color: #3333ff;
+  /*border-bottom: solid .075rem #3333ff;
+  display: inline-block;*/
 }
 .col-2-2 .featured:first-child .featured_text {
   margin-top: -10rem;

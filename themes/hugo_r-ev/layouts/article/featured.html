@@ -1,5 +1,6 @@
 <!-- <article class="featured" style="background-color:{{ .Params.color }}"> -->
 <article class="featured">
+	<a href="{{ .Permalink }}">
 	{{ if and (isset .Params "image") .Params.image }}
 	<div class="featured_image" style="background-image: url({{ .Params.image }})">
 			<!-- <img src="{{ .Params.image }}" alt=""> -->
@@ -7,14 +8,15 @@
 	{{ end }}
 	<div class="featured_text">
 			<h3 class="article-label">{{ .Section }}</h3>
-			<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+			<h1>{{ .Title }}</h1>
 			<!-- <time>{{ .Date.Format "02.01.2006" }}</time>
 			{{ range .Params.tags }}
 			<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 			{{ end }} -->
-		<div>
+		<p>
 			{{ .Description }}
 			<!-- <div class="author">{{ .Params.author }}</div> -->
-		</div>
+		</p>
+		</a>
 	</div>
 </article>
