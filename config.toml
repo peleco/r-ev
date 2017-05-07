@@ -9,7 +9,7 @@ category = "categories"
 series = "series"
 
 [[menu.main]]
-    name = "about"
+    name = "la r-ev"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "about"
@@ -29,3 +29,13 @@ series = "series"
     #pre = "<i class='fa fa-road'></i>"
     #weight = -100
     url = "/archivo/"
+[[menu.main]]
+    name = "comics"
+    #pre = "<i class='fa fa-road'></i>"
+    #weight = -100
+    url = "/comics/"
+[[menu.main]]
+    name = "shop"
+    #pre = "<i class='fa fa-road'></i>"
+    #weight = -100
+    url = ""

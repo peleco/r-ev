@@ -119,6 +119,10 @@ header nav {
 header nav a {
   text-decoration: none;
   color: #000;
+  transition: all ease-in-out .25s;
+}
+header nav a:hover {
+  color: #3333ff;
 }
 header nav ul {
   font-family: "noe-display";
@@ -280,6 +284,10 @@ header a:link, header a:visited {
   /*border-bottom: solid .075rem #3333ff;
   display: inline-block;*/
 }
+/*.featured:hover .featured_image {
+  transition: all ease-in-out 1s;
+  background-size: 102%;
+}*/
 .col-2-2 .featured:first-child .featured_text {
   margin-top: -10rem;
 }
@@ -353,5 +361,8 @@ header a:link, header a:visited {
   .featured h1 {
     font-size: 2.625rem;
     line-height: 1em;
+  }
+  .col-2-2 {
+    display: none;
   }
 }
