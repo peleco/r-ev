@@ -97,12 +97,16 @@ a:hover {
 }*/
 footer {
   display: block;
-  margin: 0;
+  margin: 5.5rem 0 0 0;
   padding: 1.875rem;
   background: #000;
-  height: 100px;
+  height: 10rem;
   color: #fff;
   /*background: slategrey;*/
+}
+footer p {
+  margin: 0;
+  padding: 0;
 }
 /* ——————————————————————— Header & nav */
 header {
