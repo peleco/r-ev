@@ -1,11 +1,12 @@
 <article class="featured">
+benko layout
 	{{ if and (isset .Params "image") .Params.image }}
 	<div class="featured_image">
-			<img src="{{ .Params.image }}" alt="" class="img-responsive">
+			<img src="{{ .Params.image }}" alt="">
 	</div>
 	{{ end }}
 	<div class="featured_text">
-			<h3 class="col-label">Benko</h3>
+			<h3 class="article-label">Articulos</h3>
 			<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 			<!-- <time>{{ .Date.Format "02.01.2006" }}</time>
 			{{ range .Params.tags }}
@@ -13,7 +14,7 @@
 			{{ end }} -->
 		<div>
 			{{ .Description }}
-			<div class="author">{{ .Params.author }}</div>
+			<!-- <div class="author">{{ .Params.author }}</div> -->
 		</div>
 	</div>
 </article>

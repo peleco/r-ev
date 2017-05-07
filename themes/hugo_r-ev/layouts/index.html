@@ -21,12 +21,12 @@
 			<div class="col-2-2">
 				<!-- <h3 class="col-label">Especiales</h3> -->
 
-				{{ range first 2 (where .Data.Pages "Section" "article") }}
+				{{ range first 3 (where .Data.Pages "Type" "article") }}
 					{{ .Render "featured" }}
 				{{ end }}
-				{{ range first 1 (where .Data.Pages "Section" "benko") }}
+				<!-- {{ range first 1 (where .Data.Pages "Section" "benko") }}
 					{{ .Render "featured" }}
-				{{ end }}
+				{{ end }} -->
 
 			<!-- {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
 			{{ range first 6 $paginator.Pages }}

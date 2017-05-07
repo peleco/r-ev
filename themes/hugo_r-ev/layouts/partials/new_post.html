@@ -1,9 +1,9 @@
 	<article class="news_post">
 
 		{{ if and (isset .Params "image") .Params.image }}
-		<div class="news_post_image">
-				<img src="{{ .Params.image }}" alt="" class="img-responsive">
-		</div>
+		<!-- <div class="news_post_image">
+				<img src="{{ .Params.image }}" alt="" class="img-responsive"> -->
+		<div class="news_post_image" style="background-image: url({{ .Params.image }})"></div>
 		{{ end }}
 
 		<h1>{{ .Title }}</h1>
