@@ -185,6 +185,7 @@ header a:link, header a:visited {
 }
 .news_post_content {
   margin-bottom: .5rem;
+  width: 92.5%;
 }
 .news_post_meta, .author {
   margin: 0;
@@ -353,7 +354,7 @@ header a:link, header a:visited {
   }
   .content {
     width: 100%;
-    padding: 1.875rem;
+    padding: 1.875rem 0 1.875rem 1.875rem;
   }
   header {
     position: relative;
