@@ -143,6 +143,7 @@ header nav li {
 .logo-r {
   /*fill-rule:evenodd;clip-rule:evenodd;fill:#BF0000;*/
   fill: #BF0000;
+  /*fill: #3333ff;*/
 }
 .logo-- {
   /*fill-rule:evenodd;clip-rule:evenodd;fill:#FFBF00;*/
@@ -271,7 +272,9 @@ header a:link, header a:visited {
 .news_post:hover {
   background: none;
 }
-
+/*.news_post:hover .news_post_image {
+  background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);
+}*/
 .featured {
   display: block;
   line-height: 1.5rem;
@@ -340,6 +343,13 @@ header a:link, header a:visited {
   color: #3333ff;
   /*border-bottom: solid .075rem #3333ff;
   display: inline-block;*/
+}
+.featured {
+  background: #fff;
+  transition: all ease-in-out .25s;
+}
+.featured:hover {
+  background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);
 }
 /*.featured:hover .featured_image {
   transition: all ease-in-out 1s;
