@@ -3,7 +3,8 @@
 		{{ if and (isset .Params "image") .Params.image }}
 		<!-- <div class="news_post_image">
 				<img src="{{ .Params.image }}" alt="" class="img-responsive"> -->
-		<div class="news_post_image" style="background-image: url({{ .Params.image }})"></div>
+		<div class="news_post_image" style="background-image: url({{ .Params.image }}), repeating-linear-gradient(45deg,#f2f2f2,#f2f2f2 4px,#FFF 1px,#FFF 8px)"></div>
+		<!-- <div class="news_post_image"></div> -->
 		{{ end }}
 
 		<h1>{{ .Title }}</h1>
