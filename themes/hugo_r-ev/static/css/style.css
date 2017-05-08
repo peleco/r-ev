@@ -294,8 +294,9 @@ header a:link, header a:visited {
   background-color: #000;
   overflow: hidden;
   /*height: 30rem;*/
-  background-size: cover;
-  background-position: center;
+  background: no-repeat;
+  background-size: contain;
+  background-position: left;
   width: 100%;
   padding-bottom: 50%;
 }
