@@ -236,11 +236,14 @@ header a:link, header a:visited {
   margin-left: 1rem;
 }
 .news_post_image {
-  background-color: #000;
   overflow: hidden;
   /*height: 30rem;*/
-  background-size: cover;
-  background-position: center;
+  /*background: no-repeat, repeating-linear-gradient(45deg,#CCC,#CCC 1px,#FFF 1px,#FFF 8px);*/
+  background: no-repeat, #fff;
+  background-size: contain;
+  background-position:right;
+  /*background-color: #000;*/
+  /*background: repeating-linear-gradient(45deg,#CCC,#CCC 1px,#FFF 1px,#FFF 8px);*/
   width: 100%;
   padding-bottom: 50%;
   margin-bottom: 1.25rem;
