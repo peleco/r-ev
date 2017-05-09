@@ -368,8 +368,8 @@ header a:link, header a:visited {
     45deg,
     rgba(248,248,255,1),
     rgba(248,248,255,1) 7px,
-    rgba(255,255,255,1) 7px,
-    rgba(255,255,255,1) 14px
+    rgba(255,255,255,0) 7px,
+    rgba(255,255,255,0) 14px
   );
 }
 .col-2-2 .featured:first-child .featured_image .image {
