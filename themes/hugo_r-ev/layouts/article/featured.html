@@ -2,8 +2,9 @@
 <article class="featured">
 	<a href="{{ .Permalink }}">
 	{{ if and (isset .Params "image") .Params.image }}
-	<div class="featured_image" style="background-image: url({{ .Params.image }}), repeating-linear-gradient(45deg,#F5F5F5,#F5F5F5 7px,#FFF 7px,#FFF 14px)">
+	<div class="featured_image">
 			<!-- <img src="{{ .Params.image }}" alt=""> -->
+			<div class="image" style="background-image: url({{ .Params.image }})"></div>
 	</div>
 	{{ end }}
 	<div class="featured_text">
