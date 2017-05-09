@@ -366,10 +366,10 @@ header a:link, header a:visited {
   z-index: 1;
   background: repeating-linear-gradient(
     45deg,
-    #f8f8ff,
-    #f8f8ff 7px,
-    #FFF 7px,
-    #FFF 14px
+    rgba(248,248,255,1),
+    rgba(248,248,255,1) 7px,
+    rgba(255,255,255,1) 7px,
+    rgba(255,255,255,1) 14px
   );
 }
 .col-2-2 .featured:first-child .featured_image .image {
