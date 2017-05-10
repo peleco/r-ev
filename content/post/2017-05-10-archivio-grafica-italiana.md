@@ -8,5 +8,6 @@ image: /img/uploads/display-1.jpg
 label: Diseño
 author: +e
 ---
-The first digital [archive](http://www.archiviograficaitaliana.com/) dedicated to the Italian graphic design heritage.
+El primer archivo [digital](http://www.archiviograficaitaliana.com/) dedicado al legado gráfico del diseño italiano.
+
 
