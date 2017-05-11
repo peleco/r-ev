@@ -8,7 +8,7 @@
 	</div>
 	{{ end }}
 	<div class="featured_text">
-			<h3 class="article-label">{{ .Params.categories }}</h3>
+			<h3 class="article-label">{{ .Params.categories |  }}</h3>
 			<h1>{{ .Title }}</h1>
 			<!-- <time>{{ .Date.Format "02.01.2006" }}</time>
 			{{ range .Params.tags }}
