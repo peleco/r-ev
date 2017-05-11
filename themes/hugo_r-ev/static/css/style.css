@@ -326,8 +326,8 @@ header a:link, header a:visited {
   /*display: block;*/
   /*margin: 0;*/
   /*padding: 0;*/
-  /*padding-left: 1.875rem;*/
-  margin-left: 1.875rem;
+  padding-left: 1.875rem;
+  /*margin-left: 1.875rem;*/
   /*padding: 2.5rem;*/
   /*background: grey;*/
   width: 100%;
@@ -338,17 +338,18 @@ header a:link, header a:visited {
   position: relative;
   margin-bottom: 3.25rem;
   /*overflow: hidden;*/
-  background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);
-
+  /*background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);*/
 }
-/*.featured::after {
+.featured::after {
   display: block;
   position: absolute;
-  width: 100%;
-  height: auto;
+  top: 0;
+  right: 0;
+  width: calc(100% - 1.875rem);
+  height: 100%;
   content: "";
   background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);
-}*/
+}
 .featured_image {
   display: block;
   position: relative;
