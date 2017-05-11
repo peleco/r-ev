@@ -5,11 +5,6 @@ tags:
   - Diseño
   - Italia
 image: /img/uploads/9k=.jpg
-label: Diseño
 author: +e
 ---
 El primer archivo [digital](http://www.archiviograficaitaliana.com/) dedicado al legado gráfico del diseño italiano.
-
-
-
-
