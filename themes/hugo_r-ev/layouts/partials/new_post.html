@@ -17,7 +17,7 @@
 			<div class="author">{{ .Params.author }}</div>
 			<div class="news_post_meta">
 				{{ range .Params.tags }}
-				<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+				<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tags">{{ . }}</a>
 				{{ end }}
 			</div>
 		</div>

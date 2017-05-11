@@ -309,6 +309,9 @@ header a:link, header a:visited {
 .news_post:hover {
   background: none;
 }
+.tags {
+  margin-right: .5rem;
+}
 /*.news_post:hover .news_post_image {
   background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);
 }*/
