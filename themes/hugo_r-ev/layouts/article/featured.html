@@ -3,8 +3,8 @@
 	<a href="{{ .Permalink }}">
 	{{ if and (isset .Params "image") .Params.image }}
 	<div class="featured_image">
-			<!-- <img src="{{ .Params.image }}" alt=""> -->
-			<div class="image" style="background-image: url({{ .Params.image }})"></div>
+			<img class="image" src="{{ .Params.image }}" alt="">
+			<!-- <div class="image" style="background-image: url({{ .Params.image }})"></div> -->
 	</div>
 	{{ end }}
 	<div class="featured_text">
