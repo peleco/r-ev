@@ -218,8 +218,9 @@ header a:link, header a:visited {
 }*/
 .news_post_text {
   /*background: #f8f8ff;*/
-  padding-top: 1.25rem;
+  /*padding-top: 1.25rem;*/
   padding-right: 1.875rem;
+  
 }
 .news_post time {
   /*margin-left: 1rem;*/
@@ -260,6 +261,7 @@ header a:link, header a:visited {
   width: 100%;
   padding-top: 50%;
   overflow: hidden;
+  padding-bottom: 1.25rem;
   /*height: 30rem;*/
   /*background: no-repeat, #000;*/
   /*background: no-repeat;
