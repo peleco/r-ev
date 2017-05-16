@@ -16,14 +16,15 @@
 					{{ end }}
 				</h3>
 				<h1>{{ .Title }}</h1>
-				<div class="author">Por {{ .Params.author }} — </div>
+				<div class="author">Por {{ .Params.author }} </div>
 				<time>{{ .Date.Format "02.01.2006" }}</time>
 			</div>
 			<div class="article_content">
 				{{ .Content }}
 			</div>
-			<div>
-				<ul id="tags">
+			<div class="article_tags">
+				<h3>Tags</h3>
+				<ul>
 					{{ range .Params.tags }}
 					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
 					{{ end }}
@@ -34,6 +35,6 @@
 			</div>
 		</article>
 
-{{ partial "sidebar.html" . }}
+<!-- {{ partial "sidebar.html" . }} -->
 </div>
 {{ partial "footer.html" . }}

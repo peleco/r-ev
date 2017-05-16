@@ -262,7 +262,7 @@ header a:link, header a:visited {
   position: relative;
   z-index: 2;
   width: 100%;
-  padding-top: 50%;
+  padding-top: 62.5%;
   overflow: hidden;
   margin-bottom: 1.25rem;
   /*height: 30rem;*/
@@ -372,7 +372,7 @@ header a:link, header a:visited {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 50%;
+  padding-top: 62.5%;
   height: auto;
 }
 .featured_image img {
@@ -546,9 +546,21 @@ header a:link, header a:visited {
 .article_header .author, .article_header time {
   margin: 0;
   padding: 0;
+  margin-right: 1rem;
   font-size: 1.125rem;
   display: inline;
   /*background: #fff;*/
+}
+.article_tags {
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
+.article_tags ul, .article_tags li {
+  margin: 0;
+  margin-right: 1rem;
+  padding: 0;
+  list-style: none;
+  display: inline;
 }
 
 /* ——————————————————————— Media query */
@@ -580,6 +592,12 @@ header a:link, header a:visited {
   }
   .featured_text {
     margin-top: -3.75rem;
+  }
+  .article_content p {
+    width: calc(100% - 1.875rem);
+  }
+  .article_content img {
+    left: 0;
   }
 }
 @media all and (max-width: 40em) { /* -650 nav para mobile */
