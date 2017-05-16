@@ -19,13 +19,13 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Categories", name: "categories", widget: "list"}
       #- label: "Image"
       #  name: "imageAttachments"
@@ -43,15 +43,15 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Color", name: "color", widget: "string"}
       # - {label: "Label", name: "label", widget: "string"}
       #- {label: "Categories", name: "categories", widget: "list"}
