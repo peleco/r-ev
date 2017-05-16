@@ -527,9 +527,9 @@ header a:link, header a:visited {
 .article_header h1 {
   font-family: "noe-display";
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1em;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.125rem 0;
   padding: 0;
   /*color: #fff;*/
 }
@@ -537,9 +537,18 @@ header a:link, header a:visited {
   width: calc(70% - 1.875rem);
 }
 .article_content img {
+  display: block;
+  position: relative;
   max-width: 100%;
-  text-align: right;
-
+  margin: 1.875rem 0;
+  left: 25.37313432835821%;
+}
+.article_header .author, .article_header time {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  display: inline;
+  /*background: #fff;*/
 }
 
 /* ——————————————————————— Media query */
