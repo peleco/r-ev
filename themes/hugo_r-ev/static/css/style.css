@@ -323,9 +323,10 @@ header a:link, header a:visited {
   /*background: #FFBF00;*/
   transition: all ease-in-out .25s;
 }
-.news_post:hover a {
+.news_post a:hover {
   color: #3333ff;
-  border-bottom: solid .075rem #3333ff;
+  /*border-bottom: solid .075rem #3333ff;*/
+  border-bottom: none;
 }
 .news_post:hover {
   background: none;
