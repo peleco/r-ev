@@ -613,6 +613,7 @@ header a:link, header a:visited {
 }
 .article_meta {
   margin: 1.875rem 0;
+  font-size: 0.875rem;
 }
 .article_meta a {
   margin-right: 1rem;
