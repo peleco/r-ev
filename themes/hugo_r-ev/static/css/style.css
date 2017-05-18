@@ -85,6 +85,13 @@ a:hover {
   /*padding: 1.875rem;*/
   /*padding: 2.5rem;*/
 }
+.col-1-1-70 {
+  width: 70%;
+  padding-top: 2.5rem;
+  padding-left: 1.875rem;
+  /*padding: 1.875rem;*/
+  /*padding: 2.5rem;*/
+}
 /*.col-2-2 p {
   padding: 1.25rem;
   background: grey;
@@ -563,6 +570,54 @@ header a:link, header a:visited {
   display: inline;
 }
 
+.article_list {
+  margin: 0 0 3.25rem 0;
+  width: 70%;
+}
+.article_list_image {
+  display: block;
+  background: repeating-linear-gradient(45deg,#F3F3FF,#F3F3FF 7px,#FFF 7px,#FFF 14px);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 50%;
+  height: auto;
+}
+.article_list_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  object-position: right;
+  height: 100%;
+  /*height: 0;
+  padding-bottom: 100%;*/
+}
+.article_list_text {
+  margin: 1.125rem 0;
+}
+.article_list_text h1 {
+  font-family: "noe-display";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1em;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  /*color: #fff;*/
+}
+.article_list h1 a:link, .article_list h1 a:visited {
+  text-decoration: none;
+  border-bottom: none;
+}
+.article_meta {
+  margin: 1.875rem 0;
+}
+.article_meta a {
+  margin-right: 1rem;
+}
+
 /* ——————————————————————— Media query */
 @media all and (min-width: 81.25em) { /* +130000px */
   /*body {
@@ -618,5 +673,11 @@ header a:link, header a:visited {
   }
   .col-2-2 {
     display: none;
+  }
+  .article_list {
+    width: 100%;
+  }
+  .article_list_text {
+    width: 90%;
   }
 }
