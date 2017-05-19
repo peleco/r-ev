@@ -2,6 +2,7 @@ title = "r-ev"
 baseURL = "/"
 languageCode = "en-us"
 theme = "hugo_r-ev"
+disqusShortname = "XYW"
 
 [taxonomies]
 tag = "tags"
