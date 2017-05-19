@@ -178,6 +178,13 @@ header a:link, header a:visited {
   text-decoration: none;
   border-bottom: none;
 }
+
+.disqus {
+  display: block;
+  width: calc(90% - 1.875rem);
+  margin: 3.75rem 0 1.875rem 0;
+}
+
 /* ——————————————————————— General styles */
 .article_category {
   font: bold .875rem "graphik";
