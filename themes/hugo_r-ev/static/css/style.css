@@ -385,8 +385,8 @@ header a:link, header a:visited {
 .featured_image {
   display: block;
   position: relative;
-  object-fit: cover;
-  /*overflow: hidden;*/
+  /*object-fit: cover;*/
+  overflow: hidden;
   width: 100%;
   padding-top: 62.5%;
   height: auto;
@@ -395,10 +395,10 @@ header a:link, header a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   z-index: 2;
-  /*object-fit: cover;*/
+  object-fit: cover;
   /*overflow: hidden;*/
   /*height: 0;
   padding-bottom: 100%;*/
