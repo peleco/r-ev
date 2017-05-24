@@ -398,6 +398,7 @@ header a:link, header a:visited {
   height: 100%;
   z-index: 2;
   object-fit: cover;
+  overflow: hidden;
   /*height: 0;
   padding-bottom: 100%;*/
 }
