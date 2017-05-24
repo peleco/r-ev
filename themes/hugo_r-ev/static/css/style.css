@@ -387,8 +387,9 @@ header a:link, header a:visited {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 62.5%;
-  height: auto;
+  /*padding-top: 62.5%;
+  height: auto;*/
+  height: 200px;
 }
 .featured_image img {
   position: absolute;
