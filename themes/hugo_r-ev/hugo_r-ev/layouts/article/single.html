@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+<div class="content">
+	<!-- layout article single! -->
+	<div class="col-1-1">
+		<article>
+
+			<div class="article_image">
+					<img class="image" src="{{ .Params.image }}" alt="">
+			</div>
+
+			<div class="article_header">
+				<h3 class="article_category">
+					<!-- {{ .Params.categories }} -->
+					{{ range .Params.categories }}
+					{{ . }}
+					{{ end }}
+				</h3>
+				<h1>{{ .Title }}</h1>
+				<div class="author">Por {{ .Params.author }} </div>
+				<time>{{ .Date.Format "02.01.2006" }}</time>
+			</div>
+			<div class="article_content">
+				{{ .Content }}
+			</div>
+			<div class="article_tags">
+				<h3>Tags</h3>
+				<ul>
+					{{ range .Params.tags }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+					{{ end }}
+				</ul>
+			</div>
+			<div class="disqus">
+				<h3>Comentarios</h3>
+				<!-- {{ template "_internal/disqus.html" . }} -->
+				{{ partial "disqus.html" . }}
+			</div>
+		</article>
+
+<!-- {{ partial "sidebar.html" . }} -->
+</div>
+{{ partial "footer.html" . }}

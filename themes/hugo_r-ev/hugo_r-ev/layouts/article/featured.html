@@ -1,0 +1,28 @@
+<!-- <article class="featured" style="background-color:{{ .Params.color }}"> -->
+<article class="featured">
+	<a href="{{ .Permalink }}">
+	{{ if and (isset .Params "image") .Params.image }}
+	<div class="featured_image">
+			<img class="image" src="{{ .Params.image }}" alt="">
+			<!-- <div class="image" style="background-image: url({{ .Params.image }})"></div> -->
+	</div>
+	{{ end }}
+	<div class="featured_text">
+			<h3 class="article_category">
+				<!-- {{ .Params.categories }} -->
+				{{ range .Params.categories }}
+				{{ . }}
+				{{ end }}
+			</h3>
+			<h1>{{ .Title }}</h1>
+			<!-- <time>{{ .Date.Format "02.01.2006" }}</time>
+			{{ range .Params.tags }}
+			<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+			{{ end }} -->
+		<p>
+			{{ .Description }}
+			<!-- <div class="author">{{ .Params.author }}</div> -->
+		</p>
+	</div>
+	</a>
+</article>

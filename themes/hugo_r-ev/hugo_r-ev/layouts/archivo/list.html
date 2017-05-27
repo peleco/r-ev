@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ .Content }}
+	<div class="content">
+		<div class="col-1-1">
+			layout archivo list!
+			{{ .Content }}
+			{{ $paginator := .Paginate (where .Site.Pages "Section" "archivo") }}
+			{{ range $paginator.Pages }}
+				{{ partial "summary.html" . }}
+			{{ end }}
+			{{ partial "pagination.html" . }}
+			{{ partial "sidebar.html" . }}
+		</div>
+{{ partial "footer.html" . }}

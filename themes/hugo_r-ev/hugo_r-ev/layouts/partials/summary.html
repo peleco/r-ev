@@ -1,0 +1,32 @@
+	<article class="article_list">
+
+		{{ if and (isset .Params "image") .Params.image }}
+		<div class="article_list_image">
+				<img src="{{ .Params.image }}" alt="">
+		</div>
+		{{ end }}
+		<div class="article_list_text">
+			<h3 class="article_category">
+			{{ range .Params.categories }}
+			{{ . }}
+			{{ end }}
+			</h3>
+			<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+			<time>{{ .Date.Format "02.01.2006" }}</time>
+
+			<div>
+				{{ .Summary }}
+				{{ if .Truncated }}
+					<a href="{{ .Permalink }}"> Ver más...</a>
+				{{ end }}
+				<!-- {{ .Params.author }} -->
+
+				<div class="article_meta">
+					{{ range .Params.tags }}
+						<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+					{{ end }}
+				</div>
+
+			</div>
+		</div>
+	</article>

@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+	<!-- <main> -->
+	<div class="content">
+		<div class="cols">
+			<div class="col-1-2">
+				<!-- <h3 class="col-label">Noticias</h3> -->
+
+				{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+				{{ range first 6 $paginator.Pages }}
+						{{ partial "new_post.html" . }}
+				{{ end }}
+				{{ partial "pagination.html" . }}
+
+			<!-- {{ range first 2 (where .Data.Pages "Section" "article") }}
+				{{ .Render "featured" }}
+			{{ end }}
+			{{ range first 1 (where .Data.Pages "Section" "benko") }}
+				{{ .Render "featured" }}
+			{{ end }}  -->
+			</div>
+			<div class="col-2-2">
+				<!-- <h3 class="col-label">Especiales</h3> -->
+
+				{{ range first 3 (where .Data.Pages "Type" "article") }}
+					{{ .Render "featured" }}
+				{{ end }}
+				<!-- {{ range first 1 (where .Data.Pages "Section" "benko") }}
+					{{ .Render "featured" }}
+				{{ end }} -->
+
+			<!-- {{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
+			{{ range first 6 $paginator.Pages }}
+					{{ partial "new_post.html" . }}
+			{{ end }}
+			{{ partial "pagination.html" . }} -->
+			</div>
+		</div>
+
+	<!-- </main> -->
+{{ partial "footer.html" . }}
