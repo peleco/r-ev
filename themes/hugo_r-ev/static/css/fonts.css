@@ -42,7 +42,7 @@
     src: url('/fonts/noe/noe-display-black.woff') format('woff'),
          url('/fonts/noe/noe-display-black.eot') format('eot');
     font-weight: bold;
-    font-style: bold;
+    font-style: normal;
 }
 /*@font-face {
     font-family: "noe-display";
