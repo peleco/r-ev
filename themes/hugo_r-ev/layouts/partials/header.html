@@ -17,6 +17,17 @@
 	<div class="main">
 	<div class="header">
 	<header>
+		<input type="checkbox" id="menu-chk"/>
+		<label class="menu-label" for="menu-chk">menu</label>
+		<nav>
+			<div class="menu">
+				<ul>
+					{{ range .Site.Menus.main }}
+					<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</nav>
 		<div class="logo">
 			<a href="{{ .Site.BaseURL }}">
 				<!-- <img class="header-logo" src="{{ .Site.BaseURL }}img/logo_r-ev.svg" alt="r-ev"> -->
@@ -27,16 +38,5 @@
 				</svg>
 			</a>
 		</div>
-		<nav>
-			<input type="checkbox" id="menu-chk"/>
-			<label class="menu-label" for="menu-chk">menu</label>
-			<div class="menu">
-				<ul>
-					{{ range .Site.Menus.main }}
-					<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-		</nav>
 	</header>
 	<div class="header">

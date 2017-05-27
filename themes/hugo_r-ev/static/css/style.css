@@ -153,8 +153,9 @@ header {
   /*max-width: 100rem;*/ /*1600px max*/
   max-width: 87.5rem;
   /*padding: 0 1.875rem;padding: 0 2.5rem;*/
-  padding: 1.875rem 4.375rem 1rem;
+  padding: 1.875rem 4.375rem .5rem;
   display: flex;
+  flex-direction: row-reverse;
   margin: auto;
 
 }
@@ -178,7 +179,7 @@ header {
   visibility: hidden;
 	width: 100vw;
 	height: 100vh;
-  padding: 4rem 4.375rem 1.875rem;
+  padding: 6rem 4.375rem 1.875rem;
 	/*left: 0px;*/
 	top: 0px;
   max-width: 87.5rem;
@@ -186,11 +187,13 @@ header {
   background: rgba(51,51,255,0.95);
 	transition: all 0.20s ease-in-out;
 }
-#menu-chk:checked ~ .header-logo .logo-r {
+#menu-chk:checked ~ .logo .logo-r,
+#menu-chk:checked ~ .logo .logo--,
+#menu-chk:checked ~ .logo .logo-ev{
   fill: #fff;
 }
 
-#menu-chk:checked ~ .menu {
+#menu-chk:checked ~ nav .menu {
 	opacity: 1;
   visibility: visible;
 	/*z-index: 400;*/
@@ -207,7 +210,7 @@ header {
 #menu-chk:checked ~ .logo-ev {
   fill: #fff;
 }*/
-nav input {
+header input {
   display: none;
 }
 .menu-label {
@@ -263,19 +266,26 @@ header nav li a{
 .header-logo {
   width: 3.8rem;
 }
+/*.header-logo:hover .logo-r {
+  transition: all ease-in-out .25s;
+  fill: #fff;
+}*/
 .logo-r {
   /*fill-rule:evenodd;clip-rule:evenodd;fill:#BF0000;*/
   /*fill: #BF0000;*/
   fill: #000;
+  transition: all ease-in-out .25s;
 }
 .logo-- {
   /*fill-rule:evenodd;clip-rule:evenodd;fill:#FFBF00;*/
   /*fill: #FFBF00;*/
   fill: #000;
+  transition: all ease-in-out .25s;
 }
 .logo-ev {
   /*fill: #000;*/
   fill: #000;
+  transition: all ease-in-out .25s;
 }
 header a:link, header a:visited {
   color: #000;
