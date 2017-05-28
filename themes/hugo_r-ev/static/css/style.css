@@ -137,7 +137,7 @@ header {
   /*max-width: 100rem;*/ /*1600px max*/
   max-width: 87.5rem;
   /*padding: 0 1.875rem;padding: 0 2.5rem;*/
-  padding: 1.5rem 4.375rem;
+  padding: 1.875rem 4.375rem 1.25rem;
   display: flex;
   flex-direction: row-reverse;
   margin: auto;
