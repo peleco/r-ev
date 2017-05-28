@@ -1,12 +1,12 @@
-<!-- <article class="featured" style="background-color:{{ .Params.color }}"> -->
 <article class="featured">
-	<a href="{{ .Permalink }}">
+
 	{{ if and (isset .Params "image") .Params.image }}
 	<div class="featured_image">
-			<img class="image" src="{{ .Params.image }}" alt="">
+			<div class="image-container"><img class="image" src="{{ .Params.image }}" alt=""></div>
 			<!-- <div class="image" style="background-image: url({{ .Params.image }})"></div> -->
 	</div>
 	{{ end }}
+
 	<div class="featured_text">
 			<h3 class="article_category">
 				<!-- {{ .Params.categories }} -->
@@ -23,6 +23,7 @@
 			{{ .Description }}
 			<!-- <div class="author">{{ .Params.author }}</div> -->
 		</p>
+		<div class="featured-cta"><a href="{{ .Permalink }}">Ver más</a></div>
 	</div>
-	</a>
+
 </article>

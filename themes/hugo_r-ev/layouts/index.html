@@ -3,13 +3,17 @@
 	<div class="content">
 		<div class="section-news">
 			<div class="news-columns">
-
 				{{ $paginator := .Paginate (where .Site.Pages "Section" "post") }}
 				{{ range first 7 $paginator.Pages }}
 						{{ partial "new_post.html" . }}
 				{{ end }}
 			</div>
 			{{ partial "pagination.html" . }}
+		</div>
+		<div class="section-articles">
+		{{ range first 3 (where .Data.Pages "Type" "article") }}
+			{{ .Render "featured" }}
+		{{ end }}
 		</div>
 
 	<!-- </main> -->
