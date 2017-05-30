@@ -81,7 +81,7 @@ a:hover {
 }
 
 .section-articles {
-  background: #F3F3FF;
+  /*background: #F3F3FF;*/
   padding: 3.75rem 0;
   margin: 3.75rem 0;
 }
@@ -324,6 +324,15 @@ header a:link, header a:visited {
   /*background: #fff;*/
   /*background: #F3F3FF;*/
   /*background: #3333ff;*/
+  /*background:
+      radial-gradient(#fff 15%, transparent 16%),
+      radial-gradient(#fff 15%, transparent 16%),
+      transparent;
+    background-position: 0 0, 3px 3px;*/
+
+    /*-webkit-background-size:160px 160px;
+    -moz-background-size:160px 160px;
+    background-size:6px 6px;*/
   transition: all ease-in-out .25s;
 }
 .pagination {
@@ -435,8 +444,15 @@ header a:link, header a:visited {
   border-bottom: none;
 }
 .news_post:hover {
-  /*background: none;*/
   background: #F3F3FF;
+  /*background: none;
+  background: #F3F3FF;
+  background:
+      radial-gradient(#C2C2FF 15%, transparent 16%),
+      radial-gradient(#C2C2FF 15%, transparent 16%),
+      transparent;
+    background-position: 0 0, 3px 3px;
+    background-size:6px 6px;*/
 }
 .tags {
   margin-right: .5rem;
@@ -453,6 +469,8 @@ header a:link, header a:visited {
   /*padding-left: 1.875rem;*/
   /*margin-left: 1.875rem;*/
   /*padding: 2.5rem;*/
+  padding: 2.5rem 0;
+  margin: 1.875rem 0;
   /*background: grey;*/
   width: 100%;
   height: auto;
@@ -465,6 +483,13 @@ header a:link, header a:visited {
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 2.5rem;
+  background: #F3F3FF;
+  /*background:
+      radial-gradient(#9999FF 15%, transparent 16%),
+      radial-gradient(#9999FF 15%, transparent 16%),
+      transparent;
+    background-position: 0 0, 3px 3px;
+    background-size:6px 6px;*/
   /*overflow: hidden;*/
   /*background: repeating-linear-gradient(45deg,#3333ff,#3333ff 7px,#FFF 7px,#FFF 14px);*/
 }
