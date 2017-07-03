@@ -1,0 +1,39 @@
+<div class="pagination">
+	{{ if .Paginator.HasPrev }}
+	<div class="pagination-prev">
+		<a href="{{ .Paginator.Prev.URL }}">
+			<svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <desc>Created with Sketch.</desc>
+			    <defs></defs>
+			    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			        <g id="assets" transform="translate(-471.000000, -377.000000)" fill-rule="nonzero" fill="#3333ff">
+			            <g id="Group-Copy-4" transform="translate(476.500000, 386.000000) scale(-1, 1) translate(-476.500000, -386.000000) translate(470.000000, 376.000000)">
+			                <path d="M7.89297082,10.0142912 L1.44169685,16.436988 C0.854611549,17.0214727 0.852503344,17.9712179 1.43698804,18.5583032 C2.02147273,19.1453885 2.97121786,19.1474967 3.55830315,18.563012 L11.0749513,11.0796602 C11.6629583,10.4942578 11.6640145,9.54269412 11.0773084,8.95598802 L3.56066017,1.43933983 C2.97487373,0.853553391 2.02512627,0.853553391 1.43933983,1.43933983 C0.853553391,2.02512627 0.853553391,2.97487373 1.43933983,3.56066017 L7.89297082,10.0142912 Z" id="Line"></path>
+			            </g>
+			        </g>
+			    </g>
+			</svg>
+		</a>
+	</div>
+	{{ end }}
+	<div class="pagination-data">
+		{{ .Paginator.PageNumber }} de {{ .Paginator.TotalPages }}
+	</div>
+	{{ if .Paginator.HasNext }}
+	<div class="pagination-next">
+		<a href="{{ .Paginator.Next.URL }}">
+			<svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <desc>Created with Sketch.</desc>
+			    <defs></defs>
+			    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			        <g id="assets" transform="translate(-508.000000, -377.000000)" fill-rule="nonzero" fill="#3333ff">
+			            <g id="Group-Copy-3" transform="translate(507.000000, 376.000000)">
+			                <path d="M7.89297082,10.0142912 L1.44169685,16.436988 C0.854611549,17.0214727 0.852503344,17.9712179 1.43698804,18.5583032 C2.02147273,19.1453885 2.97121786,19.1474967 3.55830315,18.563012 L11.0749513,11.0796602 C11.6629583,10.4942578 11.6640145,9.54269412 11.0773084,8.95598802 L3.56066017,1.43933983 C2.97487373,0.853553391 2.02512627,0.853553391 1.43933983,1.43933983 C0.853553391,2.02512627 0.853553391,2.97487373 1.43933983,3.56066017 L7.89297082,10.0142912 Z" id="Line"></path>
+			            </g>
+			        </g>
+			    </g>
+			</svg>
+		</a>
+	</div>
+	{{ end }}
+</div>

@@ -1,7 +1,7 @@
 title = "r-ev"
 baseURL = "/"
 languageCode = "en-us"
-theme = "hugo_r-ev"
+theme = "cuyagua"
 disqusShortname = "r-ev"
 
 [taxonomies]
@@ -15,26 +15,7 @@ series = "series"
     #weight = -110
     identifier = "about"
     url = "/about/"
-[[menu.main]]
-    name = "articulos"
-    #pre = "<i class='fa fa-road'></i>"
-    #weight = -100
-    url = "/article/"
-[[menu.main]]
-    name = "benko"
-    #pre = "<i class='fa fa-road'></i>"
-    #weight = -100
-    url = "/benko/"
-[[menu.main]]
-    name = "archivo"
-    #pre = "<i class='fa fa-road'></i>"
-    #weight = -100
-    url = "/archivo/"
-[[menu.main]]
-    name = "comics"
-    #pre = "<i class='fa fa-road'></i>"
-    #weight = -100
-    url = "/comics/"
+
 [[menu.main]]
     name = "shop"
     #pre = "<i class='fa fa-road'></i>"
