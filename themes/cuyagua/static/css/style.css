@@ -404,13 +404,15 @@ header a:link, header a:visited {
   color: #3333ff;
   opacity: .1;
   position: relative;
-  display: block;
+  display: inline-block;
   text-align: right;
-  width: 4rem;
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
-  transform: rotate(-90deg) translate(-30rem,-2rem);
+  transform-origin: left bottom;
+  transform: rotate(-90deg) translate(-105%, 1rem);
+  /*background: grey;*/
 }
 /* ——————————————————————— News Posts */
 .news_post {
