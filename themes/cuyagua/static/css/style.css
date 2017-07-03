@@ -419,13 +419,13 @@ header a:link, header a:visited {
   position: relative;
   break-inside: avoid;
   padding: 1.875rem 1.875rem;
-  border: solid 1px transparent;
+  /*border: solid 1px transparent;*/
   transition: all ease-in-out .25s;
 }
 .news_post:hover {
   /*background: #FFBF00;*/
   /*transform: scale3d(1.012, 1.012, 1.012);*/
-  border: solid 1px #3333ff;
+  /*border: solid 1px #3333ff;*/
   /*-webkit-box-shadow: 0px 10px 30px 15px rgba(0,0,0,.07);*/
   /*background: #000;
   color: #fff;*/
