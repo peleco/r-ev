@@ -403,7 +403,7 @@ header a:link, header a:visited {
   font-size: 12rem;
   color: #3333ff;
   opacity: .1;
-  position: relative;
+  position: absolute;
   display: inline-block;
   text-align: right;
   width: 100%;
@@ -411,7 +411,7 @@ header a:link, header a:visited {
   margin: 0;
   padding: 0;
   transform-origin: left bottom;
-  transform: rotate(-90deg) translate(-105%, 1rem);
+  transform: rotate(-90deg) translate(-100%, 1rem);
   /*background: grey;*/
 }
 /* ——————————————————————— News Posts */
@@ -507,6 +507,7 @@ header a:link, header a:visited {
 }
 .news_post_meta {
   margin-left: 1rem;
+  text-transform: lowercase;
 }
 
 
