@@ -402,6 +402,7 @@ header a:link, header a:visited {
   font-family: "Noe Display";
   font-size: 12rem;
   color: #3333ff;
+  /*color: #FFDE00;*/
   opacity: .1;
   position: absolute;
   display: inline-block;
@@ -437,7 +438,7 @@ header a:link, header a:visited {
       transparent;
     background-position: 0 0, 3px 3px;
     background-size:6px 6px;*/
-    /*background: repeating-linear-gradient(45deg,#FAF8FF,#FAF8FF 7px,#FFF 7px,#FFF 14px);*/
+    /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);*/
 }
 .news_post_image {
   /*display: block;*/
@@ -540,6 +541,7 @@ header a:link, header a:visited {
   height: 1.4em;
   width: 100%;
   background-color: #FFDE00;
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 4px,transparent 4px,transparent 8px);*/
   mix-blend-mode: multiply;
   /*background: repeating-linear-gradient(45deg,#3333ff,#3333ff 3px,transparent 3px,transparent 6px);*/
   opacity: 0;
@@ -876,10 +878,11 @@ header a:link, header a:visited {
   bottom: 0;
   content: "";
   display: block;
-  height: 1rem;
+  height: 1.5rem;
   width: 100%;
   /*background-color: #3333ff;*/
   background-color: #FFDE00;
+  background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 4px,transparent 4px,transparent 8px);
   mix-blend-mode: multiply;
   opacity: 0;
   transform: translateY(-.16em) scaleY(.5) translateX(-.4rem);
@@ -887,7 +890,7 @@ header a:link, header a:visited {
 }
 .taxonomy li a:hover::before {
   opacity: 1;
-  transform: translateY(-.2em) scaleY(1) translateX(-.4rem);
+  transform: translateY(-.20em) scaleY(1) translateX(-.4rem);
 }
 .title {
   font-family: "Noe Display";
