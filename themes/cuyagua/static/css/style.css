@@ -406,7 +406,7 @@ header a:link, header a:visited {
   position: absolute;
   display: inline-block;
   text-align: right;
-  width: 100%;
+  width: auto;
   height: auto;
   margin: 0;
   padding: 0;
