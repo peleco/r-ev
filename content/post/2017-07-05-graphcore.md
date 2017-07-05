@@ -10,7 +10,5 @@ tags:
   - ia
   - tipografía
 ---
-Un [artículo](https://www.fastcodesign.com/90131218/graphic-designs-next-great-challenge-branding-ai) sobre la identidad visual de [Graphcore](https://www.graphcore.ai) hecha por [Pentagram](http://www.pentagram.com/#/projects/139032). Super interesante trabajo tipográfico y de gráficas auto generadas con código.
-
-
+Super interesante trabajo de identidad para el start-up de inteligencia artificial [Graphcore](https://www.graphcore.ai), desde la propuesta de tipografías dinámicas que cambian constantemente de resolución hasta las gráficas auto generadas con código. Hecho por [Pentagram](http://www.pentagram.com/#/projects/139032). Por aquí un [artículo](https://www.fastcodesign.com/90131218/graphic-designs-next-great-challenge-branding-ai) sobre la identidad visual.
 
