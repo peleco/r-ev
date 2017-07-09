@@ -440,7 +440,8 @@ header a:link, header a:visited {
   /*height: 20%;*/
   /*transform: translate(-.9375rem,-.9375rem);*/
   transform: translate(-.9375rem,-.9375rem);
-  background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);*/
+  background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 10px,transparent 10px,transparent 20px);
   opacity: 0;
 }
 .news_content {
@@ -773,7 +774,8 @@ header a:link, header a:visited {
   width: 100%;
   height: 100%;
   content: "";
-  background: repeating-linear-gradient(45deg,#F3F3FF,#F3F3FF 7px,#FFF 7px,#FFF 14px);
+  /*background: repeating-linear-gradient(45deg,#F3F3FF,#F3F3FF 7px,#FFF 7px,#FFF 14px);*/
+  background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 10px,transparent 10px,transparent 20px);
 }
 .article_header {
   position: relative;
@@ -879,11 +881,12 @@ header a:link, header a:visited {
 .taxonomies {
   padding: 1rem 2.380952380952381%;
   margin: 3rem 0;
-  background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);*/
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 10px,transparent 10px,transparent 20px);*/
 }
 .taxonomy {
   /*padding: 0 2.380952380952381%;*/
-  padding: 0;
+  padding: 2rem 0;
   margin: 2rem 0;
 }
 .taxonomy h2 {
@@ -911,7 +914,7 @@ header a:link, header a:visited {
 }
 .taxonomy li a::before {
   transition: transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995),
-              opacity .10s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+              opacity .50s cubic-bezier(0.340, 0.010, 0.010, 0.995);
   position: absolute;
   padding: 0;
   bottom: 0;
