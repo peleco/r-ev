@@ -11,4 +11,9 @@
 			{{ partial "pagination.html" . }}
 			{{ partial "taxonomies-all.html" . }}
 		</div>
+		<div class="section-articles">
+		{{ range first 3 (where .Data.Pages "Type" "article") }}
+			{{ .Render "article-post" }}
+		{{ end }}
+		</div>
 {{ partial "footer.html" . }}

@@ -9,4 +9,4 @@ tags:
   - futurismo
   - rusia
 ---
-144 libros enteros de Futurismo Ruso para [bajar](http://elib.shpl.ru/ru/indexes/values/10040) en la Biblioteca Pública de Historia de Rusia.
+144 libros de Futurismo Ruso para bajar en la [página](http://elib.shpl.ru/ru/indexes/values/10040) de la Biblioteca Pública de Historia en Rusia.
