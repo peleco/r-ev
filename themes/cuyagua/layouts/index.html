@@ -1,5 +1,10 @@
 {{ partial "header.html" . }}
 	<div class="content">
+		{{ range first 1 (where .Data.Pages "Type" "article") }}
+			{{ if and (isset .Params "featured") .Params.featured }}
+				{{ .Render "summary" }}
+			{{ end }}
+		{{ end }}
 		<div class="section-news">
 			<!-- <h2 class="section-title">News</h2> -->
 			<div class="news-columns">
@@ -13,7 +18,9 @@
 		</div>
 		<div class="section-articles">
 		{{ range first 3 (where .Data.Pages "Type" "article") }}
-			{{ .Render "article-post" }}
+			{{ if (not (and (isset .Params "featured") .Params.featured)) }}
+				{{ .Render "summary" }}
+			{{ end }}
 		{{ end }}
 		</div>
 {{ partial "footer.html" . }}

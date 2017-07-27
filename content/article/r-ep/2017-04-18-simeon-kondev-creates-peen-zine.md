@@ -1,18 +1,12 @@
 ---
-#categories:
-#  - Films
-title: Wes Anderson Isle of dogs
-description: >-
-  Wes Anderson announces release date of stop motion film Isle of Dogs with
-  official poster.
-date: 2017-05-02T15:09:55.224Z
-#tags:
-#  - illustration
-#  - art
-#  - motion
-#  - article
-image: /img/uploads/ar_2_thumb-100.jpg
 author: r-ev
+color: '#EEEEEE'
+title: Simeon Kondev creates Peen Zine
+description: >-
+  Peen Zine is a series of short animations created by Simeon Kondev, a
+  Bulgarian-born animator and filmmaker raised in middle America.
+date: 2017-04-18T15:09:55.224Z
+image: /img/uploads/ar_3_thumb-100.jpg
 type: article
 ---
 An animated short structured like a zine was intriguing to Simeon as he started drawing parallels between the physical, comic-like equivalent. “There were interesting formal things about zines; often black and white, artefacts of reproduction, poorly bound. It occurred to me that most animations on the internet, like zines, are ‘self-published’. So it was also a context to celebrate a personal, solitary work,” explains the animator.

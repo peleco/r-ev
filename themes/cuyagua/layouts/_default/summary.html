@@ -1,10 +1,19 @@
-	<article>
-		<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-		<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
-		{{ range .Params.tags }}
-		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-		{{ end }}
-		<div>
-			{{ .Content }}
-		</div>
-	</article>
+<article>
+	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+	{{ range .Params.tags }}
+	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }}
+
+	{{ if and (isset .Params "image") .Params.image }}
+	<div>
+			<img src="{{ .Params.image }}" alt="" class="img-responsive">
+	</div>
+	{{ end }}
+
+	<div>
+		{{ .Title }}
+
+		<div class="news_post_author">{{ .Params.author }}</div>
+	</div>
+</article>
