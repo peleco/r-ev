@@ -15,10 +15,8 @@
 			{{ partial "taxonomies-all.html" . }}
 		</div>
 		<div class="section-articles">
-		{{ range first 3 (where .Data.Pages "Type" "article") }}
-			{{ if (not (and (isset .Params "featured") .Params.featured)) }}
-				{{ .Render "summary" }}
-			{{ end }}
+		{{ range first 3 ((where .Data.Pages "Type" "article" ) not (".Params.featured" true)) }}
+			{{ .Render "summary" }}
 		{{ end }}
 		</div>
 {{ partial "footer.html" . }}
