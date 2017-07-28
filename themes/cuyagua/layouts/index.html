@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 	<div class="content">
-		{{ range where (where .Data.Pages "Type" "article" ) ".Params.featured" "true" }}
+		{{ range where (where .Data.Pages "Type" "article" ) ".Params.featured" "!=" "true" }}
 			{{ .Render "summary" }}
 		{{ end }}
 		<div class="section-news">
