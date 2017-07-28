@@ -3,7 +3,7 @@
 	<h1 class="title">{{ .Title }}</h1>
 	<div class="section-news">
 		<div class="news-columns">
-			{{ $paginator := .Paginate (where .Data.Pages "Section" "article") 12 }}
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "article") 12 }}
 			{{ range .Paginator.Pages }}
 				{{ .Render "summary"}}
 			{{ end }}
