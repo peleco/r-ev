@@ -15,7 +15,7 @@
 			{{ partial "taxonomies-all.html" . }}
 		</div>
 		<div class="section-articles">
-		{{ range first 3 ((where .Data.Pages "Type" "article" ) ".Params.featured" false) }}
+		{{ range first 2 ((where .Data.Pages "Type" "article" ) ".Params.featured" false) }}
 			{{ .Render "summary" }}
 		{{ end }}
 		</div>
