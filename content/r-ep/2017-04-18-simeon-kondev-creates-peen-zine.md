@@ -1,5 +1,6 @@
 ---
 author: r-ev
+featured: false
 color: '#EEEEEE'
 title: Simeon Kondev creates Peen Zine
 description: >-
