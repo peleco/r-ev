@@ -67,8 +67,6 @@ a:hover {
   width: 100%;
 }
 .section-news {
-  /*display: flex;
-  flex-wrap: wrap;*/
   height: auto;
   width: 100%;
 }
@@ -81,9 +79,10 @@ a:hover {
   display: block;
 }
 .section-articles {
-  /*background: #F3F3FF;*/
-  /*padding: 3.75rem 0;*/
-  margin: 3.75rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  height: auto;
+  width: 100%;
 }
 
 /*.cols {
@@ -566,10 +565,10 @@ header a:link, header a:visited {
   display: flex;
   flex-wrap: nowrap;
 }
-.featured a {
+/*.featured a {
   display: block;
   position: relative;
-}
+}*/
 .featured-image {
   position: relative;
   display: block;
@@ -642,6 +641,55 @@ header a:link, header a:visited {
 /*.featured:first-child {
   background-color: #3794a3;
 }*/
+/* ——————————————————————— Featured */
+/*.featured {
+  position: relative;
+  display: block;
+  padding: .9375rem;
+  margin: 0;
+}*/
+.summary {
+  display: block;
+  position: relative;
+  padding: 1.875rem;
+  margin: 0;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+.summary-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 62.5%;
+  /*margin-right: 1.875rem;*/
+  margin-right: 1.875rem;
+}
+.summary-image img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+.summary-text {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.summary h1 {
+  font-family: "Noe Display";
+  font-weight: bold;
+  font-size: 3.25rem;
+  line-height: 1.15em;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
 
 .article_image {
   display: block;
