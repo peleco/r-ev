@@ -58,7 +58,7 @@ a:hover {
   margin: auto;
 }
 .content {
-  margin-top: 10rem; /*160px*/
+  margin-top: 8.125rem; /*160-30px*/
   width: 100%;
   /*background: green;*/
 }
@@ -97,10 +97,11 @@ a:hover {
 
 footer {
   display: block;
-  margin: 5.5rem 0 0 0;
+  margin: 0;
+  margin-bottom: 1.25rem;
   padding: 1.875rem;
   /*background: #3333ff;*/
-  height: 10rem;
+  height: auto;
   color: #000;
   /*background: slategrey;*/
 }
@@ -468,14 +469,6 @@ header a:link, header a:visited {
   margin: 0;
   padding: 0;
 }
-.news_post time {
-  /*margin-left: 1rem;*/
-  font-size: 0.8125rem;
-  display: block;
-  margin: 0;
-  padding: 0;
-  /*background: #fff;*/
-}
 .news_post h1, .news_post p {
   margin: 0;
   padding: 0;
@@ -489,7 +482,7 @@ header a:link, header a:visited {
 }
 .news_post_content {
   /*margin-bottom: .5rem;*/
-  width: 92.5%;
+  width: 100%;
   /*background: #fff;*/
 }
 .news_post_meta, .author, time {
@@ -565,6 +558,26 @@ header a:link, header a:visited {
   display: flex;
   flex-wrap: nowrap;
 }
+.featured::before {
+  transition: opacity .6s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .3s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 100%;
+  transform: translate(-1.875rem,-1.875rem) scaleX(.7);
+  transform-origin: top left;
+  background: #FFDE00;
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 12px,#FFF 12px,#FFF 24px);*/
+  mix-blend-mode: multiply;
+  opacity: 0;
+}
+.featured:hover::before {
+  transform: translate(-1.875rem,-1.875rem) scaleX(1);
+  opacity: 1;
+  height: 100%;
+}
 /*.featured a {
   display: block;
   position: relative;
@@ -590,6 +603,7 @@ header a:link, header a:visited {
 }
 .featured-text {
   position: relative;
+  z-index: 200;
   display: block;
   width: 33.333333333333336%;
 }
@@ -626,12 +640,7 @@ header a:link, header a:visited {
   padding: 0;
 }*/
 .featured h1 {
-  font-family: "Noe Display";
-  font-weight: bold;
-  font-size: 3.25rem;
-  line-height: 1.15em;
-  margin: 0 0 1rem 0;
-  padding: 0;
+
   /*color: #fff;*/
 }
 /*.featured a:link, .featured a:visited {
@@ -641,6 +650,32 @@ header a:link, header a:visited {
 /*.featured:first-child {
   background-color: #3794a3;
 }*/
+/* ——————————————————————— Featured & Summary text box*/
+.text-time {
+  margin-bottom: .8rem;
+}
+time {
+  font-size: 0.8125rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.text-title {
+  font-family: "Noe Display";
+  font-weight: bold;
+  font-size: 3.25rem;
+  line-height: 1.15em;
+  margin: 0 0 1.875rem 0;
+  padding: 0;
+}
+.text-CTA {
+
+}
+.arrow {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
 /* ——————————————————————— Featured */
 /*.featured {
   position: relative;
@@ -657,6 +692,26 @@ header a:link, header a:visited {
   height: auto;
   position: relative;
 }
+.summary::before {
+  transition: opacity .6s cubic-bezier(0.340, 0.010, 0.010, 0.995),
+              transform .3s cubic-bezier(0.340, 0.010, 0.010, 0.995);
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 100%;
+  transform: translate(-1.875rem,-1.875rem) scaleY(.7);
+  transform-origin: top left;
+  background: #FFDE00;
+  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 12px,#FFF 12px,#FFF 24px);*/
+  mix-blend-mode: multiply;
+  opacity: 0;
+}
+.summary:hover::before {
+  transform: translate(-1.875rem,-1.875rem) scaleY(1);
+  opacity: 1;
+  height: 100%;
+}
 .summary-image {
   position: relative;
   display: block;
@@ -664,6 +719,7 @@ header a:link, header a:visited {
   padding-top: 62.5%;
   /*margin-right: 1.875rem;*/
   margin-right: 1.875rem;
+  margin-bottom: .8rem;
 }
 .summary-image img {
   display: block;
@@ -678,6 +734,7 @@ header a:link, header a:visited {
 }
 .summary-text {
   position: relative;
+  z-index: 200;
   display: block;
   width: 100%;
 }
@@ -847,9 +904,9 @@ header a:link, header a:visited {
 .taxonomy li {
   position: relative;
   font-family: "Noe Display";
-  font-size: 4rem;
+  font-size: 3.25rem;
   /*font-size: 1.5rem;*/
-  line-height: 4.5rem;
+  line-height: 115%;
   font-weight: bold;
   display: inline-block;
   margin-right: 1.5rem;
