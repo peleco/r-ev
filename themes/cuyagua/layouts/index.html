@@ -1,8 +1,11 @@
 {{ partial "header.html" . }}
 	<div class="content">
-		{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
-		  {{ .Render "summary" }}
-		{{ end }}
+		<div class="section-featured">
+			{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
+			  {{ .Render "featured" }}
+			{{ end }}
+		</div>
+		<hr>
 		<div class="section-news">
 			<!-- <h2 class="section-title">News</h2> -->
 			<div class="news-columns">
@@ -12,11 +15,13 @@
         {{ end }}
 			</div>
 			{{ partial "pagination.html" . }}
+			<hr>
 			{{ partial "taxonomies-all.html" . }}
 		</div>
+		<hr>
 		<div class="section-articles">
+			{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
+			  {{ .Render "summary" }}
+			{{ end }}
 		</div>
-		{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
-		  {{ .Render "summary" }}
-		{{ end }}
 {{ partial "footer.html" . }}
