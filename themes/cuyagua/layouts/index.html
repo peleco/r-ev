@@ -12,7 +12,7 @@
 
 		<div class="section-news">
 			<div class="news-columns">
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 12 }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 8 }}
         {{ range .Paginator.Pages }}
           {{ .Render "news-post"}}
         {{ end }}
