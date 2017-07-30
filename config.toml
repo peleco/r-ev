@@ -10,21 +10,21 @@ category = "categories"
 series = "series"
 
 [[menu.main]]
-    name = "R-ep"
+    name = "r-ep"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "r-ep"
     url = "/r-ep/"
 
 [[menu.main]]
-    name = "Comix"
+    name = "comix"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "comix"
     url = "/comix/"
 
 [[menu.main]]
-    name = "Melaza"
+    name = "melaza"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "melaza"
@@ -34,4 +34,5 @@ series = "series"
     name = "shop"
     #pre = "<i class='fa fa-road'></i>"
     #weight = -100
-    url = ""
+    identifier = "shop"
+    url = "#"

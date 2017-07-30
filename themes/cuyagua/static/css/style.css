@@ -518,7 +518,7 @@ header a:link, header a:visited {
 }
 .news_post a:hover {
   /*color: #3333ff;*/
-  border-bottom: none;
+  /*border-bottom: none;*/
   color: #FFDE00;
   background: #3333ff;
 }
@@ -616,6 +616,7 @@ header a:link, header a:visited {
   display: block;
   width: 33.333333333333336%;
 }
+.
 /*.featured-cta {
   margin: 1.875rem 0;
   font-weight: bold;
@@ -677,8 +678,21 @@ time {
   margin: 0 0 1.875rem 0;
   padding: 0;
 }
-.text-CTA {
-
+.text-CTA:link, .text-CTA:visited {
+  display: inline-block;
+  position: relative;
+  transition: all ease-in-out .25s;
+}
+.text-CTA:hover {
+  color: #FFDE00;
+  background: #3333ff;
+}
+.text-CTA svg {
+  transition: all ease-in-out .25s;
+  transform: translateX(0);
+}
+.text-CTA:hover svg {
+  transform: translateX(1rem);
 }
 .arrow {
   display: inline-block;
