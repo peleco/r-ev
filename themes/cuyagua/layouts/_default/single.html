@@ -1,26 +1,26 @@
 {{ partial "header.html" . }}
 	<div class="content">
-		<div class="single">
-			<article>
-				<div class="featured-image">
-						<img src="{{ .Params.image }}" alt="" class="img-responsive">
+			<article class="single">
+
+				<div class="single-header">
+					<div class="single-image">
+							<img src="{{ .Params.image }}" alt="" class="img-responsive">
+					</div>
+					<div class="single-text">
+						<time>{{ .Date.Format "02.01.2006" }}</time>
+						<h1>{{ .Title }}</h1>
+						<div class="author">por {{ .Params.author }}</div>
+						<div class="single-description">{{ .Description }}</div>
+					</div>
 				</div>
-				<h1>{{ .Title }}</h1>
-				<time>{{ .Date.Format "02.01.2006" }}</time>
-				<div>{{ .Description }}</div>
-				<div>
+
+				<div class="single-content">
 					{{ .Content }}
 				</div>
-				<div>
-					<ul id="tags">
-						{{ range .Params.tags }}
-						<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
-						{{ end }}
-					</ul>
-				</div>
-				<div>
+
+				<!-- <div>
 					{{ template "_internal/disqus.html" . }}
-				</div>
+				</div> -->
 			</article>
-		</div>
+			<hr>
 		{{ partial "footer.html" . }}
