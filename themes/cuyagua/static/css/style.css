@@ -80,7 +80,7 @@ a:hover {
 }
 .section-articles {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   height: auto;
   width: 100%;
 }
