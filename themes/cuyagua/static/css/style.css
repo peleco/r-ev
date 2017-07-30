@@ -701,7 +701,7 @@ time {
   position: absolute;
   z-index: 150;
   width: 100%;
-  transform: translate(-1.875rem,-1.875rem) scaleY(.7);
+  transform: translate(-1.875rem,-1.875rem) scaleX(.7);
   transform-origin: top left;
   background: #FFDE00;
   /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 12px,#FFF 12px,#FFF 24px);*/
@@ -709,7 +709,7 @@ time {
   opacity: 0;
 }
 .summary:hover::before {
-  transform: translate(-1.875rem,-1.875rem) scaleY(1);
+  transform: translate(-1.875rem,-1.875rem) scaleX(1);
   opacity: 1;
   height: 100%;
 }
