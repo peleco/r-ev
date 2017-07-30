@@ -681,9 +681,12 @@ time {
 .text-CTA:link, .text-CTA:visited {
   display: inline-block;
   position: relative;
+  height: 2rem;
+  padding-left: 0;
   transition: all ease-in-out .25s;
 }
 .text-CTA:hover {
+  padding-left: .7rem;
   color: #FFDE00;
   background: #3333ff;
 }
