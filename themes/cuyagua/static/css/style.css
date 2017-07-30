@@ -348,7 +348,7 @@ header a:link, header a:visited {
   display: block;
   margin: 0;
   padding: 0;
-  transform: translateY(0.0625rem);
+  /*transform: translateY(0.0625rem);*/
 }
 .pagination-data {
   position: relative;
