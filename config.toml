@@ -10,11 +10,11 @@ category = "categories"
 series = "series"
 
 [[menu.main]]
-    name = "R-eps"
+    name = "R-ep"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
-    identifier = "r-eps"
-    url = "/r-eps/"
+    identifier = "r-ep"
+    url = "/r-ep/"
 
 [[menu.main]]
     name = "Comix"

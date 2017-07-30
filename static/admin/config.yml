@@ -12,7 +12,7 @@ public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "news-post" # Used in routes, ie.: /admin/collections/:slug/edit
-    #type: "post"
+    type: "post"
     label: "News" # Used in the UI, ie.: "New Post"
     folder: "content/post" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
@@ -36,22 +36,53 @@ collections: # A list of collections the CMS should be able to edit
       #    - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Categorie", name: "categorie", widget: "string"}
 
-  - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
-    #type: "article"
-    label: "Article" # Used in the UI, ie.: "New Post"
-    folder: "content/article" # The path to the folder where the documents are stored
+  - name: "r-ep" # Used in routes, ie.: /admin/collections/:slug/edit
+    type: "article"
+    label: "R-ep" # Used in the UI, ie.: "New Post"
+    folder: "content/r-ep" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
-      - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
       # - {label: "Color", name: "color", widget: "string"}
       # - {label: "Label", name: "label", widget: "string"}
       #- {label: "Categories", name: "categories", widget: "list"}
+
+  - name: "comix" # Used in routes, ie.: /admin/collections/:slug/edit
+    type: "article"
+    label: "Comix" # Used in the UI, ie.: "New Post"
+    folder: "content/comix" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields each document in this collection have
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "article"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+
+    - name: "melaza" # Used in routes, ie.: /admin/collections/:slug/edit
+      type: "article"
+      label: "Melaza" # Used in the UI, ie.: "New Post"
+      folder: "content/melaza" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+      fields: # The fields each document in this collection have
+        - {label: "Image", name: "image", widget: "image", required: false}
+        - {label: "Type", name: "type", widget: "hidden", default: "article"}
+        - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - {label: "Description", name: "description", widget: "text"}
+        - {label: "Body", name: "body", widget: "markdown"}
+        - {label: "Author", name: "author", widget: "string"}
+        - {label: "Featured", name: "featured", widget: "boolean", default: false}
