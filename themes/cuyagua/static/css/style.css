@@ -11,6 +11,14 @@ hr {
   position: relative;
   display: block;
   margin: 3.125rem 1.875rem;
+  border: none;
+  border-bottom: solid 1px #000000;
+}
+dashed {
+  border: none;
+  height: 1px;
+  background: #000;
+  background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
 }
 html, body{
   height:100%;
