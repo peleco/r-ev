@@ -14,7 +14,7 @@ hr {
   border: none;
   border-bottom: solid 1px #000000;
 }
-dashed {
+.dashed {
   border: none;
   height: 1px;
   background: #000;
