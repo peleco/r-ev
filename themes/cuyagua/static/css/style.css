@@ -823,7 +823,7 @@ time {
   display: block;
   width: 33.333333333333336%;
 }
-.single-text h1 {
+/*.single-text h1 {
   font-family: "Noe Display";
   font-weight: bold;
   font-size: 3.25rem;
@@ -831,7 +831,7 @@ time {
   line-height: 1.15em;
   margin: 1.125rem 0;
   padding: 0;
-}
+}*/
 .single-description {
   margin: 1.875rem 0;
 }
