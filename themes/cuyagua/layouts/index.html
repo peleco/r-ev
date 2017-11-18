@@ -8,7 +8,6 @@
 			{{ end }}
 		</div>
 
-		<hr>
 
 		<div class="section-news">
 			<div class="news-columns">
@@ -22,7 +21,6 @@
 			{{ partial "taxonomies-all.html" . }}
 		</div>
 
-		<hr>
 
 		<div class="section-articles">
 			{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
