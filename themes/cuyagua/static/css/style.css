@@ -567,6 +567,7 @@ header a:link, header a:visited {
 .news_post:hover .news_post_image img {
   -webkit-filter: grayscale(0%) contrast(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%) contrast(100%); /* FF 35+ */
+  transition: all ease-in-out 1s;
 }
 /*.news_post_content a:hover {
   color: #FFDE00;
