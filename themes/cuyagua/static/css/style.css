@@ -48,7 +48,7 @@ a:link, a:visited {
 a:hover {
   color: #3333ff;
   text-decoration: none;
-  border-bottom: none;
+  border-bottom: solid 1px #3333ff;
 }
 /* ——————————————————————— Layout */
 .main {
@@ -552,17 +552,17 @@ header a:link, header a:visited {
   text-transform: lowercase;
 }
 .news_post a:link, .news_post a:visited {
-  display: inline-block;
+  display: inline;
   position: relative;
   color: #3333ff;
   text-decoration: none;
-  transition: all ease-in-out .25s;
+  /*transition: all ease-in-out .25s;*/
 }
 .news_post a:hover {
   /*color: #3333ff;*/
   /*border-bottom: none;*/
-  color: #FFDE00;
-  background: #3333ff;
+  /*color: #FFDE00;*/
+  /*background: #3333ff;*/
 }
 .news_post:hover .news_post_image img {
   -webkit-filter: grayscale(0%) contrast(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -733,8 +733,8 @@ time {
 }
 .text-CTA:hover {
   /*padding-left: .7rem;*/
-  color: #FFF;
-  background: #3333ff;
+  /*color: #FFF;*/
+  /*background: #3333ff;*/
 }
 /*.text-CTA svg {
   transition: all ease-in-out .25s;
@@ -914,7 +914,7 @@ time {
 .taxonomy a:link, .taxonomy a:visited {
   color: #000;
 }
-.taxonomy li a::before {
+/*.taxonomy li a::before {
   transition: transform .20s cubic-bezier(0.340, 0.010, 0.010, 0.995),
               opacity .50s cubic-bezier(0.340, 0.010, 0.010, 0.995);
   position: absolute;
@@ -924,17 +924,17 @@ time {
   display: block;
   height: 1em;
   width: 100%;
-  /*background-color: #3333ff;*/
   background-color: #FFDE00;
-  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);*/
   mix-blend-mode: multiply;
   opacity: 0;
   transform: translateY(-.1em) scaleY(1);
   transform-origin: center;
-}
-.taxonomy li a:hover::before {
+}*/
+/*.taxonomy li a:hover::before {
   opacity: 1;
-  /*transform: translateY(0) scaleY(1);*/
+}*/
+.taxonomy li a:hover {
+  border-bottom: solid 1px #000;
 }
 .title {
   font-family: "Noe Display";
@@ -1012,31 +1012,52 @@ time {
   .featured {
     flex-wrap: wrap;
   }
-  .featured-image {
+  .featured-text {
+    width: 100%;
+  }
+  .summary {
+    display: block;
+    position: relative;
+    padding: 20rem;
+    margin: 0;
+    width: 50%;
+    height: auto;
+    position: relative;
+  }
+  .summary-image {
     position: relative;
     display: block;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 62.5%;
     /*margin-right: 1.875rem;*/
     margin-right: 1.875rem;
+    margin-bottom: .8rem;
   }
-  .featured-image img {
+  .summary-image img {
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    width: 66.66666666666667%%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     margin: 0;
     padding: 0;
   }
-  .featured-text {
-    padding-top: 1.875rem;
+  .summary-text {
     position: relative;
     z-index: 200;
     display: block;
     width: 100%;
+  }
+  .summary h1 {
+    font-family: "Noe Display";
+    font-weight: bold;
+    font-size: 2.5rem;
+    /*line-height: 1.15em;*/
+    line-height: 0.9em;
+    margin: 1.875rem 0 1rem 0;
+    padding: 0;
   }
 }
 @media all and (max-width: 45.25em) { /* -640px */
