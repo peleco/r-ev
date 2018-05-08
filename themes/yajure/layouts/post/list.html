@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+<!-- <div class="content"> -->
+	<h1 class="title">{{ .Title }}</h1>
+	<hr>
+
+		post list
+		<div class="section-news grid">
+			<h3>Noticias /</h3>
+			<div class="news-columns">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+        {{ range .Paginator.Pages }}
+          {{ .Render "news-post"}}
+        {{ end }}
+			</div>
+
+			{{ partial "pagination.html" . }}
+			<hr class="dashed">
+			{{ partial "taxonomies-all.html" . }}
+		</div>
+
+
+	<hr>
+{{ partial "footer.html" . }}

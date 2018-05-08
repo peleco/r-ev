@@ -1,7 +1,7 @@
 title = "r-ev"
 baseURL = "/"
 languageCode = "en-us"
-theme = "cuyagua"
+theme = "yajure"
 disqusShortname = "r-ev"
 
 [taxonomies]
@@ -10,7 +10,7 @@ category = "categories"
 series = "series"
 
 [[menu.main]]
-    name = "r-ep"
+    name = "reportajes"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
     identifier = "r-ep"
@@ -22,13 +22,6 @@ series = "series"
     #weight = -110
     identifier = "comix"
     url = "/comix/"
-
-[[menu.main]]
-    name = "melaza"
-    #pre = "<i class='fa fa-heart'></i>"
-    #weight = -110
-    identifier = "melaza"
-    url = "/melaza/"
 
 [[menu.main]]
     name = "shop"

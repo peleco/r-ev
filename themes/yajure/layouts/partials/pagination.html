@@ -1,0 +1,19 @@
+	<div class="pagination">
+	{{ if .Paginator.HasPrev }}
+	<div class="pagination-prev">
+		<a href="{{ .Paginator.Prev.URL }}">
+			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 15"><title>Untitled-1</title><g id="Canvas"><g id="chevron_prev" data-name="chevron prev"><path id="path0_fill" data-name="path0 fill" d="M8.35.65a.5.5,0,0,0-.71,0l-7,7a.5.5,0,0,0,0,.71l7,7a.5.5,0,1,0,.71-.71L1.71,8,8.35,1.35A.5.5,0,0,0,8.35.65Z" transform="translate(-0.5 -0.5)"/></g></g></svg>
+		</a>
+	</div>
+	{{ end }}
+	<div class="pagination-data">
+		{{ .Paginator.PageNumber }} de {{ .Paginator.TotalPages }}
+	</div>
+	{{ if .Paginator.HasNext }}
+	<div class="pagination-next">
+		<a href="{{ .Paginator.Next.URL }}">
+			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 15"><title>a-next</title><g id="Canvas"><g id="chevron_prev" data-name="chevron prev"><path id="path0_fill" data-name="path0 fill" d="M.65,1.35,7.29,8,.65,14.65a.5.5,0,0,0,.71.71l7-7a.5.5,0,0,0,0-.71l-7-7a.5.5,0,0,0-.71.71Z" transform="translate(-0.5 -0.5)"/></g></g></svg>
+		</a>
+	</div>
+	{{ end }}
+</div>

@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+	<div class="content">
+
+		<div class="section-featured">
+			{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
+			  {{ .Render "featured" }}
+			{{ end }}
+		</div>
+
+
+		<div class="section-news">
+			<div class="news-columns">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 8 }}
+        {{ range .Paginator.Pages }}
+          {{ .Render "news-post"}}
+        {{ end }}
+			</div>
+			{{ partial "pagination.html" . }}
+			<hr class="dashed">
+			{{ partial "taxonomies-all.html" . }}
+		</div>
+
+
+		<div class="section-articles">
+			{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
+			  {{ .Render "summary" }}
+			{{ end }}
+		</div>
+
+		<hr>
+
+{{ partial "footer.html" . }}

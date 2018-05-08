@@ -1,0 +1,23 @@
+	<article class="news_post">
+		<div class="news_content">
+			{{ if and (isset .Params "image") .Params.image }}
+			<div class="news_post_image">
+				<img src="{{ .Params.image }}" alt="">
+			</div>
+			{{ end }}
+
+			<div class="news_post_text">
+				<time>{{ .Date.Format "02.01.2006" }}</time>
+				<h4>{{ .Title }}</h4>
+
+				<div class="news_post_content">{{ .Content }}</div>
+
+				<div class="author">{{ .Params.author }}</div>
+				<div class="news_post_meta">
+					{{ range .Params.tags }}
+					<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tags">{{ . }}</a>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</article>

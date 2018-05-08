@@ -1,0 +1,18 @@
+<svg width="9" height="16" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>chevron</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5898 -1661)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -5898 1661L -5889 1661L -5889 1677L -5898 1677L -5898 1661Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="chevron" clip-path="url(#clip-0)">
+<path d="M -5898 1661L -5889 1661L -5889 1677L -5898 1677L -5898 1661Z" fill="#FFFFFF"/>
+<g id="Rectangle 5">
+<use xlink:href="#path0_stroke" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 -5889.86 1669.07)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 0 -0.5C -0.276142 -0.5 -0.5 -0.276142 -0.5 1.11022e-16L 0 0ZM 10 0.5C 10.2761 0.5 10.5 0.276142 10.5 0C 10.5 -0.276142 10.2761 -0.5 10 -0.5L 10 0.5ZM -0.5 10C -0.5 10.2761 -0.276142 10.5 0 10.5C 0.276142 10.5 0.5 10.2761 0.5 10L -0.5 10ZM 0 0.5L 10 0.5L 10 -0.5L 0 -0.5L 0 0.5ZM 0.5 10L 0.5 0L -0.5 0L -0.5 10L 0.5 10Z"/>
+</defs>
+</svg>
