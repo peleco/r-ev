@@ -753,6 +753,11 @@ time {
 .article-content {
   padding: 2.5em 0;
 }
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content {
+    padding: 0.9375em 0;
+  }
+}
 .article-content p {
   grid-column: 4 / span 7;
   font-size: 1.125em;
