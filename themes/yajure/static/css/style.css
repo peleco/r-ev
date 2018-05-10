@@ -759,24 +759,100 @@ time {
   line-height: 1.5em;
   padding: 0 var(--col-padding);
 }
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content p {
+    grid-column: 4 / span 8;
+    padding: 0 var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content p {
+    grid-column: 2 / span 12;
+    font-size: 0.9375em;
+    line-height: 1.5em;
+    padding: 0 var(--col-padding-mobile);
+  }
+}
 .article-content div {
   grid-column: 2 / span 12;
   padding: 0 var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content div {
+    grid-column: 2 / span 12;
+    padding: 0 var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content div {
+    grid-column: 2 / span 12;
+    padding: 0 var(--col-padding-mobile);
+  }
 }
 .article-content img {
   display: block;
   width: 100%;
   height: 100%;
+  padding-top: 2.5em;
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content img {
+    padding-top: 2.5em;
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content img {
+    padding-top: 1.5em;
+  }
 }
 .article-content blockquote {
   grid-column: 3 / span 10;
   font-family: "Noe Display";
   font-weight: bold;
   font-size: 3em;
-  /* line-height: 1em; */
-  margin: 0;
+  text-indent: -0.4em;
+  margin: 1em 0;
   padding: 0 var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content blockquote {
+    grid-column: 3 / span 10;
+    font-size: 2.375em;
+    /* text-indent: -0.4em; */
+    padding: 0 var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content blockquote {
+    grid-column: 2 / span 12;
+    font-size: 1.75em;
+    margin: 1.25em 0;
+    /* text-indent: -0.4em; */
+    padding: 0 var(--col-padding-mobile);
+  }
 }
 .article-content blockquote p {
   line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+.article-content .caption {
+  grid-column: 2 / span 7;
+  font-size: 0.9375em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 1.25em var(--col-padding) 2.5em var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content .caption {
+    grid-column: 2 / span 9;
+    padding: 1.25em var(--col-padding-tablet) 2.5em var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content .caption {
+    font-size: 0.75em;
+    grid-column: 2 / span 12;
+    padding: 1.25em var(--col-padding-mobile) 2.5em var(--col-padding-mobile);
+  }
 }

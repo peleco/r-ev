@@ -18,7 +18,7 @@ Etiam et augue ut dui consectetur ultricies. Sed consectetur diam ut ultricies f
 
 <div><img src="/img/uploads/2.jpg"></div>
 
-`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
+<div class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis.</div>
 
 
 
@@ -30,12 +30,12 @@ Etiam et augue ut dui consectetur ultricies. Sed consectetur diam ut [ultricies 
 
 <div><img src="/img/uploads/3.jpg"></div>
 
-`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
+<div class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis.</div>
 
 <div><img src="/img/uploads/6.jpg"></div>
 
-`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
+<div class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis.</div>
 
 <div><img src="/img/uploads/8.jpg"></div>
 
-`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
+<div class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis.</div>
