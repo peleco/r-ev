@@ -1,13 +1,10 @@
 {{ partial "header.html" . }}
 
-	<!-- <div class="grid"> -->
-
 		<div class="section-featured">
 			{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
 			  {{ .Render "featured" }}
 			{{ end }}
 		</div>
-
 
 		<div class="section-news grid">
 			<h3>Noticias /</h3>
@@ -20,11 +17,7 @@
 			<a class="text-CTA" href="/post/">
 				ver todas las noticias
 			</a>
-			<!-- {{ partial "pagination.html" . }} -->
-			<!-- <hr class="dashed">
-			{{ partial "taxonomies-all.html" . }} -->
 		</div>
-
 
 		<div class="section-articles grid">
 			<h3>Reportajes /</h3>
@@ -34,7 +27,5 @@
 			{{ end }}
 			</div>
 		</div>
-
-		<!-- <hr> -->
 
 {{ partial "footer.html" . }}
