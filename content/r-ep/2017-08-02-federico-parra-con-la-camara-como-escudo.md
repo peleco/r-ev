@@ -3,7 +3,6 @@ image: /img/uploads/1.jpg
 type: article
 title: 'Federico Parra, lente y cámara de escudo.'
 date: 2017-08-01T22:17:14.108Z
-description: sjdhskdjhsk
 author: la r-ev
 featured: true
 ---
@@ -17,8 +16,6 @@ Etiam et augue ut dui consectetur ultricies. Sed consectetur diam ut ultricies f
 
 > "Sed ullamcorper lacus id lorem mattis, sit amet semper metus luctus. Aliquam ultrices justo lorem”
 
-![Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. ](/img/uploads/2.jpg)
-
 <div><img src="/img/uploads/2.jpg"></div>
 
 `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
@@ -31,19 +28,14 @@ Etiam et augue ut dui consectetur ultricies. Sed consectetur diam ut [ultricies 
 
 **Cras eget tortor imperdiet, scelerisque enim sit amet, hendrerit orci**. Fusce sed tempus urna. Nam quis iaculis ipsum, eget vulputate tortor. Quisque sit amet interdum leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut eleifend sem est, eget rhoncus dolor consequat ut. Nunc et massa ut libero finibus posuere. Quisque ultricies sit amet lorem nec ornare.
 
-
-![](/img/uploads/3.jpg)
-
-`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
-
-
-
-![](/img/uploads/6.jpg)
+<div><img src="/img/uploads/3.jpg"></div>
 
 `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
 
+<div><img src="/img/uploads/6.jpg"></div>
 
+`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
 
-![](/img/uploads/8.jpg)
+<div><img src="/img/uploads/8.jpg"></div>
 
 `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a est suscipit, consectetur lacus vel, finibus turpis. `
