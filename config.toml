@@ -4,6 +4,10 @@ languageCode = "en-us"
 theme = "yajure"
 disqusShortname = "r-ev"
 
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
 [taxonomies]
 tag = "tags"
 category = "categories"
