@@ -49,7 +49,7 @@ a:hover {
   /* border-bottom: solid 1px #3333ff; */
 }
 h1 {
-  font-family: "Noe Display";
+  font-family: "Noe Display", serif;
   font-weight: bold;
   font-size: 3em;
   line-height: 1.15em;
@@ -67,7 +67,7 @@ h1 {
   }
 }
 h2 {
-  font-family: "Noe Display";
+  font-family: "Noe Display", serif;
   font-weight: bold;
   font-size: 2.25em;
   line-height: 1.15em;
@@ -85,7 +85,7 @@ h2 {
   }
 }
 h3 {
-  font-family: "Graphik Web";
+  font-family: "Graphik Web", sans-serif;
   font-weight: bold;
   font-size: .75em;
   line-height: 1.15em;
@@ -94,7 +94,7 @@ h3 {
   text-transform: uppercase;
 }
 h4 {
-  font-family: "Graphik Web";
+  font-family: "Graphik Web", sans-serif;
   font-weight: bold;
   font-size: 0.9375em;
   line-height: 1.15em;
