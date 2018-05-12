@@ -1,7 +1,9 @@
 {{ partial "header.html" . }}
 
 <div class="section-news grid">
-	<h1>Noticias / {{ .Title }}</h1>
+	<h1>
+		<a class="" href="/post/">Noticias</a> 
+		/ {{ .Title }}</h1>
 
 	{{ partial "taxonomies-all.html" . }}
 	<div class="news-columns">
