@@ -206,33 +206,68 @@ h4 {
 
 /* ——————————————————————— footer */
 footer {
-  /* display: block; */
-  /* margin: 0; */
-  /* margin-bottom: 1.25rem; */
-  /* padding: 1.875em 0; */
-  /*background: #3333ff;*/
-  /* height: auto;
-  color: #000; */
-  /*background: slategrey;*/
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 1.875em 0;
+  display: grid;
+  grid-template-columns: var(--col-extremes) 1fr 1fr var(--col-extremes);
+  grid-column-gap: 0;
+  align-items: center;
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  footer {
+    grid-template-columns: var(--col-extremes-tablet) 1fr 1fr var(--col-extremes-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  footer {
+    grid-template-columns: var(--col-extremes-mobile) 1fr 1fr var(--col-extremes-mobile);
+  }
 }
 footer p {
-  grid-column: 2 / span 6;
+  grid-column: 2 / span 1;
   font-size: 0.9375em;
   margin: 0;
-  padding: 1.875em var(--col-padding);
+  padding-left: var(--col-padding);
+  /* padding: 1.875em var(--col-padding); */
 }
 @media only screen and (max-width: 48em) { /* -768px */
   footer p {
-    padding: 1.875em var(--col-padding-tablet);
+    padding-left: var(--col-padding-tablet);
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   footer p {
-    padding: 1.875em var(--col-padding-mobile);
+    padding-left: var(--col-padding-mobile);
   }
 }
 footer a:link, footer a:visited, footer a:active {
   color: #000;
+}
+.social-links {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.25em;
+  align-items: center;
+  padding-right: var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .social-links {
+    padding-right: var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .social-links {
+    padding-right: var(--col-padding-mobile);
+  }
+}
+.social-links a {
+  /* margin-left: 1.25em; */
+}
+.social-links img {
+  display: block;
 }
 
 /* ——————————————————————— Header & nav */

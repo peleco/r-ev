@@ -5,7 +5,7 @@
 	<div class="section-articles">
 		default
 
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "article") 2 }}
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "article") 10 }}
 		{{ range .Paginator.Pages }}
 			{{ .Render "summary"}}
 		{{ end }}
