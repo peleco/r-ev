@@ -2,12 +2,12 @@
 
 <div class="section-news grid">
 	<h1>
-		<a class="" href="/post/">Noticias</a> 
+		<a class="" href="/post/">Noticias</a>
 		/ {{ .Title }}</h1>
 
 	{{ partial "taxonomies-all.html" . }}
 	<div class="news-columns">
-		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 20 }}
 		{{ range .Paginator.Pages }}
 			{{ .Render "news-post"}}
 		{{ end }}

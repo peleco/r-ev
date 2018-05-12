@@ -5,7 +5,7 @@
 
 			{{ partial "taxonomies-all.html" . }}
 			<div class="news-columns">
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 20 }}
         {{ range .Paginator.Pages }}
           {{ .Render "news-post"}}
         {{ end }}
