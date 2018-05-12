@@ -712,11 +712,19 @@ time {
 /* ——————————————————————— Taxonomy */
 .taxonomies {
   grid-column: 2 / span 12;
-  padding: 1em var(--col-padding);
-  margin: 0 0 2em 0;
+  padding: 1em 0;
+  margin: 0 var(--col-padding) 1em;
   border-bottom: solid 1px #F2F2F2;
-  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 7px,transparent 7px,transparent 14px);*/
-  /*background: repeating-linear-gradient(45deg,#FFDE00,#FFDE00 10px,transparent 10px,transparent 20px);*/
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .taxonomies {
+    margin: 1em var(--col-padding-tablet) 2em;
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .taxonomies {
+    margin: 1em var(--col-padding-mobile) 2em;
+  }
 }
 .taxonomy {
   padding: 0;
