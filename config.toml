@@ -21,6 +21,13 @@ series = "series"
     url = "/r-ep/"
 
 [[menu.main]]
+    name = "noticias"
+    #pre = "<i class='fa fa-heart'></i>"
+    #weight = -110
+    identifier = "noticias"
+    url = "/post/"
+
+[[menu.main]]
     name = "comix"
     #pre = "<i class='fa fa-heart'></i>"
     #weight = -110
