@@ -10,7 +10,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 ![null](/img/uploads/entrevista_borlo_02.jpg)
 
-> “... frecuentemente se proyectaban imágenes obscuras y diabólicas en varias pantallas y lo ponían pa’trás y lo echaban pa’lante. Yo pasaba de carajito por ahí y veía toda esa vaina cuando los equipos de edición eran gigantes. Toda eso me influyó bastante.”
+> “... frecuentemente se proyectaban imágenes obscuras y diabólicas en varias pantallas y lo ponían pa’trás y lo echaban pa’lante. Yo pasaba de carajito por ahí y veía toda esa vaina cuando los equipos de edición eran gigantes. Toda eso me influyó bastante.”
 
 **R-EV: ¿Cuáles fueron las primeras influencias visuales de alguien que creció en un lugar y en un ambiente tan peculiar como la finca Daktari?**
 
