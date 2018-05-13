@@ -1,6 +1,6 @@
 title = "r-ev"
 baseURL = "/"
-languageCode = "es"
+languageCode = "en-us"
 theme = "yajure"
 disqusShortname = "r-ev"
 #googleAnalytics = "UA-119156756-1"
