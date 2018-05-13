@@ -979,7 +979,8 @@ time {
   grid-column: 3 / span 10;
   font-family: "Noe Display";
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
+  /* line-height: 1em; */
   text-indent: -0.4em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
@@ -987,7 +988,7 @@ time {
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content blockquote {
     grid-column: 3 / span 10;
-    font-size: 2.375em;
+    font-size: 1.5555555556em;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-tablet);
   }
@@ -995,14 +996,14 @@ time {
 @media only screen and (max-width: 30em) { /* -480px */
   .article-content blockquote {
     grid-column: 2 / span 12;
-    font-size: 1.75em;
+    font-size: 1.3333333333em;
     margin: 1.25em 0;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-mobile);
   }
 }
 .article-content blockquote p {
-  line-height: 1em;
+  line-height: 1.15em;
   margin: 0;
   padding: 0;
 }
