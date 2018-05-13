@@ -5,15 +5,15 @@ backend:
 
 netlify.configure({'site_id': r-ev.netlify.com});
 
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "news-post" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "noticias" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "post"
-    label: "News" # Used in the UI, ie.: "New Post"
+    label: "Noticias" # Used in the UI, ie.: "New Post"
     folder: "content/post" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
@@ -36,10 +36,10 @@ collections: # A list of collections the CMS should be able to edit
       #    - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Categorie", name: "categorie", widget: "string"}
 
-  - name: "r-ep" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "reportajes" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
-    label: "R-ep" # Used in the UI, ie.: "New Post"
-    folder: "content/r-ep" # The path to the folder where the documents are stored
+    label: "Reportajes" # Used in the UI, ie.: "New Post"
+    folder: "content/reportajes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
@@ -71,10 +71,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Featured", name: "featured", widget: "boolean", default: false}
 
-  - name: "melaza" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "entrevistas" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
-    label: "Melaza" # Used in the UI, ie.: "New Post"
-    folder: "content/melaza" # The path to the folder where the documents are stored
+    label: "Entrevistas" # Used in the UI, ie.: "New Post"
+    folder: "content/entrevistas" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have

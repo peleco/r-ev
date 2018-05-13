@@ -463,7 +463,6 @@ header a:link, header a:visited {
 }
 .news_post {
   display: block;
-  /* position: relative; */
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
@@ -666,8 +665,8 @@ time {
   margin: 1.875rem 0 0 0;
   padding: 0;
 }
-/* ——————————————————————— List news */
 
+/* ——————————————————————— List news */
 .section-news h1 {
   font-family: "Graphik Web";
   font-weight: bold;
@@ -688,6 +687,48 @@ time {
     padding-left: var(--col-padding-mobile);
   }
 }
+
+/* ——————————————————————— List articles */
+.list-articles {
+  padding: 3.75em 0;
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .list-articles {
+    padding: 2.5em 0;
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .list-articles {
+    padding: 1.875em 0;
+  }
+}
+.list-articles h1 {
+  font-family: "Graphik Web";
+  font-weight: bold;
+  font-size: .75em;
+  line-height: 1.15em;
+  text-transform: uppercase;
+  grid-column: 2 / span 12;
+  margin-top: 6em;
+  margin-bottom: 1.875em;
+  padding-left: var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .list-articles h1 {
+    padding-left: var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .list-articles h1 {
+    padding-left: var(--col-padding-mobile);
+  }
+}
+.list-articles .summary h2 {
+  color: black;
+  margin: 1.875rem 0 0 0;
+  padding: 0;
+}
+
 /* ——————————————————————— Pagination */
 .pagination {
   grid-column: 2 / span 12;

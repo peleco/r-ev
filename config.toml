@@ -1,8 +1,9 @@
 title = "r-ev"
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "es"
 theme = "yajure"
 disqusShortname = "r-ev"
+#googleAnalytics = "UA-119156756-1"
 
 [blackfriday]
   plainIDAnchors = true
@@ -15,28 +16,36 @@ series = "series"
 
 [[menu.main]]
     name = "reportajes"
-    #pre = "<i class='fa fa-heart'></i>"
-    #weight = -110
-    identifier = "r-ep"
-    url = "/r-ep/"
+    weight = 20
+    identifier = "reportajes"
+    url = "/reportajes/"
+
+[[menu.main]]
+    name = "entrevistas"
+    weight = 10
+    identifier = "entrevistas"
+    url = "/entrevistas/"
+
+# [[menu.main]]
+#     name = "portafolios"
+#     weight = 30
+#     identifier = "portafolios"
+#     url = "/portafolios/"
 
 [[menu.main]]
     name = "noticias"
-    #pre = "<i class='fa fa-heart'></i>"
-    #weight = -110
+    weight = 50
     identifier = "noticias"
     url = "/post/"
 
 [[menu.main]]
     name = "comix"
-    #pre = "<i class='fa fa-heart'></i>"
-    #weight = -110
+    weight = 40
     identifier = "comix"
     url = "/comix/"
 
 [[menu.main]]
     name = "shop"
-    #pre = "<i class='fa fa-road'></i>"
-    #weight = -100
+    weight = 100
     identifier = "shop"
     url = "#"
