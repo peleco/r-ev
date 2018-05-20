@@ -1024,7 +1024,7 @@ time {
   .article-content blockquote {
     grid-column: 2 / span 12;
     /* font-size: 1.3333333333em; */
-    font-size: 1.5555555556em;
+    font-size: 1.8666666667em;
     margin: 1.25em 0;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-mobile);
