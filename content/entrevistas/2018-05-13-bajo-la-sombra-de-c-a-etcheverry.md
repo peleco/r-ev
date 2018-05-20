@@ -1,7 +1,7 @@
 ---
 image: /img/uploads/entrevista_borlo_01.jpg
 type: article
-title: Bajo La Sombra De C.A. Etcheverry
+title: Bajo la sombra de C.A. Etcheverry
 date: '2018-05-13T13:50:21+02:00'
 author: Marek Zawisza
 featured: true
