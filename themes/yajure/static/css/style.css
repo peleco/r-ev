@@ -114,7 +114,7 @@ h4 {
   display: inline-block;
   position: relative;
   /* height: 1.2em; */
-  margin-top: 1.875em;
+  margin-top: 1.3333333333em;
   transition: all ease-in-out .25s;
 }
 
@@ -672,7 +672,8 @@ time {
 }
 .summary h2 {
   color: white;
-  margin: 1.875rem 0 0 0;
+  /* margin: 1.875rem 0 0 0; */
+  margin: 1.25rem 0 0 0;
   padding: 0;
 }
 
