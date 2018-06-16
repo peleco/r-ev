@@ -940,11 +940,11 @@ time {
   margin-bottom: 1.25em;
 }
 .article-author {
-  font-family: "Graphik Web";
-  font-size: .75em;
-  line-height: 1.15em;
+  /* font-family: "Graphik Web"; */
+  /* font-size: .75em; */
+  /* line-height: 1.15em; */
   /* margin: 1.25em 0 0 0; */
-  /* font: normal 0.9375em "Graphik Web"; */
+  font: normal 0.9375em "Graphik Web";
   margin-top: 1.6666666667em;
   /* margin-top: 1.4em; */
   padding: 0;
