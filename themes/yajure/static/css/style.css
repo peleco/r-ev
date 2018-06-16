@@ -726,6 +726,9 @@ time {
     padding: 1.875em 0;
   }
 }
+.list-articles h3 {
+  display: none;
+}
 .list-articles h1 {
   font-family: "Graphik Web";
   font-weight: bold;
