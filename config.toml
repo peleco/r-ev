@@ -14,11 +14,11 @@ tag = "tags"
 category = "categories"
 series = "series"
 
-[[menu.main]]
-    name = "reportajes"
-    weight = 20
-    identifier = "reportajes"
-    url = "/reportajes/"
+# [[menu.main]]
+#     name = "reportajes"
+#     weight = 20
+#     identifier = "reportajes"
+#     url = "/reportajes/"
 
 [[menu.main]]
     name = "entrevistas"
@@ -26,23 +26,29 @@ series = "series"
     identifier = "entrevistas"
     url = "/entrevistas/"
 
-# [[menu.main]]
-#     name = "portafolios"
-#     weight = 30
-#     identifier = "portafolios"
-#     url = "/portafolios/"
+[[menu.main]]
+    name = "portafolios"
+    weight = 40
+    identifier = "portafolios"
+    url = "/portafolios/"
+
+[[menu.main]]
+    name = "quorrupto"
+    weight = 30
+    identifier = "quorrupto"
+    url = "/quorrupto/"
 
 [[menu.main]]
     name = "noticias"
-    weight = 50
+    weight = 60
     identifier = "noticias"
     url = "/post/"
 
-[[menu.main]]
-    name = "comix"
-    weight = 40
-    identifier = "comix"
-    url = "/comix/"
+# [[menu.main]]
+#     name = "comix"
+#     weight = 50
+#     identifier = "comix"
+#     url = "/comix/"
 
 [[menu.main]]
     name = "shop"

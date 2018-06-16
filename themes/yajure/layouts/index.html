@@ -20,7 +20,6 @@
 		</div>
 
 		<div class="section-articles grid">
-			<h3>Reportajes /</h3>
 			<div class="articles-columns">
 			{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
 			  {{ .Render "summary" }}

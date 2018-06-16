@@ -49,12 +49,15 @@ a:hover {
   /* border-bottom: solid 1px #3333ff; */
 }
 h1 {
+  /* font-family: "Druk Medium", sans-serif; */
+  /* font-family: "Noe Display Regular", sans-serif; */
   font-family: "Graphik Condensed Web", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 3em;
   line-height: 1.15em; */
+  /* font-size: 5em; */
   font-size: 3.375em;
   line-height: 1em;
   margin: 0;
@@ -386,11 +389,13 @@ header nav a:hover {
   color: #fff;
 }
 header nav ul {
+  /* font-family: "Noe Display Regular", sans-serif; */
   font-family: "Graphik Condensed Web", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
   font-size: 4.875em;
+  /* font-size: 4.2em; */
   line-height: 1.15em;
   margin: 0;
   padding: 0;
@@ -414,7 +419,7 @@ header nav li a{
 }
 .header-logo {
   width: 3.8rem;
-  fill: black;
+  fill: var(--blue);
 }
 header a:link, header a:visited {
   color: #000;
@@ -605,19 +610,19 @@ time {
   }
 }
 .section-articles h3 {
-  grid-column: 2 / span 12;
+  /* grid-column: 2 / span 12; */
   color: white;
   margin-bottom: 1.875em;
-  padding-left: var(--col-padding);
+  /* padding-left: var(--col-padding); */
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .section-articles h3 {
-    padding-left: var(--col-padding-tablet);
+    /* padding-left: var(--col-padding-tablet); */
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .section-articles h3 {
-    padding-left: var(--col-padding-mobile);
+    /* padding-left: var(--col-padding-mobile); */
   }
 }
 .articles-columns {
