@@ -15,6 +15,12 @@
 <body>
 		<header>
 
+			<input type="checkbox" id="menu-chk"/>
+			<label class="menu-label" for="menu-chk">
+				<div class="menu-abrir">menu</div>
+				<div class="menu-cerrar">cerrar</div>
+			</label>
+			
 			<div class="logo">
 				<a href="{{ .Site.BaseURL }}">
 					<svg class="header-logo" viewBox="0 0 80 29.3">
@@ -25,11 +31,6 @@
 				</a>
 			</div>
 
-			<input type="checkbox" id="menu-chk"/>
-			<label class="menu-label" for="menu-chk">
-				<div class="menu-abrir">menu</div>
-				<div class="menu-cerrar">cerrar</div>
-			</label>
 			<nav>
 				<div class="menu">
 					<ul>
