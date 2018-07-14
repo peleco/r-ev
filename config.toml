@@ -54,4 +54,4 @@ series = "series"
     name = "shop"
     weight = 100
     identifier = "shop"
-    url = "#"
+    url = "https://r-evshop.net/"
