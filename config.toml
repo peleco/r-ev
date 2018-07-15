@@ -26,11 +26,11 @@ series = "series"
     identifier = "entrevistas"
     url = "/entrevistas/"
 
-[[menu.main]]
-    name = "portafolios"
-    weight = 40
-    identifier = "portafolios"
-    url = "/portafolios/"
+# [[menu.main]]
+#     name = "portafolios"
+#     weight = 40
+#     identifier = "portafolios"
+#     url = "/portafolios/"
 
 [[menu.main]]
     name = "quorrupto"
