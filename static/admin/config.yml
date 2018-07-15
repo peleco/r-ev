@@ -55,10 +55,10 @@ collections: # A list of collections the CMS should be able to edit
       # - {label: "Label", name: "label", widget: "string"}
       #- {label: "Categories", name: "categories", widget: "list"}
 
-  - name: "comix" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "entrevistas" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
-    label: "Comix" # Used in the UI, ie.: "New Post"
-    folder: "content/comix" # The path to the folder where the documents are stored
+    label: "Entrevistas" # Used in the UI, ie.: "New Post"
+    folder: "content/entrevistas" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
@@ -71,10 +71,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Featured", name: "featured", widget: "boolean", default: false}
 
-  - name: "entrevistas" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "quorrupto" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
-    label: "Entrevistas" # Used in the UI, ie.: "New Post"
-    folder: "content/entrevistas" # The path to the folder where the documents are stored
+    label: "Quorrupto" # Used in the UI, ie.: "New Post"
+    folder: "content/quorrupto" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
