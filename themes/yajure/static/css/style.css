@@ -60,6 +60,9 @@ h1 {
   /* font-size: 5em; */
   font-size: 3.375em;
   line-height: 1em;
+  /* font-size: 4.875em; */
+  /* font-size: 4.2em; */
+  /* line-height: 1.15em; */
   margin: 0;
   padding: 0;
 }
@@ -137,6 +140,11 @@ h4 {
   grid-column-gap: 0;
   align-items: start;
   /* background-color: blue; */
+}
+@media only screen and (min-width: 90em) { /* +1440px */
+  .grid {
+    grid-template-columns: auto repeat(12, 7em) auto;
+  }
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .grid {
