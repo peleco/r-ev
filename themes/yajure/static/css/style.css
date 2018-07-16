@@ -863,6 +863,7 @@ time {
   display: inline-block;
   /* margin-right: .7em; */
   margin-right: .3em;
+  text-transform: lowercase;
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .taxonomy li {
