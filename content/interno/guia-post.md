@@ -6,7 +6,7 @@ El primer paso para publicar noticias es crear una cuenta en [github](https://gi
 
 Luego de ser agregado a la lista de colaboradores puedes acceder al [admin](https://www.r-ev.net/admin/) con tu login y password de github.
 
-Una vez dentro del CMS pueden ver todas las secciones (collections), Pueden acceder a cualquier sección y desde ahi crear o modificar cualquier post. Para hacer una nueva noticia seleccionar la sección de noticias y apretar el botón de **New noticias**.
+Una vez dentro del CMS vas a ver todas las secciones (collections), Puedes acceder a cualquier sección y desde ahi crear o modificar cualquier post. Para hacer una nueva noticia selecciona la sección de noticias y aprieta el botón de **New noticias**.
 
 Los campos para llenar son:
 
