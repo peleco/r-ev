@@ -92,6 +92,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "about" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
     label: "About" # Used in the UI, ie.: "New Post"
+    folder: "content/"
     file: "content/about.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
@@ -107,6 +108,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "guide-post" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
+    folder: "content/"
     label: "Guide Post" # Used in the UI, ie.: "New Post"
     file: "content/guide-post.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
