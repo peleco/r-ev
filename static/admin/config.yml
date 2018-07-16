@@ -38,24 +38,24 @@ collections: # A list of collections the CMS should be able to edit
       #    - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Categorie", name: "categorie", widget: "string"}
 
-  - name: "reportajes" # Used in routes, ie.: /admin/collections/:slug/edit
-    type: "article"
-    label: "Reportajes" # Used in the UI, ie.: "New Post"
-    folder: "content/reportajes" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields each document in this collection have
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "article"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      #- {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Featured", name: "featured", widget: "boolean", default: false}
-      # - {label: "Color", name: "color", widget: "string"}
-      # - {label: "Label", name: "label", widget: "string"}
-      #- {label: "Categories", name: "categories", widget: "list"}
+  # - name: "reportajes" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   type: "article"
+  #   label: "Reportajes" # Used in the UI, ie.: "New Post"
+  #   folder: "content/reportajes" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+  #   fields: # The fields each document in this collection have
+  #     - {label: "Image", name: "image", widget: "image", required: false}
+  #     - {label: "Type", name: "type", widget: "hidden", default: "article"}
+  #     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     #- {label: "Description", name: "description", widget: "text"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Author", name: "author", widget: "string"}
+  #     - {label: "Featured", name: "featured", widget: "boolean", default: false}
+  #     # - {label: "Color", name: "color", widget: "string"}
+  #     # - {label: "Label", name: "label", widget: "string"}
+  #     #- {label: "Categories", name: "categories", widget: "list"}
 
   - name: "entrevistas" # Used in routes, ie.: /admin/collections/:slug/edit
     type: "article"
