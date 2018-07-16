@@ -1078,3 +1078,23 @@ time {
     padding: 1.25em var(--col-padding-mobile) 2.5em var(--col-padding-mobile);
   }
 }
+.article-content ul {
+  grid-column: 4 / span 7;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  padding: 0 var(--col-padding);
+}
+@media only screen and (max-width: 48em) { /* -768px */
+  .article-content ul {
+    grid-column: 4 / span 8;
+    padding: 0 var(--col-padding-tablet);
+  }
+}
+@media only screen and (max-width: 30em) { /* -480px */
+  .article-content ul {
+    grid-column: 2 / span 12;
+    font-size: 0.9375em;
+    line-height: 1.5em;
+    padding: 0 var(--col-padding-mobile);
+  }
+}
