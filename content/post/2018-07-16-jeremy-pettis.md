@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/jeremypettis2.jpg
+image: /img/uploads/pettis1.png
 type: post
 title: Jeremy Pettis
 date: '2018-07-16T11:51:39-04:00'
