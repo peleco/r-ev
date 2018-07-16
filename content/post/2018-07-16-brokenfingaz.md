@@ -1,5 +1,5 @@
 ---
-image: /img/uploads/brokenfingaz.jpg
+image: /img/uploads/kibushi4-m.jpg
 type: post
 title: BrokenFingaz
 date: '2018-07-16T11:27:22-04:00'
