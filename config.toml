@@ -2,7 +2,9 @@ title = "r-ev"
 baseURL = "/"
 languageCode = "es"
 theme = "yajure"
-disqusShortname = "r-ev"
+preserveTaxonomyNames = true
+enableEmoji = true
+# disqusShortname = "r-ev"
 #googleAnalytics = "UA-119156756-1"
 
 [blackfriday]
