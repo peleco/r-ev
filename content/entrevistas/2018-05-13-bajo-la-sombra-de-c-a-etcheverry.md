@@ -28,7 +28,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 **C.A.E:** Mis padres, como gente normal de la época, compraban comics. Luego los heredé yo, les di buen uso y me influyeron muchísimo. Crecí leyendo un comic nuevo todas las noches. Mi mamá coleccionaba vainas de pinga... recuerdo en particular una colección de la editorial Mexicana Navarro con historias de mitología y Dioses hindúes todo muy bien diseñado y explicado en español. Al pasar del tiempo esa cultura se perdió en Venezuela y uno quedó a la deriva, pero tuve la suerte de tener panas mayores que empezaron a mostrarme vainas mas ácidas como El Vívora Comics, Jodorowsky, El Incal, Métal Hurlant, Robert Crumb, Raw Comics, Kiss Comics, Winsor McCay, Phillip Gruyer?, Dreams Of The Derfin Bin? para mi lo mas arrecho y lo sigue siendo. También tenía amigos de padres artistas que me nutrían mucho de arte y aprendí sobre artistas clásicos como Goya y El Bosco que me impactaron mucho.
 
-<div><img src="/img/uploads/entrevista_borlo_05.jpg"></div>
+![](/img/uploads/merceditayelsol_2.jpg)
 
 **R-EV: En tu trabajo (incluyendo lo hecho en E.E.U.U) se hacen muchas referencias a la cultura popular Venezolana y latina en general. Se ven muchos escenarios urbanos del 3er mundo, celebridades latinas, rituales santeros, sincretismo religioso, etc... Cosas a veces muy ajenas y distantes para el público Norte Americano e internacional. ¿Por qué sigue tan presente en tus ilustraciones y tus comics?**
 
