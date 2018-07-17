@@ -62,7 +62,7 @@ A mi me mandaron para un colegio católico y ahí es donde uno ve... una de las 
 
 **C.A.E:** El mercado de comics actual en los E.E.U.U esta mas que regenerado, hay una especie de hype, un auge en el comic nuevo que no ha existido de hace años. Es algo que ha venido creciendo gradualmente y no hablando solo del rollo Marvel sino del comic independiente y underground que estuvo un poco callado y tapado durante los 90, una mala época. Ahora se ha recuperado mucho y me parece que es un buen momento para introducir mis comics en este mercado y esta cultura sin hablar de lo difícil que es mover mis comics desde aquí en el mercado latinoamericano, aunque es lo que mas me gustaría. Tengo que probar el mercado donde yo vivo y quiero también representar lo que es el arte latino y Venezolano en Norte America, representar mis cuentos, mi humor, etc..
 
-![](/img/uploads/lahabana1980_2.jpg)
+![null](/img/uploads/lahabana1980_2.jpg)
 
 Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representar lo mío dentro del lenguaje norteamericano por excelencia. Sin ser un embajador o querer necesariamente representar a mi país como un ilustrador embajador. Se aprecia mucho la “Venezolanidad” con cuentos como el del Silbón y otros personajes e historias pero en la mayoría hay temas y humor que son universales y que los puede apreciar cualquier cultura y creo que funciona muy bien en inglés. Ya yo tengo aquí 15 años y un día tuve que tomar la decisión y mudar mi arte para LA, sin dejar de usar mis coloquios y símbolos pero en algún momento tuve que empezar a escribir historias de las cosas que me pasan aquí en el día a día. Hay que ver donde esta uno, no puedo escribir todo el tiempo de un lugar donde ya no vivo. Aquí también hay injusticias y situaciones políticas que tienen que ponerse sobre la mesa e interpretarlas a mi modo.
 
@@ -70,7 +70,7 @@ Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representa
 
 **C.A.E:** Espero que muy pronto, hay bastante material ya hecho y espero que se presente el presupuesto y la oportunidad y las condiciones para publicar otro volumen más pronto que enseguida. No te sé decir si Borlo seguirá siendo el pilar de mi portafolio pero definitivamente va a seguir siendo protagonista y todavía quiero llevarlo más lejos.
 
-![](/img/uploads/rap.jpg)
+![null](/img/uploads/rap.jpg)
 
 **R-EV: Muchas de tus piezas traen un mensaje político fuerte, de protesta y desobediencia. La aún presente crisis política y social en Venezuela que empezó poco antes de tu llegada a California en el 2002 y la crisis económica y social en E.E.U.U del 2008 trajeron mucha inspiración para tu trabajo. ¿Cuál es tu posición ante estas situaciones que nos afectaron tanto a los Venezolanos y a los Americanos en general? Y ¿Cuál es tu intención como artista dentro de estos conflictos?**
 
@@ -82,7 +82,7 @@ Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representa
 
 **C.A.E:** Transhuman es basicamente una serie de mensajes subersivos con cualidades de ciencia ficción y “cyber punk” llevados a una declaración de moda. Es un concepto que comenzó con 2 o 3 ilustraciones que hice para estampados en ropa y por la misma curiosidad de la gente me vi en la necesidad de desarrollar toda una historia y una serie de personajes para darle mas sentido a estas imágenes y abrir todo un campo de posibilidades.
 
-![](/img/uploads/reptilians.jpg)
+![null](/img/uploads/reptilians.jpg)
 
 En síntesis, la historia de Transhuman comienza con el descubrimiento de la existencia de La Tierra por parte de los seres mas corruptos y despiadados del cosmos... Los Reptilianos. Al encontrar nuestro planeta, lo escanean en su totalidad, lo copian y lo duplican en otra galaxia, en otra dimensión donde comienza a desarrollarse otra linea temporal paralela. Otra versión de nuestra realidad donde figuras religiosas tienen el poder absoluto y los avances tecnológicos impulsados por intervención reptiliana logran mantener el control de su imperio parasitario sobre este nuevo planeta tierra poseído. Al generarse una resistencia social en contra de estas instituciones religiosas, Los Reptilianos se ven obligados a imponer una conversión forzada y obligatoria para transformar a todos los rebeldes en cyborgs obedientes del régimen, reemplazando sus memorias originales con tarjetas de memoria fabricadas por el gobierno. Aquellos que logran escapar de las autoridades quedan también forzados a someterse a intervenciones quirúrgicas para elevar sus capacidades a través de componentes tecnológicos y poder combatir contra las fuerzas demoniacas del Status Quo. Es por supuesto un reflejo de nuestra sociedad y de los sistemas e instituciones bajo los cuales operamos y obedecemos hoy en dia. Tranhumanismo... conección hombre maquina, fascinacion con partes electronicas y su interaccion con los nervios y la psique. Detrás de todo eso también hay una filosofia de sobrevivir esa tecnología, de rechazarla y de desafiarla a manera de rollo subversivo. Yo pienso que el mismo sistema en el que vivimos nos obliga a transhumanizarnos de cierta manera ya a niveles preocupante y bueno es algo que siento la necesidad de poner en escena para generar reflexión y conciencia.
 
