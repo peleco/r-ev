@@ -20,7 +20,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 **C.A.E:** Empecé a dibujar de antes de que tenga yo memoria. Recuerdo cosas que dibujé cuando tenia 3 o 4 años. Tenía un personaje que era como un gusanito con varias personalidades distintas que se ponía un casco y se metía en situaciones. También tenía la costumbre de hacer mis propias interpretaciones de los afiches de las películas que veía en el cine. No me gustaba que me dijeran como hacerlo, las clases... lo mío era mi propio descubrimiento, creo que es algo bastante normal. Dibujaba también una serie de comics llamada Caballo Manía, como en 4to grado, donde había una escuela secundaria a lo Archie pero en donde todos eran caballos humanizados. Yo criaba caballos y me gustaba darle personalidades. Yo quería ser ilustrador desde siempre, yo sabía que estaba jodido desde carajito ...sabiendo dibujar, poner ideas en papel... ¿Qué coño iba yo a estar buscando otras aptitudes?... Usar lo que la vida le dio a uno, ¿no? Si algo es un sacrilegio es no usar tu talento. Y bueno eso lo tenia bien clarito, yo sabia que iba a tener que pasar por bastante vaina para poder ser un ilustrador.
 
-![null](/img/uploads/entrevista_borlo_04.jpg)
+![null](/img/uploads/sk8s.jpg)
 
 > “Yo quería ser ilustrador desde siempre, yo sabía que estaba jodido desde carajito ...sabiendo dibujar, poner ideas en papel... ¿Qué coño iba yo a estar buscando otras aptitudes?... Usar lo que la vida le dio a uno, ¿no? Si algo es un sacrilegio es no usar tu talento.
 
