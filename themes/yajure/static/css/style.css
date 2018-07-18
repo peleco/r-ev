@@ -1060,7 +1060,7 @@ time {
   padding: 0;
 }
 .article-content .caption {
-  grid-column: 2 / span 7;
+  grid-column: 3 / span 8;
   font-size: 0.9375em;
   line-height: 1.5em;
   margin: 0;
@@ -1068,7 +1068,7 @@ time {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content .caption {
-    grid-column: 2 / span 9;
+    grid-column: 3 / span 9;
     padding: 1.25em var(--col-padding-tablet) 2.5em var(--col-padding-tablet);
   }
 }
