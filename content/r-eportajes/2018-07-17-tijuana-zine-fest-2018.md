@@ -9,5 +9,3 @@ featured: false
 ![null](/img/uploads/tj_zinefest_18_1.jpg)
 
 ![](/img/uploads/tj_zinefest_18_3.jpg)
-
-<div><img src="/img/uploads/tj_zinefest_18_2.jpg"></div>
