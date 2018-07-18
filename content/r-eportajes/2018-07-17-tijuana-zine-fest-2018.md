@@ -6,4 +6,4 @@ date: '2018-07-17T18:37:17-07:00'
 author: La r-ev
 featured: false
 ---
-![null]()
+![null](/img/uploads/tj_zinefest_18_1.jpg)
