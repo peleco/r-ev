@@ -979,7 +979,7 @@ time {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content p {
-    grid-column: 4 / span 8;
+    grid-column: 3 / span 10;
     padding: 0 var(--col-padding-tablet);
   }
 }
@@ -992,12 +992,12 @@ time {
   }
 }
 .article-content div {
-  grid-column: 2 / span 12;
+  grid-column: 3 / span 10;
   padding: 0 var(--col-padding);
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content div {
-    grid-column: 2 / span 12;
+    grid-column: 3 / span 10;
     padding: 0 var(--col-padding-tablet);
   }
 }
