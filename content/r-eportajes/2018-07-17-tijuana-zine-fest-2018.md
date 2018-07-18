@@ -7,3 +7,5 @@ author: La r-ev
 featured: false
 ---
 ![null](/img/uploads/tj_zinefest_18_1.jpg)
+
+<div><img src="/img/uploads/merceditayelsol_2.jpg"></div>
