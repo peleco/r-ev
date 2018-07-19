@@ -12,4 +12,6 @@ featured: false
 
 <div><img src="/img/uploads/TJ_ZF_18_R-EP_3.jpg"></div>
 
+![null](/img/uploads/tj_zf_18_r-ep_4.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_5.jpg)
+![null](/img/uploads/tj_zf_18_r-ep_6.jpg)
