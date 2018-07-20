@@ -877,7 +877,7 @@ time {
 }
 .taxonomy a:link, .taxonomy a:visited {
   /* color: var(--blue); */
-  color: black;
+  color: var(--blue);
 }
 .taxonomy li a:hover {
   /* border-bottom: solid 1px #000; */
