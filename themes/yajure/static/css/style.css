@@ -141,9 +141,9 @@ h4 {
   align-items: start;
   /* background-color: blue; */
 }
-@media only screen and (min-width: 90em) { /* +1440px */
+@media only screen and (min-width: 80em) { /* +1280px */
   .grid {
-    grid-template-columns: 1fr repeat(12, 7.1em) 1fr;
+    grid-template-columns: 1fr repeat(12, 6.3em) 1fr;
   }
 }
 @media only screen and (max-width: 48em) { /* -768px */
