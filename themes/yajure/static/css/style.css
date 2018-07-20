@@ -185,9 +185,9 @@ h4 {
   padding: 0;
 }
 @media only screen and (max-width: 64em) { /* -1024px */
-  /* .featured-image img {
-    height: 66.66666666666667%;
-  } */
+  .featured-image img {
+    height: 25em;
+  }
 }
 @media only screen and (max-width: 37.5em) { /* -600px */
   .featured-image img {
@@ -910,9 +910,10 @@ time {
   margin: 0;
   padding: 0;
 }
+
 @media only screen and (max-width: 64em) { /* -1024px */
   .article-header-image img {
-    /* height: 66.66666666666667%; */
+    height: 25em;
   }
 }
 @media only screen and (max-width: 37.5em) { /* -600px */
