@@ -22,6 +22,11 @@ series = "series"
 #     identifier = "reportajes"
 #     url = "/reportajes/"
 
+# [[params]]
+#     DefaultSocialImage = "mydefaultsocialimage.jpg"
+#     SiteDescription = "r-ev.net / propaganda underground latinoamericana"
+#     Twitter = "lar-ev"
+
 [[menu.main]]
     name = "entrevistas"
     weight = 10

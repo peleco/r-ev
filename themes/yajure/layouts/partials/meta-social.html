@@ -1,0 +1,5 @@
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@{{.Site.Params.Twitter}}">
+<meta property="twitter:title" content="{{if .Title }}{{.Title}}{{else}}{{.Site.Title}}{{end}}">
+<meta property="twitter:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/img/uploads/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/img/uploads/{{.Site.Params.DefaultSocialImage}}{{ end }}">
+<meta property="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.SiteDescription }}{{ else if .IsPage }}{{ .Description }}{{ else if .IsNode }}{{ index .Site.Data.sectioninfo .Title }}{{ end }}">
