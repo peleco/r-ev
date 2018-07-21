@@ -1,8 +1,9 @@
 ---
+draft: true
 image: /img/uploads/1.jpg
 type: article
-title: 'Federico Parra'
-date: 2018-06-16
+title: Federico Parra
+date: 2018-06-16T00:00:00.000Z
 author: la r-ev
 featured: false
 ---
