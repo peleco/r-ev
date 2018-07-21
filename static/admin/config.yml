@@ -21,6 +21,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -64,6 +65,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -80,6 +82,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -96,6 +99,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields each document in this collection have
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -114,6 +118,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       # - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Type", name: "type", widget: "hidden", default: "article"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       #- {label: "Description", name: "description", widget: "text"}
