@@ -9,7 +9,7 @@ Luego de ser agregado a la lista de colaboradores puedes acceder al [admin](http
 Una vez dentro del CMS vas a ver todas las secciones (collections), Puedes acceder a cualquier sección y desde ahi crear o modificar cualquier post. Para hacer una nueva noticia selecciona la sección de noticias y aprieta el botón de **New noticias**.
 
 Todos los campos son obligatorios menos la imagen, los campos son:
-
+* **Draft:** si quieres poner tu noticia en draft para guardarla y que no salga publicada. Por default esta apagado.
 <!-- * **Image**: no es obligatorio y el formato puede ser jpg, png o gif. El tamaño también puede ser cualquiera ya que la imagen siempre va a aliñarse en su centro sin importar su tamaño, su lado más pequeño es el que se va a ajustar al tamaño del contenedor y su lado mas largo va a centrarse. Si quieres tener full control del resultado final y de como se va a ver puedes subir una imagen en **680 x 454 px**. Para el filename de tu imagen sería: **post_autor_aammdd_post-title.jpg**, por ejemplo: post_lar-ev_180716_furismo-ruso.jpg. -->
 * **Image**: El formato puede ser jpg, png o gif. Aquí puedes bajar un [template](https://www.r-ev.net/files/r-ev_post-img-template.zip) para las imagenes. El tamaño es **680 x 454 px** a **72dpi**. Para el filename de tu imagen sería: **post_autor_aammdd_post-title.jpg**, por ejemplo: post_jose-luis_180716_furismo-ruso.jpg. No es obligatorio poner imagenes, las noticias también pueden ser publicadas con solo texto.
 * **Title:** El titulo de la noticia.
