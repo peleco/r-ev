@@ -6,7 +6,7 @@ date: '2018-05-13T13:50:21+02:00'
 author: Marek Zawisza
 featured: true
 ---
-Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por dentro. Algunos le temen, otros le aborrecen y muchos admiramos con buen y negro humor la original y grotesca psique que produce sus ilustraciones, sus comix, su música y sus diarios performances. Nacido y criado entre monte y culebra, en [La Finca Daktari](https://www.youtube.com/watch?v=gsxXPdk9e9M) hacia las afueras de Caracas, Carlitos no tuvo la misma infancia que vos... [Una](http://www.noticias24.com/venezuela/noticia/106448/avn-hace-ocho-anos-la-derecha-venezolana-aposto-al-magnicidio-con-ayuda-de-paramilitares/)[conspiración](https://www.youtube.com/watch?v=MoLpAQIWhEI) [parapolítica](https://www.telesurtv.net/telesuragenda/Venezuela-Paramilitarismo-y-Parapolitica-20150824-0020.html) [y](https://www.aporrea.org/actualidad/n204768.html) [paramilitar](https://www.youtube.com/watch?v=FUknoSnZzFg) lo dejó a él y a su familia sin [hogar](http://www.reportero24.com/2012/05/10/el-hatillo-la-finca-daktari-ocho-anos-despues/) en Venezuela y les obligó a exiliarse en los Estados Unidos en donde residen de hace más de una década. Siendo hijo del **“Guarimbero Mayor” Robert Alonso** y sobrino de la cantante y actriz **Maria Conchita Alonso**, C.A Etcheverry también se hizo escuchar desde joven entre un público un poco más reducido y particular dejando una huella artística por debajo de la tierra que transcendió desde Caracas hasta Los Angeles. [**Borlo Comix Vol. 1: Los Comix Mas Crueles del Mundo**](https://r-evshop.net/products/borlo-comic-book) es la primera publicación oficial del artista producida por la R-EV. Una recopilación de historietas creadas entre 1998 y el 2015 que marcan el nacimiento y la evolución de **Borlo**: el personaje más bizarro y desagradable del fumetto... el principe obscuro del mal gusto, el Pan nuestro de mala vida. Aprovechamos el lanzamiento de este volumen para entrevistar al creador y conocer un poco más sobre sus orígenes, sus influencias y otros proyectos...
+Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por dentro. Algunos le temen, otros le aborrecen y muchos admiramos con buen y negro humor la original y grotesca psique que produce sus ilustraciones, sus comix, su música y sus diarios performances. Nacido y criado entre monte y culebra, en [La Finca Daktari](https://www.youtube.com/watch?v=gsxXPdk9e9M) hacia las afueras de Caracas, Carlitos no tuvo la misma infancia que vos... [Una](http://www.noticias24.com/venezuela/noticia/106448/avn-hace-ocho-anos-la-derecha-venezolana-aposto-al-magnicidio-con-ayuda-de-paramilitares/) [conspiración](https://www.youtube.com/watch?v=MoLpAQIWhEI) [parapolítica](https://www.telesurtv.net/telesuragenda/Venezuela-Paramilitarismo-y-Parapolitica-20150824-0020.html) [y](https://www.aporrea.org/actualidad/n204768.html) [paramilitar](https://www.youtube.com/watch?v=FUknoSnZzFg) lo dejó a él y a su familia [sin](https://www.youtube.com/watch?feature=player_embedded&v=7fqqIN73eEk) [hogar](http://www.reportero24.com/2012/05/10/el-hatillo-la-finca-daktari-ocho-anos-despues/) en Venezuela y les obligó a exiliarse en los Estados Unidos en donde residen de hace más de una década. Siendo hijo del “[Guarimbero Mayor](https://www.youtube.com/watch?v=lTiFuYoDiRw)” [Robert Alonso](https://www.youtube.com/watch?v=5MCKnalmzuA) y sobrino de la cantante y actriz [Maria Conchita Alonso](https://www.imdb.com/name/nm0000744/?ref_=fn_al_nm_1), C.A Etcheverry también se hizo escuchar desde joven entre un público un poco más reducido y particular dejando una huella artística por debajo de la tierra que transcendió desde Caracas hasta Los Angeles. [**Borlo Comix Vol. 1: Los Comix Mas Crueles del Mundo**](https://r-evshop.net/products/borlo-comic-book) es la primera publicación oficial del artista producida por la R-EV. Una recopilación de historietas creadas entre 1998 y el 2015 que marcan el nacimiento y la evolución de **Borlo**: el personaje más bizarro y desagradable del fumetto... el principe obscuro del mal gusto, el Pan nuestro de mala vida. Aprovechamos el lanzamiento de este volumen para entrevistar al creador y conocer un poco más sobre sus orígenes, sus influencias y otros proyectos...
 
 ![null](/img/uploads/entrevista_borlo_02.jpg)
 
@@ -28,7 +28,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 **C.A.E:** Mis padres, como gente normal de la época, compraban comics. Luego los heredé yo, les di buen uso y me influyeron muchísimo. Crecí leyendo un comic nuevo todas las noches. Mi mamá coleccionaba vainas de pinga... recuerdo en particular una colección de la editorial Mexicana Navarro con historias de mitología y Dioses hindúes todo muy bien diseñado y explicado en español. Al pasar del tiempo esa cultura se perdió en Venezuela y uno quedó a la deriva, pero tuve la suerte de tener panas mayores que empezaron a mostrarme vainas mas ácidas como El Vívora Comics, Jodorowsky, El Incal, Métal Hurlant, Robert Crumb, Raw Comics, Kiss Comics, Winsor McCay, Phillip Gruyer?, Dreams Of The Derfin Bin? para mi lo mas arrecho y lo sigue siendo. También tenía amigos de padres artistas que me nutrían mucho de arte y aprendí sobre artistas clásicos como Goya y El Bosco que me impactaron mucho.
 
-<!-- !\\[null](/img/uploads/merceditayelsol_2.jpg) -->
+<!-- !\\\[null](/img/uploads/merceditayelsol_2.jpg) -->
 
 <div><img src="/img/uploads/merceditayelsol_2.jpg"></div>
 
@@ -42,7 +42,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 **C.A.E:** Si mucho de mi trabajo es un reflejo del lado obscuro de la sociedad en la que crecí en Venezuela y de mis propios demonios. Mi padre para mi fue un gran monstruo en mi vida, empezando por los colegios donde me inscribía y por otras experiencias muy dolorosas. El era una especie de mercenario. Durante mi infancia él trabajaba con temas bastante dark, esotéricos, de brujerías, demonios, desaparecidos, estatuas que lloran sangre, del pez diablo... de vaya uste’ a saber. Yo eventualmente adquirí esa fascinación por la brujería. He visto cosas que prefiero no revelar en entrevistas. Yo me encontraba con muñecos vudú en la finca, una serie de muñecos enredados en alambre púas y me los llevaba para la escuela. Mi papá tenía reliquias Nazi que me llevaba para el colegio también. Recuerdo que una vez me fui disfrazado de Hitler para el carnaval. Cosas que están mal pero son tragicómicas. Crecer en una finca, encontrarte el carajito de la gente que trabajaba ahí cogiéndose una yegua. Escuchar a la gente insistiendo que, uno que estaba chamo, tenía que coger chiva o coger burra. Uno creció en ese ambiente y a veces lo mejor que se puede hacer es burlarse de eso, ponerlo a flote... ¿sabes? Es también parte de la cultura, de lo que nos hace humanos, de nuestras conversaciones, de nuestro constructo genético. Son cosas que me fascinan. No es que esté bien la bestialidad sino hablar de ello, de las represiones, las perversiones, toda eso me interesa.
 
-<!-- !\\[null](/img/uploads/no-fumes-droga-2.jpg) -->
+<!-- !\\\[null](/img/uploads/no-fumes-droga-2.jpg) -->
 
 <div><img src="/img/uploads/no-fumes-droga-2.jpg"></div>
 
@@ -66,7 +66,7 @@ A mi me mandaron para un colegio católico y ahí es donde uno ve... una de las 
 
 **C.A.E:** El mercado de comics actual en los E.E.U.U esta mas que regenerado, hay una especie de hype, un auge en el comic nuevo que no ha existido de hace años. Es algo que ha venido creciendo gradualmente y no hablando solo del rollo Marvel sino del comic independiente y underground que estuvo un poco callado y tapado durante los 90, una mala época. Ahora se ha recuperado mucho y me parece que es un buen momento para introducir mis comics en este mercado y esta cultura sin hablar de lo difícil que es mover mis comics desde aquí en el mercado latinoamericano, aunque es lo que mas me gustaría. Tengo que probar el mercado donde yo vivo y quiero también representar lo que es el arte latino y Venezolano en Norte America, representar mis cuentos, mi humor, etc..
 
-<!-- !\\[null](/img/uploads/lahabana1980_2.jpg) -->
+<!-- !\\\[null](/img/uploads/lahabana1980_2.jpg) -->
 
 <div><img src="/img/uploads/lahabana1980_2.jpg"></div>
 
@@ -76,7 +76,7 @@ Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representa
 
 **C.A.E:** Espero que muy pronto, hay bastante material ya hecho y espero que se presente el presupuesto y la oportunidad y las condiciones para publicar otro volumen más pronto que enseguida. No te sé decir si Borlo seguirá siendo el pilar de mi portafolio pero definitivamente va a seguir siendo protagonista y todavía quiero llevarlo más lejos.
 
-<!-- !\\[null](/img/uploads/rap.jpg) -->
+<!-- !\\\[null](/img/uploads/rap.jpg) -->
 
 <div><img src="/img/uploads/rap.jpg"></div>
 
@@ -90,7 +90,7 @@ Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representa
 
 **C.A.E:** Transhuman es basicamente una serie de mensajes subersivos con cualidades de ciencia ficción y “cyber punk” llevados a una declaración de moda. Es un concepto que comenzó con 2 o 3 ilustraciones que hice para estampados en ropa y por la misma curiosidad de la gente me vi en la necesidad de desarrollar toda una historia y una serie de personajes para darle mas sentido a estas imágenes y abrir todo un campo de posibilidades.
 
-<!-- !\\[null](/img/uploads/reptilians.jpg) -->
+<!-- !\\\[null](/img/uploads/reptilians.jpg) -->
 
 <div><img src="/img/uploads/reptilians.jpg"></div>
 
