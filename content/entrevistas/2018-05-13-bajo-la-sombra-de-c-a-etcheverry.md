@@ -80,9 +80,7 @@ Por eso lo saqué en ingles, no era hacerle el feo a mi lenguaje sino representa
 
 **C.A.E:** Espero que muy pronto, hay bastante material ya hecho y espero que se presente el presupuesto y la oportunidad y las condiciones para publicar otro volumen más pronto que enseguida. No te sé decir si Borlo seguirá siendo el pilar de mi portafolio pero definitivamente va a seguir siendo protagonista y todavía quiero llevarlo más lejos.
 
-<!-- !\\\\[null](/img/uploads/rap.jpg) -->
-
-<div><img src="/img/uploads/rap.jpg"></div>
+![](/img/uploads/entrevista_borlo_14.jpg)
 
 **R-EV: Muchas de tus piezas traen un mensaje político fuerte, de protesta y desobediencia. La aún presente crisis política y social en Venezuela que empezó poco antes de tu llegada a California en el 2002 y la crisis económica y social en E.E.U.U del 2008 trajeron mucha inspiración para tu trabajo. ¿Cuál es tu posición ante estas situaciones que nos afectaron tanto a los Venezolanos y a los Americanos en general? Y ¿Cuál es tu intención como artista dentro de estos conflictos?**
 
