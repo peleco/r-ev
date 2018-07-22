@@ -6,7 +6,6 @@ date: '2018-07-17T18:37:17-07:00'
 author: la r-ev
 featured: false
 ---
-![null](/img/uploads/tj_zf_18_r-ep_1.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_9.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_3.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_4.jpg)
