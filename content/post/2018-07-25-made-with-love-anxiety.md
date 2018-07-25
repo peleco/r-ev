@@ -6,7 +6,6 @@ title: Made with love & anxiety
 date: '2018-07-25T10:47:20+02:00'
 author: erik
 tags:
-  - design
   - zines
   - illustración
 ---
