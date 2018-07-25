@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 image: /img/uploads/post_erik_180725_joy.jpg
 type: post
 title: Made with love & anxiety
@@ -9,4 +9,4 @@ tags:
   - zines
   - illustración
 ---
-[The Joy Issue N°2](http://www.loveandanxiety.com/) del colectivo Love and Anxiety, su segunda compilación de ilustraciones en blanco y negro.
+[The Joy Issue N°2](http://www.loveandanxiety.com/), una compilación de ilustraciones en blanco y negro hecha por Love & Anxiety Collective.
