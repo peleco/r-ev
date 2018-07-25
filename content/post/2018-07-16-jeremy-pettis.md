@@ -8,4 +8,4 @@ tags:
   - Diseño
   - Arte
 ---
-Illustrador para Nike que hace "on the side" Illustraciones a punta de marcadores por el amor al arte. Psycodelia callejera.
+[Illustrador](http://jeremypettis.tumblr.com/) para Nike que hace "on the side" Illustraciones a punta de marcadores por el amor al arte. Psycodelia callejera.
