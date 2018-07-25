@@ -9,4 +9,4 @@ tags:
   - zines
   - illustración
 ---
-[The Joy Issue N°2](http://www.loveandanxiety.com/), una compilación de ilustraciones en blanco y negro hecha por Love & Anxiety Collective.
+[The Joy Issue N°2](http://www.loveandanxiety.com/), una compilación de ilustraciones en blanco y negro hecha por nuestros queridos amigos de Love & Anxiety Collective.
