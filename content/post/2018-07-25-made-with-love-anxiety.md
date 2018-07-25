@@ -10,4 +10,4 @@ tags:
   - zines
   - illustración
 ---
-[The Joy Issue N°2](http://www.loveandanxiety.com/) por los queridos amigos del colectivo Love and Anxiety.
+[The Joy Issue N°2](http://www.loveandanxiety.com/) de nuestros queridos amigos del colectivo Love and Anxiety.
