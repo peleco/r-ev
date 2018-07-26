@@ -530,15 +530,22 @@ header a:link, header a:visited {
   margin: 0;
   padding: 0;
 }
-.news_post h4, .news_post p {
+.news_post p {
   margin: 0;
   padding: 0;
   font-size: 0.9375em;
   line-height: 1.5em;
-}
-.news_post h4 {
   margin-top: 0.625em;
 }
+/* .news_post h4, .news_post p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9375em;
+  line-height: 1.5em;
+} */
+/* .news_post h4 {
+  margin-top: 0.625em;
+} */
 .news_post_content {
   margin-bottom: 0.625em;
   width: 100%;
