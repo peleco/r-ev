@@ -58,11 +58,11 @@ A mi me mandaron para un colegio católico y ahí es donde uno ve... una de las 
 
 **R-EV: ¿De donde salió Borlo?**
 
-**C.A.E:** El primer dibujo de Borlo lo hice como en el 99. La inspiración vino de una chaqueta horrenda que vi un día con una mezcla entre algo Peruano Andino con Tex-Mex. Con unos flecos de cuero y unos colores peyoteros con borlitas por todos lados. Me vino la idea de un ser extremadamente chaborro... una entidad que representaba el mal gusto, como una especie de maldad estética. 
+**C.A.E:** El primer dibujo de Borlo lo hice como en el 99. La inspiración vino de una chaqueta horrenda que vi un día con una mezcla entre algo Peruano Andino con Tex-Mex. Con unos flecos de cuero y unos colores peyoteros con borlitas por todos lados. Me vino la idea de un ser extremadamente chaborro... una entidad que representaba el mal gusto, como una especie de maldad estética.
 
 ![null](/img/uploads/borlojacket4.jpg)
 
-Desarrollé este personaje y le puse Borlo porque estaba obsesionado con las borlitas. Como un duende jodedor obscuro, un payaso psíquico que atraviesa dimensiones e interfiere de alguna manera con un sin fin de personajes y situaciones. La primera historia que creé con Borlo fue _**Llorando Lágrimas de Sangre**_. La escribí medio borracho durante la filmación de un video de _Los Amigos Invisibles_ en donde encontré la inspiración para escribir sobre un cantante y el recuerdo de una canción. Eso se convirtió en algo mas que “algo”. Fue mi ticket para una galería en Los Angeles y gracias a eso pude salir de la situación en la que estaba. 
+Desarrollé este personaje y le puse Borlo porque estaba obsesionado con las borlitas. Como un duende jodedor obscuro, un payaso psíquico que atraviesa dimensiones e interfiere de alguna manera con un sin fin de personajes y situaciones. La primera historia que creé con Borlo fue _**Llorando Lágrimas de Sangre**_. La escribí medio borracho durante la filmación de un video de _Los Amigos Invisibles_ en donde encontré la inspiración para escribir sobre un cantante y el recuerdo de una canción. Eso se convirtió en algo mas que “algo”. Fue mi ticket para una galería en Los Angeles y gracias a eso pude salir de la situación en la que estaba.
 
 ![null](/img/uploads/llorando_page_01.jpg)
 
