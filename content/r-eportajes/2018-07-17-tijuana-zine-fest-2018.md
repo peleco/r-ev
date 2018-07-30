@@ -6,6 +6,8 @@ date: '2018-07-17T18:37:17-07:00'
 author: la r-ev
 featured: false
 ---
+[Tijuana Zine Fest](tijuanazinefest.com) busca alentar a artistas y aficionados a descubrir la autopublicación como una forma de expresión y comunicación transfronteriza. La **r-ev** se presenta en este festival por primera vez promocionando al [Quorrupto Vol.1:](https://r-evshop.net/products/quorrupto-zine-vol-1) La Revista De Gran Clase, [Borlo Comix Vol.1:](https://r-evshop.net/products/borlo-comic-book) Los Comix Mas Crueles Del Mundo y [Mediocre Headaches](https://r-evshop.net/products/mediocre-headaches-zine)
+
 ![null](/img/uploads/tj_zf_18_r-ep_9.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_3.jpg)
 ![null](/img/uploads/tj_zf_18_r-ep_4.jpg)
