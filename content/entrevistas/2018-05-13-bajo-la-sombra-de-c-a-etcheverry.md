@@ -28,7 +28,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 **C.A.E:** Mis padres, como gente normal de la época, compraban comics. Luego los heredé yo, les di buen uso y me influyeron muchísimo. Crecí leyendo un comic nuevo todas las noches. Mi mamá coleccionaba vainas de pinga... recuerdo en particular una colección de la editorial Mexicana Navarro con historias de mitología y Dioses hindúes todo muy bien diseñado y explicado en español. Al pasar del tiempo esa cultura se perdió en Venezuela y uno quedó a la deriva, pero tuve la suerte de tener panas mayores que empezaron a mostrarme vainas mas ácidas como [El Vívora Comics](https://comicvine.gamespot.com/el-vibora/4050-38215/), [Jodorowsky](https://tomlennon.com/comics-universe-alejandro-jodorowsky/), [El Incal](http://www.zonanegativa.com/el-incal/), [Métal Hurlant](https://tomlennon.com/metal-hurlant-the-french-comic-that-changed-the-world/), [Robert Crumb](http://rcrumb.com), [Raw Comics](https://www.culturalweekly.com/spiegelman-other-masterpiece/), [Kiss Comics](https://www.cbr.com/18-kiss-comics-you-should-read-and-some-you-shouldnt/), [Winsor McCay](https://www.lambiek.net/artists/m/mccay.htm), [Phillippe Druillet](https://www.lambiek.net/artists/d/druillet.htm), [Dreams of the Rarebit Fiend](http://www.comicstriplibrary.org/browse/results?author=2), para mi lo mas arrecho y lo sigue siendo. También tenía amigos de padres artistas que me nutrían mucho de arte y aprendí sobre artistas clásicos como [Goya](https://www.artsy.net/artist/francisco-de-goya?page=1&sort=-partner_updated_at) y [El Bosco](https://www.museodelprado.es/en/the-collection/art-works?search=El%20Bosco) que me impactaron mucho.
 
-<!-- !\\\\\[null](/img/uploads/merceditayelsol_2.jpg) -->
+<!-- !\\\\\\[null](/img/uploads/merceditayelsol_2.jpg) -->
 
 <div><img src="/img/uploads/merceditayelsol_2.jpg"></div>
 
@@ -62,11 +62,13 @@ A mi me mandaron para un colegio católico y ahí es donde uno ve... una de las 
 
 ![null](/img/uploads/borlojacket4.jpg)
 
-Desarrollé este personaje y le puse Borlo porque estaba obsesionado con las borlitas. Como un duende jodedor obscuro, un payaso psíquico que atraviesa dimensiones e interfiere de alguna manera con un sin fin de personajes y situaciones. La primera historia que creé con Borlo fue _**Llorando Lágrimas de Sangre**_. La escribí medio borracho durante la filmación de un video de _Los Amigos Invisibles_ en donde encontré la inspiración para escribir sobre un cantante y el recuerdo de una canción. Eso se convirtió en algo mas que “algo”. Fue mi ticket para una galería en Los Angeles y gracias a eso pude salir de la situación en la que estaba.
+Desarrollé este personaje y le puse Borlo porque estaba obsesionado con las borlitas. Como un duende jodedor obscuro, un payaso psíquico que atraviesa dimensiones e interfiere de alguna manera con un sin fin de personajes y situaciones. La primera historia que creé con Borlo fue **_Llorando Lágrimas de Sangre_**. La escribí medio borracho durante la filmación de un video de _Los Amigos Invisibles_ en donde encontré la inspiración para escribir sobre un cantante y el recuerdo de una canción. Eso se convirtió en algo mas que “algo”. Fue mi ticket para una galería en Los Angeles y gracias a eso pude salir de la situación en la que estaba.
 
 ![null](/img/uploads/llorando_page_01.jpg)
 
-A mi me convenía irme del país por varias cosas y le agradezco a la vida por ponerme a hacer esa vaina en ese momento. [**Borlo Comix Vol.1**](https://r-evshop.net/products/borlo-comic-book) contiene esa historia, **_La Patrulla 09_** (mi venganza personal en contra de la Policía Metropolitana) y varias historietas cortas de una página que fueron hechas en lo que podemos llamar la primera etapa de Borlo como “Comix”. Varios de esos “_one pagers_” tuvieron su vida en la **R-EV** online a mediados de los 2000 la cual tenia un público un poco mas interesado en este tipo de comix y trajo muchos fans. Al pasar del tiempo se armó una recopilación que eventualmente decidimos que había que publicar en papel y muchas de estas historias que se hicieron en Venezuela y en mis primeros años aquí en LA están en este primer volumen. El mundo de Borlo es una dimensión en sí. Encontrarás personajes recurrentes, la teoría del caos, lo que pasa aquí repercute allá... Hay muchas cosas que escribo al azar, dejo al chance y luego encuentro la manera de interconectarlo o traerlo de nuevo mas adelante.
+A mi me convenía irme del país por varias cosas y le agradezco a la vida por ponerme a hacer esa vaina en ese momento. [**Borlo Comix Vol.1**](https://r-evshop.net/products/borlo-comic-book) contiene esa historia, _**La Patrulla 09**_ (mi venganza personal en contra de la Policía Metropolitana) y varias historietas cortas de una página que fueron hechas en lo que podemos llamar la primera etapa de Borlo como “Comix”. Varios de esos “_one pagers_” tuvieron su vida en la **R-EV** online a mediados de los 2000 la cual tenia un público un poco mas interesado en este tipo de comix y trajo muchos fans. Al pasar del tiempo se armó una recopilación que eventualmente decidimos que había que publicar en papel y muchas de estas historias que se hicieron en Venezuela y en mis primeros años aquí en LA están en este primer volumen. El mundo de Borlo es una dimensión en sí. Encontrarás personajes recurrentes, la teoría del caos, lo que pasa aquí repercute allá... Hay muchas cosas que escribo al azar, dejo al chance y luego encuentro la manera de interconectarlo o traerlo de nuevo mas adelante.
+
+![](/img/uploads/borlomugneco-copy.gif)
 
 **R-EV: ¿Por qué si todos los comics de Borlo eran originalmente en español decidiste lanzarlo primero en inglés?**
 
@@ -92,7 +94,7 @@ Por eso lo saqué en inglés, no era hacerle el feo a mi lenguaje sino represent
 
 **C.A.E:** Transhuman es basicamente una serie de mensajes subersivos con cualidades de ciencia ficción y “cyber punk” llevados a una declaración de moda. Es un concepto que comenzó con 2 o 3 ilustraciones que hice para estampados en ropa y por la misma curiosidad de la gente me vi en la necesidad de desarrollar toda una historia y una serie de personajes para darle mas sentido a estas imágenes y abrir todo un campo de posibilidades.
 
-<!-- !\\\\\[null](/img/uploads/reptilians.jpg) -->
+<!-- !\\\\\\[null](/img/uploads/reptilians.jpg) -->
 
 <div><img src="/img/uploads/reptilians.jpg"></div>
 
