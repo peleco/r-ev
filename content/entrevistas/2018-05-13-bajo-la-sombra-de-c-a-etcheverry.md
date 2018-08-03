@@ -52,6 +52,8 @@ A mi me mandaron para un colegio católico y ahí es donde uno ve... una de las 
 
 **R-EV: No todos aprecian tu trabajo por esa presencia de lo obscuro y esa manifestación del mal gusto. ¿Como le haces frente a ese rechazo?**
 
+![]()
+
 **C.A.E:** Cada vez me parece más normal que a la gente la hayan pastoreado hacia lo que es el arte pop y las cosas fáciles de ver, de entender o de tragar... sobretodo las nuevas generaciones. Las cosas bonitas y agradables parecen tener más valor y apreciación que las cosas profundas o difíciles de absorber y si es algo obscuro tiene que tener cierto tono que se parezca a lo que es convencionalmente aceptado como terrorífico. La gente está como acostumbrada a estas categorías y me parece súper normal que mi trabajo no entre en ninguna de estas y que no sea aceptado o apreciado por la mayoría. Los comix han tenido mucho auge en los últimos años pero sobretodo los tradicionales de superhéroes y las grandes casas y por los momentos no hay mucho espacio para comix de mi género. Mi público es muy específico y limitado pero a veces me sorprendo al ver que las personas que terminan comprando mi comix o mi arte son las personas que menos me imagino.
 
 ![null](/img/uploads/entrevista_borlo_09.gif)
