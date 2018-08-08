@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 image: /img/uploads/1.jpg
 type: article
 title: Federico Parra
