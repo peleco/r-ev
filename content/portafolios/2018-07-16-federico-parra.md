@@ -33,8 +33,6 @@ featured: false
 
 <div><img src="/img/uploads/port_fedex_20.jpg"></div>
 
-<div><img src="/img/uploads/1.jpg"></div>
-
 <div><img src="/img/uploads/7.jpg"></div>
 
 <div><img src="/img/uploads/port_fedex_38.jpg"></div>
@@ -85,10 +83,12 @@ featured: false
 
 <div><img src="/img/uploads/port_fedex_34.jpg"></div>
 
+<div><img src="/img/uploads/port_fedex_27.jpg"></div>
+
 <div><img src="/img/uploads/port_fedex_39.jpg"></div>
 
 <div><img src="/img/uploads/port_fedex_41.jpg"></div>
 
 <div><img src="/img/uploads/port_fedex_33.jpg"></div>
 
-<div><img src="/img/uploads/port_fedex_27.jpg"></div>
+<div><img src="/img/uploads/1.jpg"></div>
