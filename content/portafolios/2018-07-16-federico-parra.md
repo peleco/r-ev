@@ -9,9 +9,9 @@ featured: false
 ---
 <div><img src="/img/uploads/port_fedex_25.jpg"></div>
 
-<div><img src="/img/uploads/port_fedex_12.jpg"></div>
-
 <div><img src="/img/uploads/port_fedex_19.jpg"></div>
+
+<div><img src="/img/uploads/port_fedex_12.jpg"></div>
 
 <div><img src="/img/uploads/port_fedex_40.jpg"></div>
 
