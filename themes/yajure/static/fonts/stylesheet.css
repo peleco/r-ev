@@ -41,6 +41,20 @@
   font-stretch: normal;
 }
 @font-face {
+  font-family: 'Action Condensed Medium';
+  src: url('ActionCondensedMedium-Grade1-Web.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Action Condensed Regular';
+  src: url('ActionCondensedRegular-Grade1-Web.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
   font-family: 'Noe Display Regular';
   src: url('Noe-Display-Regular.eot');
   src: url('Noe-Display-Regular.eot?#iefix') format('embedded-opentype'),

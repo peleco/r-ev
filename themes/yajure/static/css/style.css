@@ -51,17 +51,18 @@ a:hover {
 h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
-  font-family: "Graphik Condensed Web", sans-serif;
+  /* font-family: "Graphik Condensed Web", sans-serif; */
+  font-family: "Action Condensed Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 3em;
   line-height: 1.15em; */
   /* font-size: 5em; */
-  font-size: 3.375em;
+  /* font-size: 3.375em; */
   line-height: 1em;
   /* font-size: 4.875em; */
-  /* font-size: 4.2em; */
+  font-size: 4.5em;
   /* line-height: 1.15em; */
   margin: 0;
   padding: 0;
@@ -79,13 +80,15 @@ h1 {
   }
 }
 h2 {
-  font-family: "Graphik Condensed Web", sans-serif;
+  /* font-family: "Graphik Condensed Web", sans-serif; */
+  font-family: "Action Condensed Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 2.25em;
   line-height: 1.15em; */
-  font-size: 2.75em;
+  /* font-size: 2.75em; esta es con la graphik*/
+  font-size: 3.5em;
   line-height: 1em;
   margin: 1.875rem 0 0 0;
   padding: 0;
@@ -402,7 +405,8 @@ header nav a:hover {
 }
 header nav ul {
   /* font-family: "Noe Display Regular", sans-serif; */
-  font-family: "Graphik Condensed Web", sans-serif;
+  /* font-family: "Graphik Condensed Web", sans-serif; */
+  font-family: "Action Condensed Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
@@ -862,9 +866,11 @@ time {
   /* font-family: "Noe Display";
   font-size: 2.25em;
   line-height: 1.15em; */
-  font-family: "Graphik Condensed Web", sans-serif;
+  /* font-family: "Graphik Condensed Web", sans-serif; */
+  font-family: "Action Condensed Regular", sans-serif;
   font-weight: normal;
-  font-size: 2.75em;
+  /* font-size: 2.75em; */
+  font-size: 3.5em;
   line-height: 1em;
   font-weight: bold;
   display: inline-block;
@@ -1034,12 +1040,14 @@ time {
 }
 .article-content blockquote {
   grid-column: 3 / span 10;
-  font-family: "Graphik Condensed Web", sans-serif;
+  /* font-family: "Graphik Condensed Web", sans-serif; */
+  font-family: "Action Condensed Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
   /* font-size: 2em; */
-  font-size: 2.4444444444em;
+  /* font-size: 2.4444444444em; esta es con la graphik*/
+  font-size: 3em;
   /* line-height: 1em; */
   text-indent: -0.4em;
   margin: 1em 0;
