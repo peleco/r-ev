@@ -4,7 +4,7 @@ image: /img/uploads/1.jpg
 type: article
 title: Federico Parra
 date: 2018-06-16T00:00:00.000Z
-author: la r-ev
+author: La r-ev
 featured: false
 ---
 <div><img src="/img/uploads/port_fedex_25.jpg"></div>
