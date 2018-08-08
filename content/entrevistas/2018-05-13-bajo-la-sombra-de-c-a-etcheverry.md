@@ -22,7 +22,7 @@ Hay quienes dicen que **Carlos Alonso Etcheverry** tiene el diablo metido por de
 
 ![null](/img/uploads/sk8s.jpg)
 
-> “Yo quería ser ilustrador desde siempre, yo sabía que estaba jodido desde carajito ...sabiendo dibujar, poner ideas en papel... ¿Qué coño iba yo a estar buscando otras aptitudes?... Usar lo que la vida le dio a uno, ¿no? Si algo es un sacrilegio es no usar tu talento.
+> “Yo quería ser ilustrador desde siempre, yo sabía que estaba jodido desde carajito ...sabiendo dibujar, poner ideas en papel... ¿Qué coño iba yo a estar buscando otras aptitudes?... Usar lo que la vida le dio a uno, ¿no? Si algo es un sacrilegio es no usar tu talento."
 
 **R-EV: ¿Qué artistas empezaron a motivarte como ilustrador?**
 

@@ -70,13 +70,15 @@ h1 {
 @media only screen and (max-width: 48em) { /* -768px */
   h1 {
     /* font-size: 2.375em; */
-    font-size: 2.75em;
+    /* font-size: 2.75em; */
+    font-size: 4em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h1 {
     /* font-size: 1.75em; */
-    font-size: 2.125em;
+    /* font-size: 2.125em; */
+    font-size: 3.5em;
   }
 }
 h2 {
@@ -96,12 +98,15 @@ h2 {
 @media only screen and (max-width: 48em) { /* -768px */
   h2 {
     /* font-size: 1.75em; */
-    font-size: 2.125em;
+    /* font-size: 2.125em; */
+    font-size: 3.5em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h2 {
-    font-size: 1.75em;
+    /* font-size: 1.75em; */
+    /* font-size: 2.5em; */
+    font-size: 3em;
   }
 }
 h3 {
@@ -410,7 +415,8 @@ header nav ul {
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
-  font-size: 4.875em;
+  /* font-size: 4.875em; */
+  font-size: 5em;
   /* font-size: 4.2em; */
   line-height: 1.15em;
   margin: 0;
@@ -419,12 +425,12 @@ header nav ul {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   header nav ul {
-    font-size: 4.25em;
+    font-size: 4.5em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   header nav ul {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 header nav li a{
@@ -880,12 +886,14 @@ time {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .taxonomy li {
-    font-size: 2.125em;
+    /* font-size: 2.125em; */
+    font-size: 3em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .taxonomy li {
-    font-size: 1.75em;
+    /* font-size: 1.75em; */
+    font-size: 2.5em;
   }
 }
 .taxonomy a:link, .taxonomy a:visited {
@@ -1049,14 +1057,15 @@ time {
   /* font-size: 2.4444444444em; esta es con la graphik*/
   font-size: 3em;
   /* line-height: 1em; */
-  text-indent: -0.4em;
+  text-indent: -0.26em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content blockquote {
     grid-column: 3 / span 10;
-    font-size: 1.8888888889em;
+    /* font-size: 1.8888888889em; */
+    font-size: 2.5em;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-tablet);
   }
@@ -1065,7 +1074,8 @@ time {
   .article-content blockquote {
     grid-column: 2 / span 12;
     /* font-size: 1.3333333333em; */
-    font-size: 1.8666666667em;
+    /* font-size: 1.8666666667em; */
+    font-size: 2em;
     margin: 1.25em 0;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-mobile);
