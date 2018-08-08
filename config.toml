@@ -1,7 +1,7 @@
 title = "r-ev"
 baseURL = "/"
 languageCode = "es"
-theme = "yajure"
+theme = "yajure_v2"
 preserveTaxonomyNames = true
 enableEmoji = true
 # disqusShortname = "r-ev"

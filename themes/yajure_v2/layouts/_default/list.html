@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+	<div class="list-articles grid">
+		<h1 class="title">{{ .Title }} /</h1>
+
+		<div class="articles-columns">
+			{{ $paginator := .Paginate (where .Data.Pages "Type" "article") 10 }}
+			{{ range .Paginator.Pages }}
+				{{ .Render "summary"}}
+			{{ end }}
+		</div>
+		{{ partial "pagination.html" . }}
+
+	</div>
+
+{{ partial "footer.html" . }}

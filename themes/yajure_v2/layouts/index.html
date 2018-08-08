@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+
+		<div class="section-featured">
+			{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
+			  {{ .Render "featured" }}
+			{{ end }}
+		</div>
+
+		<div class="section-news grid">
+			<h3>Noticias /</h3>
+			<div class="news-columns">
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+        {{ range .Paginator.Pages }}
+          {{ .Render "news-post"}}
+        {{ end }}
+			</div>
+			<a class="text-CTA" href="/post/">
+				ver todas las noticias
+			</a>
+		</div>
+
+		<div class="section-articles grid">
+			<div class="articles-columns">
+			{{ range first 2 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
+			  {{ .Render "summary" }}
+			{{ end }}
+			</div>
+		</div>
+
+{{ partial "footer.html" . }}

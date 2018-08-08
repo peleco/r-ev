@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+			<article class="article-page">
+
+				<div class="article-header grid">
+					<div class="article-header-text internal-header">
+						<!-- <time class="text-time">{{ .Date.Format "02.01.2006" }}</time> -->
+						<h3>{{ .Section }} /</h3>
+						<h1>{{ .Title }}</h1>
+					</div>
+				</div>
+
+				<div class="article-content grid">
+					{{ .Content }}
+				</div>
+
+				<!-- <div>
+					{{ template "_internal/disqus.html" . }}
+				</div> -->
+
+			</article>
+
+{{ partial "footer.html" . }}
