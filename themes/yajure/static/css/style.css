@@ -52,7 +52,7 @@ h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Regular", sans-serif;
+  font-family: "Action Condensed Medium", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
@@ -81,7 +81,7 @@ h1 {
 }
 h2 {
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Regular", sans-serif;
+  font-family: "Action Condensed Medium", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
@@ -406,7 +406,7 @@ header nav a:hover {
 header nav ul {
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Regular", sans-serif;
+  font-family: "Action Condensed Medium", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
@@ -867,7 +867,7 @@ time {
   font-size: 2.25em;
   line-height: 1.15em; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Regular", sans-serif;
+  font-family: "Action Condensed Medium", sans-serif;
   font-weight: normal;
   /* font-size: 2.75em; */
   font-size: 3.5em;
@@ -1041,7 +1041,7 @@ time {
 .article-content blockquote {
   grid-column: 3 / span 10;
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Regular", sans-serif;
+  font-family: "Action Condensed Medium", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
