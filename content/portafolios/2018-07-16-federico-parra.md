@@ -1,6 +1,6 @@
 ---
-draft: true
-image: /img/uploads/1.jpg
+draft: false
+image: /img/uploads/portafolio_fedex_37.jpg
 type: article
 title: Federico Parra
 date: 2018-06-16T00:00:00.000Z
