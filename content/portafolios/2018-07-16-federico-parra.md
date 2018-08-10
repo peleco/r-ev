@@ -53,23 +53,15 @@ featured: false
 
 <div><img src="/img/uploads/portafolio_fedex_23.jpg"></div>
 
-<div><img src="/img/uploads/portafolio_fedex_24.jpg"></div>
-
 <div><img src="/img/uploads/portafolio_fedex_25.jpg"></div>
 
 <div><img src="/img/uploads/portafolio_fedex_26.jpg"></div>
 
-<div><img src="/img/uploads/portafolio_fedex_27.jpg"></div>
-
 <div><img src="/img/uploads/portafolio_fedex_28.jpg"></div>
-
-<div><img src="/img/uploads/portafolio_fedex_29.jpg"></div>
 
 <div><img src="/img/uploads/portafolio_fedex_30.jpg"></div>
 
 <div><img src="/img/uploads/portafolio_fedex_31.jpg"></div>
-
-<div><img src="/img/uploads/portafolio_fedex_32.jpg"></div>
 
 <div><img src="/img/uploads/portafolio_fedex_33.jpg"></div>
 
