@@ -1,11 +1,12 @@
 <article class="summary">
 	<h3>{{ .Section }} /</h3>
+	<a href="{{ .Permalink }}">
 	<div class="summary-image">
 			<img src="{{ .Params.image }}" alt="" class="img-responsive">
 	</div>
-
+	</a>
 	<div class="summary-text">
-		<h2 class="text-title">{{ .Title }}</h2>
+		<a href="{{ .Permalink }}"><h2 class="text-title">{{ .Title }}</h2></a>
 		<a class="text-CTA" href="{{ .Permalink }}">
 			ver más
 		</a>
