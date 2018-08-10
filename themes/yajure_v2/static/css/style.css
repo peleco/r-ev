@@ -405,7 +405,8 @@ header {
   visibility: hidden;
 	width: 100vw;
 	height: 100vh;
-  padding: 6.25rem 2.5em;
+  /* padding: 6.25rem 2.5em; */
+  padding: 6.25rem 0;
 	top: 0;
   left: 0;
   background: rgba(255,191,0,0.95);
@@ -488,12 +489,15 @@ header nav ul {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   header nav ul {
+    grid-column: 1 / span 12;
     font-size: 4.5em;
+    margin: 0 0 0 var(--col-padding-tablet);
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   header nav ul {
     font-size: 4em;
+    margin: 0 0 0 var(--col-padding-mobile);
   }
 }
 header nav li a{
