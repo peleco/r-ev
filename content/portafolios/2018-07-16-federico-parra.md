@@ -7,6 +7,8 @@ date: 2018-06-16T00:00:00.000Z
 author: la r-ev
 featured: false
 ---
+[Federico Parra Zambrano](https://www.instagram.com/federicoparra/) fotografía para la [AFP](https://www.afp.com) en Caracas. Acostumbrado a documentar diariamente   ambientes y situaciones hostiles en una ciudad ahogada de violencia, Parra logra exitosamente producir imágenes que transmiten la tensión efímera de un conflicto y a su vez cautivar la mirada y las emociones  de quien posee las más mínima sensibilidad artística. Presentamos a continuación una selección de las fotos capturadas por su cámara hace un poco mas de un año durante la cúspide de los enfrentamientos bélicos entre el Este y el Oeste de la capital Venezolana en donde murieron docenas y salieron heridas, detenidas y torturadas cientos de personas...
+
 <div><img src="/img/uploads/portafolio_fedex_1.jpg"></div>
 
 <div><img src="/img/uploads/portafolio_fedex_2.jpg"></div>
