@@ -6,7 +6,7 @@ date: '2018-07-18T19:17:35-07:00'
 author: la r-ev
 featured: false
 ---
-Nacida en Florida, criada en Caracas. [Sabina Sauce](http://www.sabinasauce.com) es una artista multifacética que se expresa a través de distintos medios y temas; la poseía, la costura, la fotografía, el collage. Es devota a las ironías, un ser sarcástico que disfruta de lo cotidiano, lo insólito y lo subversivo. Una niña sensible con un humor negro y opiniones un tanto burlesca de este mundo cruel.
+Nacida en Florida, criada en Caracas. [Sabina Sauce](http://www.sabinasauce.com) es una artista multifacética que se expresa a través de distintos medios y temas; la poesía, la costura, la fotografía, el collage. Es devota a las ironías, un ser sarcástico que disfruta de lo cotidiano, lo insólito y lo subversivo. Una niña sensible con un humor negro y opiniones un tanto burlescas de este mundo cruel.
 
 ![null](/img/uploads/portafolio_sabina_1.jpg)
 ![null](/img/uploads/portafolio_sabina_2.jpg)
