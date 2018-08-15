@@ -54,7 +54,8 @@ h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Medium", sans-serif;
+  /* font-family: "Action Condensed Medium", sans-serif; */
+  font-family: "Canela Deck Light", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
@@ -62,9 +63,9 @@ h1 {
   line-height: 1.15em; */
   /* font-size: 5em; */
   /* font-size: 3.375em; */
-  line-height: 1em;
+  line-height: 1.1em;
   /* font-size: 4.875em; */
-  font-size: 4.5em;
+  font-size: 3.4em;
   /* line-height: 1.15em; */
   margin: 0;
   padding: 0;
@@ -73,27 +74,28 @@ h1 {
   h1 {
     /* font-size: 2.375em; */
     /* font-size: 2.75em; */
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h1 {
     /* font-size: 1.75em; */
     /* font-size: 2.125em; */
-    font-size: 3.5em;
+    font-size: 2.6em;
   }
 }
 h2 {
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Medium", sans-serif;
+  /* font-family: "Action Condensed Medium", sans-serif; */
+  font-family: "Canela Deck Light", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 2.25em;
   line-height: 1.15em; */
   /* font-size: 2.75em; esta es con la graphik*/
-  font-size: 3.5em;
-  line-height: 1em;
+  font-size: 2.6em;
+  line-height: 1.2em;
   margin: 1.875rem 0 0 0;
   padding: 0;
 }
@@ -101,14 +103,14 @@ h2 {
   h2 {
     /* font-size: 1.75em; */
     /* font-size: 2.125em; */
-    font-size: 3.5em;
+    font-size: 2.6em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h2 {
     /* font-size: 1.75em; */
     /* font-size: 2.5em; */
-    font-size: 3em;
+    font-size: 2.2em;
   }
 }
 h3 {
@@ -475,7 +477,8 @@ header nav ul {
   grid-column: 2 / span 6;
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Medium", sans-serif;
+  /* font-family: "Action Condensed Medium", sans-serif; */
+  font-family: "Canela Deck Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
@@ -936,11 +939,12 @@ time {
   font-size: 2.25em;
   line-height: 1.15em; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Medium", sans-serif;
-  font-weight: normal;
+  /* font-family: "Action Condensed Medium", sans-serif; */
+  font-family: "Canela Deck Regular", sans-serif;
+  /* font-weight: normal; */
   /* font-size: 2.75em; */
-  font-size: 3.5em;
-  line-height: 1em;
+  font-size: 2.6em;
+  line-height: 1.2em;
   font-weight: normal;
   display: inline-block;
   /* margin-right: .7em; */
@@ -950,13 +954,13 @@ time {
 @media only screen and (max-width: 48em) { /* -768px */
   .taxonomy li {
     /* font-size: 2.125em; */
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .taxonomy li {
     /* font-size: 1.75em; */
-    font-size: 2.5em;
+    font-size: 1.6em;
   }
 }
 .taxonomy a:link, .taxonomy a:visited {
@@ -1112,14 +1116,15 @@ time {
 .article-content blockquote {
   grid-column: 3 / span 10;
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  font-family: "Action Condensed Medium", sans-serif;
+  /* font-family: "Action Condensed Medium", sans-serif; */
+  font-family: "Canela Deck Regular", sans-serif;
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
   /* font-size: 2em; */
   /* font-size: 2.4444444444em; esta es con la graphik*/
-  font-size: 3.1111111111em;
-  /* line-height: 1em; */
+  font-size: 2.3111111111em;
+  /* line-height: 1.2em; */
   text-indent: -0.26em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
@@ -1128,7 +1133,7 @@ time {
   .article-content blockquote {
     grid-column: 3 / span 10;
     /* font-size: 1.8888888889em; */
-    font-size: 2.6666666667em;
+    font-size: 1.9555555556em;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-tablet);
   }
@@ -1138,14 +1143,14 @@ time {
     grid-column: 2 / span 12;
     /* font-size: 1.3333333333em; */
     /* font-size: 1.8666666667em; */
-    font-size: 2.2222222222em;
+    font-size: 1.6em;
     margin: 1.25em 0;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-mobile);
   }
 }
 .article-content blockquote p {
-  line-height: 1.15em;
+  line-height: 1.3em;
   margin: 0;
   padding: 0;
 }
