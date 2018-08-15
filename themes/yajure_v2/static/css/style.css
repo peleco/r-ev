@@ -1126,7 +1126,7 @@ time {
   /* font-size: 2.4444444444em; esta es con la graphik*/
   font-size: 2.3111111111em;
   /* line-height: 1.2em; */
-  text-indent: -0.26em;
+  text-indent: -0.45em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
 }
