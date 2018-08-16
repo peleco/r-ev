@@ -493,7 +493,7 @@ header nav ul {
 }
 @media only screen and (max-width: 48em) { /* -768px */
   header nav ul {
-    grid-column: 1 / span 12;
+    grid-column: 1 / span 14;
     font-size: 3.5em;
     margin: 0 0 0 var(--col-padding-tablet);
   }
