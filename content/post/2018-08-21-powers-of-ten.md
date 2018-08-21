@@ -9,4 +9,4 @@ tags:
   - random
   - ''
 ---
-Para refrescar un poco la memoria, hace 41 años los Eames hicieron este increíble corto donde visualizan la relatividad de las escalas en el universo, [Powers of ten](http://www.eamesoffice.com/the-work/powers-of-ten/).
+Para refrescar un poco la memoria, hace 41 años los Eames hicieron [este](http://www.eamesoffice.com/the-work/powers-of-ten/) increíble corto donde visualizan la relatividad de las escalas en el universo.
