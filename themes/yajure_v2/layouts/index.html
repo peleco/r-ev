@@ -9,7 +9,7 @@
 		<div class="section-news grid">
 			<h3>Noticias /</h3>
 			<div class="news-columns">
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 10 }}
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 9 }}
         {{ range .Paginator.Pages }}
           {{ .Render "news-post"}}
         {{ end }}
