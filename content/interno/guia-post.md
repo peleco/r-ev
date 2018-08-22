@@ -16,7 +16,7 @@ Todos los campos son obligatorios menos la imagen, los campos son:
 * **Publish date:** normalmente se auto completa, pero eres libre de modificarlo si quieres.
 * **Body:** el principal contenido de la noticia, tiene un modo "Rich text" que es más fácil de usar ya que se activa un toolbar que te ayuda con los links y diferentes formatos. Hay una opción para insertar imágenes en el body, pero por favor solo usa la primera opción para meter imágenes en una noticia; solo se puede usar una imagen por noticia al menos que sea un caso especial. También está la opción "Markdown" si quieres usarla, en ese modo puedes hasta poner código en html si lo necesitas, puedes ver esta [página](https://guides.github.com/features/mastering-markdown/) si quieres saber más de markdown. Se pueden usar emoticons si quieres ✌️.
 * **Author:** Pon tu nombre o seudónimo.
-* **Tags:** Trata de usar tags que ya existan en la [lista](https://www.r-ev.net/post/) de noticias y si no existe puedes crear uno nuevo si lo crees pertinente, la idea es tener una lista concisa y fácil de mantener.
+* **Tags:** Trata de usar tags que ya existan en la [lista](https://www.r-ev.net/post/) de noticias y si no existe puedes crear uno nuevo si lo crees pertinente, la idea es tener una lista concisa y fácil de mantener. Los tags deben estar separados por comas (,) y estar escritos todo en minúsculas (arte, video, motion).
 
 Una vez listo solo haz click en **Publish**, si te sale un error, puede ser porque alguien está posteando algo al mismo tiempo, solo espera un momento y vuelve a intentarlo. No es mala idea de avisar en el canal de slack que estas publicando una noticia.
 
