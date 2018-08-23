@@ -10,4 +10,4 @@ tags:
   - video
   - cortometraje
 ---
-Para refrescar un poco la memoria, hace 41 años los Eames hicieron [este](http://www.eamesoffice.com/the-work/powers-of-ten/) increíble corto donde visualizan la relatividad de las escalas en el universo.
+Hace 41 años los Eames hicieron [este](http://www.eamesoffice.com/the-work/powers-of-ten/) increíble corto donde visualizan la relatividad de las escalas en el universo.
