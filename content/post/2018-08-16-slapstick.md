@@ -8,7 +8,7 @@ author: Yker Moreno
 tags:
   - app
   - diseño
-  - Ilustración
+  - ilustración
   - buck
   - animación
 ---
