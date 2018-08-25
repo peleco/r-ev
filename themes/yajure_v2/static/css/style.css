@@ -54,8 +54,8 @@ h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  /* font-family: "Action Condensed Medium", sans-serif; */
-  font-family: "Canela Deck Regular", sans-serif;
+  font-family: "Action Condensed Regular", sans-serif;
+  /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
@@ -64,8 +64,8 @@ h1 {
   /* font-size: 5em; */
   /* font-size: 3.375em; */
   line-height: 1.1em;
-  /* font-size: 4.875em; */
-  font-size: 3.4em;
+  font-size: 4.875em;
+  /* font-size: 3.4em; para canela*/
   /* line-height: 1.15em; */
   margin: 0;
   padding: 0;
@@ -74,27 +74,30 @@ h1 {
   h1 {
     /* font-size: 2.375em; */
     /* font-size: 2.75em; */
-    font-size: 3em;
+    /* font-size: 3em;  para canela*/
+    font-size: 4.875em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h1 {
     /* font-size: 1.75em; */
     /* font-size: 2.125em; */
-    font-size: 2.6em;
+    /* font-size: 2.6em; para canela*/
+    font-size: 3.875em;
   }
 }
 h2 {
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  /* font-family: "Action Condensed Medium", sans-serif; */
-  font-family: "Canela Deck Regular", sans-serif;
+  font-family: "Action Condensed Regular", sans-serif;
+  /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 2.25em;
   line-height: 1.15em; */
   /* font-size: 2.75em; esta es con la graphik*/
-  font-size: 2.6em;
+  /* font-size: 2.6em; para canela*/
+  font-size: 3.875em;
   line-height: 1.2em;
   margin: 1.875rem 0 0 0;
   padding: 0;
@@ -103,14 +106,16 @@ h2 {
   h2 {
     /* font-size: 1.75em; */
     /* font-size: 2.125em; */
-    font-size: 2.6em;
+    /* font-size: 2.6em; para canela*/
+    font-size: 3.875em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   h2 {
     /* font-size: 1.75em; */
     /* font-size: 2.5em; */
-    font-size: 2.2em;
+    /* font-size: 2.2em; para canela*/
+    font-size: 3em;
   }
 }
 h3 {
@@ -478,13 +483,13 @@ header nav ul {
   grid-column: 2 / span 12;
   /* font-family: "Noe Display Regular", sans-serif; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  /* font-family: "Action Condensed Medium", sans-serif; */
-  font-family: "Canela Deck Regular", sans-serif;
+  font-family: "Action Condensed Regular", sans-serif;
+  /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
-  /* font-size: 4.875em; */
-  font-size: 4em;
+  font-size: 4.875em;
+  /* font-size: 4em; para canela*/
   /* font-size: 4.2em; */
   line-height: 1.3em;
   margin: 0 0 0 var(--col-padding);
@@ -494,14 +499,16 @@ header nav ul {
 @media only screen and (max-width: 48em) { /* -768px */
   header nav ul {
     grid-column: 1 / span 14;
-    font-size: 3.5em;
+    /* font-size: 3.5em; para canela*/
+    font-size: 4em;
     margin: 0 0 0 var(--col-padding-tablet);
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   header nav ul {
-    font-size: 2.8em;
-    line-height: 1.3em;
+    /* font-size: 2.8em; para canela*/
+    font-size: 3.875em;
+    /* line-height: 1.3em; */
     margin: 0 0 0 var(--col-padding-mobile);
   }
 }
@@ -941,28 +948,31 @@ time {
   font-size: 2.25em;
   line-height: 1.15em; */
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  /* font-family: "Action Condensed Medium", sans-serif; */
-  font-family: "Canela Deck Regular", sans-serif;
+  font-family: "Action Condensed Regular", sans-serif;
+  /* font-family: "Canela Deck Regular", sans-serif; */
   /* font-weight: normal; */
   /* font-size: 2.75em; */
-  font-size: 2.6em;
-  line-height: 1.2em;
+  /* font-size: 2.6em; para canela*/
+  font-size: 3.875em;
+  line-height: 1em;
   font-weight: normal;
   display: inline-block;
   /* margin-right: .7em; */
-  margin-right: .3em;
+  margin-right: .4em;
   text-transform: lowercase;
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .taxonomy li {
     /* font-size: 2.125em; */
-    font-size: 2em;
+    /* font-size: 2em; para canela*/
+    font-size: 3em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .taxonomy li {
     /* font-size: 1.75em; */
-    font-size: 1.6em;
+    /* font-size: 1.6em; para canela*/
+    font-size: 2.875em;
   }
 }
 .taxonomy a:link, .taxonomy a:visited {
@@ -1118,16 +1128,17 @@ time {
 .article-content blockquote {
   grid-column: 3 / span 10;
   /* font-family: "Graphik Condensed Web", sans-serif; */
-  /* font-family: "Action Condensed Medium", sans-serif; */
-  font-family: "Canela Deck Regular", sans-serif;
+  font-family: "Action Condensed Regular", sans-serif;
+  /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: normal;
   /* font-family: "Noe Display";
   font-weight: bold; */
   /* font-size: 2em; */
   /* font-size: 2.4444444444em; esta es con la graphik*/
-  font-size: 2.3111111111em;
-  /* line-height: 1.2em; */
-  text-indent: -0.45em;
+  /* font-size: 2.3111111111em; para canela*/
+  font-size: 3.4444444444em;
+  /* line-height: 3.5em; */
+  text-indent: -0.2em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
 }
@@ -1135,7 +1146,8 @@ time {
   .article-content blockquote {
     grid-column: 3 / span 10;
     /* font-size: 1.8888888889em; */
-    font-size: 1.9555555556em;
+    /* font-size: 1.9555555556em; para canela*/
+    font-size: 3em;
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-tablet);
   }
@@ -1145,14 +1157,15 @@ time {
     grid-column: 2 / span 12;
     /* font-size: 1.3333333333em; */
     /* font-size: 1.8666666667em; */
-    font-size: 1.6em;
-    margin: 1.25em 0;
+    /* font-size: 1.6em; para canela*/
+    font-size: 3em;
+    /* margin: 1.25em 0; */
     /* text-indent: -0.4em; */
     padding: 0 var(--col-padding-mobile);
   }
 }
 .article-content blockquote p {
-  line-height: 1.3em;
+  line-height: 1.1em;
   margin: 0;
   padding: 0;
 }
