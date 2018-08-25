@@ -8,4 +8,4 @@ author: la r-ev
 tags:
   - diseño gráfico
 ---
-[Standards Manual](<standards manual>)
+[Standards Manual](https://standardsmanual.com)
