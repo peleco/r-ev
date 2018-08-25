@@ -7,5 +7,6 @@ date: 2018-08-25T03:47:05.841Z
 author: la r-ev
 tags:
   - diseño gráfico
+  - libros
 ---
 [Standards Manual](https://standardsmanual.com)
