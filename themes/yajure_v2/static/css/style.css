@@ -141,7 +141,7 @@ h4 {
   position: relative;
   /* height: 1.2em; */
   /* margin-top: 1.3333333333em; */
-  margin-top: 1em;
+  margin-top: 0em;
   /* transition: all ease-in-out .25s; */
 }
 
@@ -245,7 +245,7 @@ h4 {
 }
 .featured-text .text-CTA {
   /* margin-top: 2em; */
-  margin-top: 1.6666666667em;
+  /* margin-top: 1.6666666667em; */
 }
 /* .featured-text a {
   color: var(--yellow);
@@ -1059,7 +1059,7 @@ time {
   /* line-height: 1.15em; */
   /* margin: 1.25em 0 0 0; */
   font: normal 0.9375em "Graphik Web";
-  margin-top: 1.6666666667em;
+  /* margin-top: 1.6666666667em; */
   /* margin-top: 1.4em; */
   padding: 0;
   color: white;
