@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 image: /img/uploads/portada.jpg
 type: article
 title: 'Fuso, Naive y Lo-Fi'
