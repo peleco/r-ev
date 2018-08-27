@@ -23,8 +23,6 @@ featured: false
 
 <div><img src="/img/uploads/simonpar_7.jpg"></div>
 
-<div><img src="/img/uploads/simonpar_8.jpg"></div>
-
 <div><img src="/img/uploads/simonpar_9.jpg"></div>
 
 <div><img src="/img/uploads/simonpar_10.jpg"></div>
