@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 image: /img/uploads/img_3208.jpeg
 type: article
 title: 'Fuso, Naive y Lo-Fi'
