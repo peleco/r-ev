@@ -1,6 +1,6 @@
 ---
 draft: true
-image: /img/uploads/img_3208.jpeg
+image: /img/uploads/portada.jpg
 type: article
 title: 'Fuso, Naive y Lo-Fi'
 date: 2018-08-27T20:00:25.224Z
