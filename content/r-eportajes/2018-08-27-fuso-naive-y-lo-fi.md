@@ -4,7 +4,7 @@ image: /img/uploads/portada.jpg
 type: article
 title: 'Fuso, Naive y Lo-Fi'
 date: 2018-08-27T20:00:25.224Z
-author: Simón Gonzales
+author: Simón Gonzalez
 featured: false
 ---
 [Simón](https://www.instagram.com/greenguayaba/) se fué al Perú a sembrar aguacate. Simón maneja grandes distancias por La Panamericana Norte y La Panamericana Sur. De Piura a Chiclayo, de Chimbote para Casma, de Trujillo hacia Lima. En el camino, Simón se encuentra con una galería ambulante y naive plasmada en las espaldas de los "Fusos". Detrás del volante, Simón logra capturar con su celular imágenes borrosas y "lo-fi" que colecciona y comparte...
