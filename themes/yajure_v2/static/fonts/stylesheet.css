@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Graphik Web';
+  font-family: 'Graphik SB Web';
   src: url('Graphik-Semibold-Web.eot');
   src: url('Graphik-Semibold-Web.eot?#iefix') format('embedded-opentype'),
        url('Graphik-Semibold-Web.woff2') format('woff2'),
        url('Graphik-Semibold-Web.woff') format('woff');
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
 }
@@ -14,7 +14,7 @@
   src: url('Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
        url('Graphik-Regular-Web.woff2') format('woff2'),
        url('Graphik-Regular-Web.woff') format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
 }
