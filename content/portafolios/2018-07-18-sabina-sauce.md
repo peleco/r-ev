@@ -4,7 +4,7 @@ type: article
 title: Sabina Sauce
 date: '2018-07-18T19:17:35-07:00'
 author: la r-ev
-featured: true
+featured: false
 ---
 Nacida en Florida, criada en Caracas. [Sabina Sauce](http://www.sabinasauce.com) es una artista multifacética que se expresa a través de distintos medios y temas; la poesía, la costura, la fotografía, el collage. Es devota a las ironías, un ser sarcástico que disfruta de lo cotidiano, lo insólito y lo subversivo. Una niña sensible con un humor negro y opiniones un tanto burlescas de este mundo cruel.
 
