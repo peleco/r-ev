@@ -53,7 +53,7 @@ a:hover {
 h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
-  font-family: "Graphik SB Web", sans-serif;
+  font-family: "Graphik Web", sans-serif;
   /* font-family: "Action Condensed Regular", sans-serif; */
   /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: 600;
@@ -87,7 +87,7 @@ h1 {
   }
 }
 h2 {
-  font-family: "Graphik SB Web", sans-serif;
+  font-family: "Graphik Web", sans-serif;
   /* font-family: "Action Condensed Regular", sans-serif; */
   /* font-family: "Canela Deck Regular", sans-serif; */
   font-weight: 600;
@@ -119,7 +119,7 @@ h2 {
   }
 }
 h3 {
-  font-family: "Graphik SB Web", sans-serif;
+  font-family: "Graphik Web", sans-serif;
   font-weight: 600;
   font-size: .75em;
   line-height: 1.15em;
@@ -128,7 +128,7 @@ h3 {
   text-transform: uppercase;
 }
 h4 {
-  font-family: "Graphik SB Web", sans-serif;
+  font-family: "Graphik Web", sans-serif;
   font-weight: 600;
   font-size: 0.9375em;
   line-height: 1.15em;
@@ -136,7 +136,7 @@ h4 {
   padding: 0;
 }
 .text-CTA:link, .text-CTA:visited {
-  font: 600 0.9375em "Graphik SB Web";
+  font: 600 0.9375em "Graphik Web";
   display: inline-block;
   position: relative;
   /* height: 1.2em; */
