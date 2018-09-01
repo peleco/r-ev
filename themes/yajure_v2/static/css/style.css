@@ -921,8 +921,8 @@ time {
 /* ——————————————————————— Taxonomy */
 .taxonomies {
   grid-column: 2 / span 12;
-  padding: 1em 0;
-  margin: 0 var(--col-padding) 1em;
+  padding: 1em 0 1.3em;
+  margin: 0 var(--col-padding);
   border-bottom: solid 1px #F2F2F2;
 }
 @media only screen and (max-width: 48em) { /* -768px */
@@ -956,7 +956,7 @@ time {
   /* font-size: 2.75em; */
   /* font-size: 2.6em; para canela*/
   font-size: 3.375em;
-  line-height: 1em;
+  line-height: 1.1em;
   font-weight: normal;
   display: inline-block;
   /* margin-right: .7em; */
