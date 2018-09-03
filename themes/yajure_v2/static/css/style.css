@@ -38,7 +38,11 @@ body {
   background: #fff;
   /* text-align: center; */
 }
-
+b, strong {
+  font-family: "Graphik SB Web", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 a:link, a:visited {
   color: var(--red);
   text-decoration: none;
