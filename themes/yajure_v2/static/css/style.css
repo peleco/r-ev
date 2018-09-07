@@ -38,7 +38,11 @@ body {
   background: #fff;
   /* text-align: center; */
 }
-
+b, strong {
+  font-family: "Graphik SB Web", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 a:link, a:visited {
   color: var(--red);
   text-decoration: none;
@@ -53,10 +57,11 @@ a:hover {
 h1 {
   /* font-family: "Druk Medium", sans-serif; */
   /* font-family: "Noe Display Regular", sans-serif; */
-  font-family: "Graphik Web", sans-serif;
+  font-family: "Graphik SB Web", sans-serif;
   /* font-family: "Action Condensed Regular", sans-serif; */
   /* font-family: "Canela Deck Regular", sans-serif; */
-  font-weight: 600;
+  font-weight: normal;
+  font-style: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 3em;
@@ -87,10 +92,11 @@ h1 {
   }
 }
 h2 {
-  font-family: "Graphik Web", sans-serif;
+  font-family: "Graphik SB Web", sans-serif;
   /* font-family: "Action Condensed Regular", sans-serif; */
   /* font-family: "Canela Deck Regular", sans-serif; */
-  font-weight: 600;
+  font-weight: normal;
+  font-style: normal;
   /* font-family: "Noe Display", serif;
   font-weight: bold; */
   /* font-size: 2.25em;
@@ -119,8 +125,9 @@ h2 {
   }
 }
 h3 {
-  font-family: "Graphik Web", sans-serif;
-  font-weight: 600;
+  font-family: "Graphik SB Web", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: .75em;
   line-height: 1.15em;
   margin: 0;
@@ -128,15 +135,16 @@ h3 {
   text-transform: uppercase;
 }
 h4 {
-  font-family: "Graphik Web", sans-serif;
-  font-weight: 600;
+  font-family: "Graphik SB Web", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 0.9375em;
   line-height: 1.15em;
   margin: 0;
   padding: 0;
 }
 .text-CTA:link, .text-CTA:visited {
-  font: 600 0.9375em "Graphik Web";
+  font: normal 0.9375em "Graphik SB Web";
   display: inline-block;
   position: relative;
   /* height: 1.2em; */
@@ -798,8 +806,9 @@ time {
 
 /* ——————————————————————— List news */
 .section-news h1 {
-  font-family: "Graphik Web";
-  font-weight: bold;
+  font-family: "Graphik SB Web";
+  font-weight: normal;
+  font-style: normal;
   font-size: .75em;
   line-height: 1.15em;
   text-transform: uppercase;
@@ -836,8 +845,9 @@ time {
   display: none;
 }
 .list-articles h1 {
-  font-family: "Graphik Web";
-  font-weight: bold;
+  font-family: "Graphik SB Web";
+  font-weight: normal;
+  font-style: normal;
   font-size: .75em;
   line-height: 1.15em;
   text-transform: uppercase;
