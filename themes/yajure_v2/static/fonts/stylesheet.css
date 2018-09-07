@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Noe Display';
   src: url('Noe-Display-Black.eot') format('eot'),
-       url('Noe-Display-Black.woff') format('woff');
+       url('Noe-Display-Black.woff') format('woff'); 
   font-weight: bold;
   font-style: normal;
 }
