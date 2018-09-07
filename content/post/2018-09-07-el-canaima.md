@@ -2,7 +2,7 @@
 draft: false
 image: /img/uploads/canaima.png
 type: post
-title: 'El Canaima. '
+title: El Canaima
 date: 2018-09-08T13:50:04.454Z
 author: cbas
 tags:
