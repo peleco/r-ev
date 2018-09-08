@@ -1,6 +1,6 @@
 ---
 draft: false
-image: /img/uploads/screen-shot-2018-09-08-at-12.25.59.png
+image: /img/uploads/post_erik_180908_brand-new-roman.jpg
 type: post
 title: Brand new roman
 date: 2018-09-08T09:58:07.117Z
