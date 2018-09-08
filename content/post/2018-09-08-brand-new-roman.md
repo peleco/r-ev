@@ -8,4 +8,4 @@ author: +e
 tags:
   - tipografía
 ---
-[Brand new roman](https://www.brandnewroman.com) me llevo a descubrir lo de los [color fonts](https://www.colorfonts.wtf).
+[Brand new roman](https://www.brandnewroman.com) —> [color fonts](https://www.colorfonts.wtf).
