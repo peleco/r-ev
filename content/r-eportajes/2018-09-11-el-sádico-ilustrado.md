@@ -1,5 +1,6 @@
 ---
 draft: false
+image: /img/uploads/elsadicoilustrado_11.jpg
 type: article
 title: El Sádico Ilustrado
 date: 2018-09-12T02:49:06.244Z
