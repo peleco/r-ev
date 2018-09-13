@@ -425,7 +425,7 @@ header {
   padding: 6.25rem 0;
 	top: 0;
   left: 0;
-  background: rgba(255,191,0,0.95);
+  background: rgba(255,191,0,1);
 	transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
 }
 @media only screen and (max-width: 48em) { /* -768px */
