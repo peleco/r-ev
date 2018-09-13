@@ -422,6 +422,7 @@ header {
 	width: 100vw;
 	height: 100vh;
   /* padding: 6.25rem 2.5em; */
+  /* align-self: center; */
   padding: 6.25rem 0;
 	top: 0;
   left: 0;
@@ -519,7 +520,7 @@ header nav ul {
   header nav ul {
     /* font-size: 2.8em; para canela*/
     font-size: 2.75em;
-    /* line-height: 1.3em; */
+    line-height: 1.5em;
     /* margin: 0 0 0 var(--col-padding-mobile); */
   }
 }
