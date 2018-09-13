@@ -28,9 +28,9 @@ series = "series"
 #     Twitter = "lar-ev"
 
 [[menu.main]]
-    name = "entrevistas"
+    name = "Entrevistas"
     weight = 10
-    identifier = "entrevistas"
+    identifier = "Entrevistas"
     url = "/entrevistas/"
 
 # [[menu.main]]
@@ -46,22 +46,22 @@ series = "series"
 #     url = "/quorrupto/"
 
 [[menu.main]]
-    name = "r-eportajes"
+    name = "R-eportajes"
     weight = 30
-    identifier = "r-eportajes"
+    identifier = "R-eportajes"
     url = "/r-eportajes/"
 
 [[menu.main]]
-    name = "portafolios"
+    name = "Portafolios"
     weight = 20
-    identifier = "portafolios"
+    identifier = "Portafolios"
     url = "/portafolios/"
 
 
 [[menu.main]]
-    name = "noticias"
+    name = "Noticias"
     weight = 60
-    identifier = "noticias"
+    identifier = "Noticias"
     url = "/post/"
 
 # [[menu.main]]
@@ -71,7 +71,7 @@ series = "series"
 #     url = "/comix/"
 
 [[menu.main]]
-    name = "producto"
+    name = "Producto"
     weight = 100
-    identifier = "producto"
+    identifier = "Producto"
     url = "https://www.r-evshop.net/"

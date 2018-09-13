@@ -19,9 +19,17 @@
   font-stretch: normal;
 }
 @font-face {
+    font-family: 'Bagnard Sans Regular';
+    src: url('bagnardsans-webfont.woff2') format('woff2'),
+         url('bagnardsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
   font-family: 'Noe Display';
   src: url('Noe-Display-Black.eot') format('eot'),
-       url('Noe-Display-Black.woff') format('woff'); 
+       url('Noe-Display-Black.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
