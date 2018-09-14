@@ -1167,9 +1167,9 @@ time {
   /* font-size: 2em; */
   /* font-size: 2.4444444444em; esta es con la graphik*/
   /* font-size: 2.3111111111em; para canela*/
-  font-size: 2.4444444444em;r
+  font-size: 2.4444444444em;
   /* line-height: 3.5em; */
-  text-indent: -0.5em;
+  text-indent: -.6em;
   margin: 1em 0;
   padding: 0 var(--col-padding);
 }
