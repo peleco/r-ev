@@ -1113,6 +1113,7 @@ time {
   font-size: 1.125em;
   line-height: 1.6666666667em;
   padding: 0 var(--col-padding);
+  margin: 0 0 1.5em;
 }
 @media only screen and (max-width: 61.25em) { /* -980px */
   .article-content p {
@@ -1157,17 +1158,17 @@ time {
   max-width: 100%;
   height: auto;
   /* padding-top: 2.5em; */
-  padding: 2em 0;
+  padding: .5em 0 1.5em 0;
   margin: auto;
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .article-content img {
-    padding-top: 2.5em;
+    /* padding-top: 2.5em; */
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .article-content img {
-    padding-top: 1.5em;
+    /* padding-top: 1.5em; */
   }
 }
 .article-content blockquote {
@@ -1184,7 +1185,7 @@ time {
   font-size: 2.4444444444em;
   /* line-height: 3.5em; */
   text-indent: -.6em;
-  margin: 1.5em 0;
+  margin: 0 0 1.5em 0;
   padding: 0 var(--col-padding);
 }
 @media only screen and (max-width: 48em) { /* -768px */
