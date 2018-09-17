@@ -8,4 +8,4 @@ author: erik
 tags:
   - tipografía
 ---
-[Font playground](https://play.typedetail.com/).
+Un [playground](https://play.typedetail.com/) de fonts variables.
