@@ -8,6 +8,5 @@ author: la r-ev
 tags:
   - musica
   - mixtapes
-  - ''
 ---
 Cardopusher - [DHA Mix #396](https://soundcloud.com/deep-house-amsterdam/cardopusher-dha-mix-396)
