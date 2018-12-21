@@ -556,6 +556,7 @@ footer a:link, footer a:visited, footer a:active {
   grid-column: 8 / span 6;
   width: 100%;
   background-color: var(--yellow);
+  transform: translate(0, .1em);
 }
 @media only screen and (max-width: 48em) { /* -768px */
   /* .featured-text {
@@ -924,6 +925,7 @@ footer a:link, footer a:visited, footer a:active {
   grid-column: 8 / span 6;
   width: 100%;
   background-color: var(--yellow);
+  transform: translate(0, .1em);
 }
 @media only screen and (max-width: 64em) { /* -1024px */
   .article-header-text {
