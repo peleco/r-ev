@@ -949,6 +949,9 @@ footer a:link, footer a:visited, footer a:active {
     padding: var(--col-padding) var(--col-padding-mobile);
   }
 }
+.article-header-text h1 {
+  text-decoration: underline;
+}
 .article-header-text h1, .article-header-text h3 {
   color: black;
 }
