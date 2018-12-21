@@ -157,7 +157,10 @@ h3 {
   margin: 0;
   padding: 0;
   /* text-transform: uppercase; */
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+}
+h3:first-letter {
+    text-transform: uppercase;
 }
 @media only screen and (max-width: 48em) { /* -768px */
   h3 {
@@ -788,11 +791,14 @@ footer a:link, footer a:visited, footer a:active {
   font-style: normal;
   font-size: 1.125em;
   line-height: 1.15em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   grid-column: 2 / span 12;
   /* margin-top: 6em; */
   margin: 1.875em 0;
   padding-left: var(--col-padding);
+}
+.list-articles h1:first-letter {
+    text-transform: uppercase;
 }
 @media only screen and (max-width: 48em) { /* -768px */
   .list-articles h1 {
