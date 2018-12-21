@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+		<div class="section-featured">
+			{{ range first 1 (where (where .Data.Pages "Type" "article") "Params.featured" true) }}
+			  {{ .Render "featured" }}
+			{{ end }}
+		</div>
+
+		<div class="section-articles grid">
+			<div class="articles-columns">
+			{{ range (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
+			  {{ .Render "summary" }}
+			{{ end }}
+			</div>
+		</div>
+
+{{ partial "footer.html" . }}

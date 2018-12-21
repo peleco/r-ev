@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+			<article class="article-page">
+
+				<div class="article-header grid">
+					<div class="article-header-image">
+							<img src="{{ .Params.image }}" alt="">
+					</div>
+					<div class="article-header-text">
+						<!-- <time class="text-time">{{ .Date.Format "02.01.2006" }}</time> -->
+						<h3>{{ .Section }}</h3>
+						<h1>{{ .Title }}</h1>
+						<div class="article-author">por {{ .Params.author }}</div>
+					</div>
+				</div>
+
+				<div class="article-bg">
+				<div class="article-content grid">
+					{{ .Content }}
+				</div>
+				</div>
+
+				<!-- <div>
+					{{ template "_internal/disqus.html" . }}
+				</div> -->
+
+			</article>
+
+{{ partial "footer.html" . }}

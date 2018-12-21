@@ -1,11 +1,11 @@
 title = "r-ev"
 baseURL = "/"
 languageCode = "es"
-theme = "yajure_v2"
+theme = "care"
 preserveTaxonomyNames = true
 enableEmoji = true
 # disqusShortname = "r-ev"
-googleAnalytics = "UA-119156756-1"
+# googleAnalytics = "UA-119156756-1"
 
 [blackfriday]
   plainIDAnchors = true
@@ -58,11 +58,11 @@ series = "series"
     url = "/portafolios/"
 
 
-[[menu.main]]
-    name = "Noticias"
-    weight = 60
-    identifier = "Noticias"
-    url = "/post/"
+# [[menu.main]]
+#     name = "Noticias"
+#     weight = 60
+#     identifier = "Noticias"
+#     url = "/post/"
 
 # [[menu.main]]
 #     name = "comix"
