@@ -679,14 +679,19 @@ footer a:link, footer a:visited, footer a:active {
   position: relative;
   padding: 0 var(--col-padding) 3.75em var(--col-padding);
 }
+@media only screen and (max-width: 64em) { /* -1024px */
+  .summary {
+    padding: 0 var(--col-padding-tablet) 2.5em;
+  }
+}
 @media only screen and (max-width: 48em) { /* -768px */
   .summary {
-    padding: 0 var(--col-padding-tablet) 3.75em var(--col-padding-tablet);
+    padding: 0 var(--col-padding-tablet) 1.875em;
   }
 }
 @media only screen and (max-width: 30em) { /* -480px */
   .summary {
-    padding: 0 var(--col-padding-mobile) 3.75em;
+    padding: 0 var(--col-padding-mobile) 1.25em;
   }
 }
 .summary-image {
