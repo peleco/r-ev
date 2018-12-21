@@ -419,7 +419,7 @@ header nav ul {
   display: none;
 }
 .menu-mobile ul {
-  margin-top: 9em;
+  margin-top: 7em;
 }
 .menu-mobile li {
   /* display: inline; */
@@ -908,7 +908,7 @@ footer a:link, footer a:visited, footer a:active {
   /* height: 35em; */
   object-fit: cover;
   margin: 0;
-  padding: 0;
+  padding: 0 var(--col-padding);
 }
 
 @media only screen and (max-width: 64em) { /* -1024px */
