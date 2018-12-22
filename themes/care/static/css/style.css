@@ -224,7 +224,7 @@ h4 {
 .header-panel {
   grid-column: 2 / span 12;
   justify-content: start;
-  align-items:baseline;
+  align-items: center;
   display: grid;
   /* grid-template-columns: repeat(2, 1fr); */
   grid-template-columns: 1fr 11fr;
@@ -453,9 +453,9 @@ footer {
   align-items: center; */
   /* align-items: baseline; */
 }
-footer .grid {
+/* footer .grid {
   align-items: center;
-}
+} */
 @media only screen and (max-width: 48em) { /* -768px */
   /* footer {
     grid-template-columns: var(--col-extremes-tablet) 1fr 1fr var(--col-extremes-tablet);
@@ -497,7 +497,7 @@ footer a:link, footer a:visited, footer a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1.25em;
-  align-items: baseline;
+  align-items: center;
   padding-right: var(--col-padding);
 }
 @media only screen and (max-width: 48em) { /* -768px */
