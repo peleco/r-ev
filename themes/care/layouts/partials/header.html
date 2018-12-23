@@ -61,7 +61,10 @@
 					<!-- <div class="menu grid"> -->
 						<ul>
 							{{ range .Site.Menus.main }}
-							<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+							<!-- <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li> -->
+							<li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
 							{{ end }}
 						</ul>
 					<!-- </div> -->

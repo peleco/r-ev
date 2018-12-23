@@ -4,6 +4,7 @@ languageCode = "es"
 theme = "care"
 preserveTaxonomyNames = true
 enableEmoji = true
+# SectionPagesMenu = "main"
 # disqusShortname = "r-ev"
 # googleAnalytics = "UA-119156756-1"
 
