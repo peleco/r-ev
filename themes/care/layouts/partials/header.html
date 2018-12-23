@@ -62,9 +62,21 @@
 						<ul>
 							{{ range .Site.Menus.main }}
 							<!-- <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li> -->
-							<li {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }}>
-                        <a href="{{ .URL }}">{{ .Name }}</a>
-                    </li>
+
+							<li>
+                  <a {{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }} class="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+
+							<!-- {{ if eq $.Kind "home" }}
+	                {{ $.Scratch.Set "active" ($.IsMenuCurrent "main" .) }}
+	            {{ else }}
+	                {{ $.Scratch.Set "active" (eq .Identifier $.Type) }}
+	            {{ end }}
+	            {{ $active := $.Scratch.Get "active" }}
+							<li class="{{ if $active }}active{{end}}">
+                  <a href="{{ .URL }}">{{ .Name }}</a>
+              </li> -->
+
 							{{ end }}
 						</ul>
 					<!-- </div> -->
