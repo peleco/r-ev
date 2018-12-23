@@ -4,7 +4,7 @@ languageCode = "es"
 theme = "care"
 preserveTaxonomyNames = true
 enableEmoji = true
-# SectionPagesMenu = "main"
+SectionPagesMenu = "main"
 # disqusShortname = "r-ev"
 # googleAnalytics = "UA-119156756-1"
 
@@ -40,23 +40,23 @@ series = "series"
 #     identifier = "quorrupto"
 #     url = "/quorrupto/"
 
-[[menu.main]]
-    name = "Entrevistas"
-    weight = 10
-    identifier = "Entrevistas"
-    url = "/entrevistas/"
-
-[[menu.main]]
-    name = "R-eportajes"
-    weight = 30
-    identifier = "R-eportajes"
-    url = "/r-eportajes/"
-
-[[menu.main]]
-    name = "Portafolios"
-    weight = 20
-    identifier = "Portafolios"
-    url = "/portafolios/"
+# [[menu.main]]
+#     name = "Entrevistas"
+#     weight = 10
+#     identifier = "Entrevistas"
+#     url = "/entrevistas/"
+#
+# [[menu.main]]
+#     name = "R-eportajes"
+#     weight = 30
+#     identifier = "R-eportajes"
+#     url = "/r-eportajes/"
+#
+# [[menu.main]]
+#     name = "Portafolios"
+#     weight = 20
+#     identifier = "Portafolios"
+#     url = "/portafolios/"
 
 
 # [[menu.main]]
@@ -71,8 +71,8 @@ series = "series"
 #     identifier = "comix"
 #     url = "/comix/"
 
-[[menu.main]]
-    name = "Producto"
-    weight = 100
-    identifier = "Producto"
-    url = "https://www.r-evshop.net/"
+# [[menu.main]]
+#     name = "Producto"
+#     # weight = 100
+#     identifier = "Producto"
+#     url = "https://www.r-evshop.net/"
