@@ -28,12 +28,6 @@ series = "series"
 #     SiteDescription = "r-ev.net / propaganda underground latinoamericana"
 #     Twitter = "lar-ev"
 
-[[menu.main]]
-    name = "Entrevistas"
-    weight = 10
-    identifier = "Entrevistas"
-    url = "/entrevistas/"
-
 # [[menu.main]]
 #     name = "portafolios"
 #     weight = 40
@@ -45,6 +39,12 @@ series = "series"
 #     weight = 30
 #     identifier = "quorrupto"
 #     url = "/quorrupto/"
+
+[[menu.main]]
+    name = "Entrevistas"
+    weight = 10
+    identifier = "Entrevistas"
+    url = "/entrevistas/"
 
 [[menu.main]]
     name = "R-eportajes"

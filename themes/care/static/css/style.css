@@ -345,7 +345,7 @@ header nav ul {
 .menu li {
   display: inline;
   margin: 0 0 0 1.875rem;
-  padding: .1em 0;
+  padding: 0;
   /* color: #fff; */
 }
 /* header a:link, header a:visited {
@@ -357,7 +357,7 @@ header nav ul {
   /* text-decoration: underline; */
   /* display:inline-block; */
   border-bottom: 3px solid var(--blue);
-  /* padding-bottom:2em; */
+  padding-bottom:.2em;
 }
 .menu-mobile {
   display: none;
