@@ -357,7 +357,7 @@ header nav ul {
   /* text-decoration: underline; */
   /* display:inline-block; */
   border-bottom: 3px solid var(--blue);
-  padding-bottom:.2em;
+  padding-bottom:.1em;
 }
 .menu-mobile {
   display: none;
