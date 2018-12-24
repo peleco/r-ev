@@ -1016,6 +1016,13 @@ footer a:link, footer a:visited, footer a:active {
     padding: 0.9375em 0;
   }
 }
+.article-content a:link, .article-content a:visited  {
+  color: var(--blue);
+  /* font-family: "Graphik SB Web";
+  font-weight: normal;
+  font-style: normal; */
+  /* text-decoration: underline; */
+}
 .article-content p {
   grid-column: 4 / span 7;
   font-size: 1.125em;
