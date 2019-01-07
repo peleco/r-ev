@@ -12,21 +12,11 @@
 			  {{ .Render "summary" }}
 			{{ end }}
 
-			<article class="summary">
-				<a href="https://r-evshop.net/products/the-joy-zine-n-3" target="_blank">
-				<div class="summary-image">
-						<img src="/img/uploads/The_Joy_003-Content4_1024x1024.jpg" alt="" class="img-responsive">
-				</div>
-				</a>
-				<div class="summary-text">
-					<h3>Producto</h3>
-					<a href="https://r-evshop.net/products/the-joy-zine-n-3" target="_blank"><h2 class="text-title">The Joy Zine N.3</h2></a>
-					<!-- <a class="text-CTA" href="{{ .Permalink }}">
-						ver más
-					</a> -->
-				</div>
-
-			</article>
+			<div class="section-featured">
+				{{ range first 1 (where .Data.Pages "Type" "producto") }}
+				  {{ .Render "summary-shop" }}
+				{{ end }}
+			</div>
 
 			</div>
 
