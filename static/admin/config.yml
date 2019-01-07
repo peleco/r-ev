@@ -13,22 +13,22 @@ public_folder: "/img/uploads"
 display_url: https://www.r-ev.net
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "noticias" # Used in routes, ie.: /admin/collections/:slug/edit
-    type: "post"
-    label: "Noticias" # Used in the UI, ie.: "New Post"
-    folder: "content/post" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields each document in this collection have
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
+  #- name: "noticias" # Used in routes, ie.: /admin/collections/:slug/edit
+    #type: "post"
+    #label: "Noticias" # Used in the UI, ie.: "New Post"
+    #folder: "content/post" # The path to the folder where the documents are stored
+    #sort: "date:desc" # Default is title:asc
+    #create: true # Allow users to create new documents in this collection
+    #slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    #fields: # The fields each document in this collection have
+    #  - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
+    #  - {label: "Image", name: "image", widget: "image", required: false}
+    #  - {label: "Type", name: "type", widget: "hidden", default: "post"}
+    #  - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+    #  - {label: "Publish Date", name: "date", widget: "datetime"}
+    #  - {label: "Body", name: "body", widget: "markdown"}
+    #  - {label: "Author", name: "author", widget: "string"}
+    #  - {label: "Tags", name: "tags", widget: "list"}
       # - {label: "Categories", name: "categories", widget: "list"}
       #- label: "Image"
       #  name: "imageAttachments"
@@ -109,19 +109,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Featured", name: "featured", widget: "boolean", default: false}
 
-  - name: "interno" # Used in routes, ie.: /admin/collections/:slug/edit
+  #- name: "interno" # Used in routes, ie.: /admin/collections/:slug/edit
     # type: "article"
-    folder: "content/interno"
-    label: "Interno" # Used in the UI, ie.: "New Post"
+    #folder: "content/interno"
+    #label: "Interno" # Used in the UI, ie.: "New Post"
     # create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields each document in this collection have
+  #  fields: # The fields each document in this collection have
       # - {label: "Image", name: "image", widget: "image", required: false}
       # - {label: "Type", name: "type", widget: "hidden", default: "article"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      #- {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
+      #- {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      #- {label: "Publish Date", name: "date", widget: "datetime"}
       #- {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      #- {label: "Body", name: "body", widget: "markdown"}
       # - {label: "Author", name: "author", widget: "string"}
       # - {label: "Featured", name: "featured", widget: "boolean", default: false}
