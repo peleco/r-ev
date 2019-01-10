@@ -1,3 +1,4 @@
 ---
 title: Contacto
+type: "contacto"
 ---
