@@ -1,19 +1,26 @@
 {{ partial "header.html" . }}
 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <div data-netlify-recaptcha="true"></div>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+<article class="article-page">
+	<h1>{{ .Title }}</h1>
+	<div class="article-content grid">
+		{{ .Content }}
+	</div>
+	<form name="contact" method="POST" data-netlify="true">
+	  <p>
+	    <label>Your Name: <input type="text" name="name" /></label>
+	  </p>
+	  <p>
+	    <label>Your Email: <input type="email" name="email" /></label>
+	  </p>
+	  <p>
+	    <label>Message: <textarea name="message"></textarea></label>
+	  </p>
+	  <div data-netlify-recaptcha="true"></div>
+	  <p>
+	    <button type="submit">Send</button>
+	  </p>
+	</form>
+
+</article>
 
 {{ partial "footer.html" . }}
