@@ -1,5 +1,10 @@
   <footer class="grid">
-    <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+    <div class="footer-links">
+      <a href="/contacto">Contacto</a>
+      <!-- <p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p> -->
+      <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+    </div>
+
     <div class="social-links">
 
       <a href="https://www.facebook.com/larev.net/" target="_blank">

@@ -2,4 +2,4 @@
 title: Contacto
 type: "contacto"
 ---
-mandanos un mensaje y pronto te responderemos
+Si tienes alguna pregunta, comentario, temas o trabajos que quisieras compartir con nosotros porfavor no dudes en contactarnos:
