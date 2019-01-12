@@ -2,7 +2,7 @@
 draft: false
 image: /img/uploads/portafolio_mandy_cover.jpg
 type: article
-title: Mandy Alsemo
+title: Mandy Anselmo
 date: '2019-01-12'
 author: la r-ev
 featured: true
