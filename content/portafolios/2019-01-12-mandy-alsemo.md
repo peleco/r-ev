@@ -7,7 +7,7 @@ date: '2019-01-12'
 author: la r-ev
 featured: true
 ---
-Nacida en Florida, criada en Caracas. [Sabina Sauce](http://www.sabinasauce.com) es una artista multifacética que se expresa a través de distintos medios y temas; la poesía, la costura, la fotografía, el collage. Es devota a las ironías, un ser sarcástico que disfruta de lo cotidiano, lo insólito y lo subversivo. Una niña sensible con un humor negro y opiniones un tanto burlescas de este mundo cruel.
+Venezolana radicada en Chile, arquitecta egresada de la UCV en Caracas, Venezuela, autodidacta en el campo de la ilustración y el diseño. [Mandy Anselmo](https://mandyanselmo.artstation.com/)
 
 ![null](/img/uploads/portafolio_mandy_1.jpg)
 ![null](/img/uploads/portafolio_mandy_2.jpg)
