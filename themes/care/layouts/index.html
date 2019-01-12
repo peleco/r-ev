@@ -8,7 +8,7 @@
 
 		<div class="section-articles grid">
 			<div class="articles-columns">
-			{{ range (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
+			{{ range first 5 (where (where .Data.Pages "Type" "article") "Params.featured" false) }}
 			  {{ .Render "summary" }}
 			{{ end }}
 
