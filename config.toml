@@ -5,6 +5,7 @@ theme = "care"
 preserveTaxonomyNames = true
 enableEmoji = true
 SectionPagesMenu = "main"
+summaryLength = 30
 # disqusShortname = "r-ev"
 # googleAnalytics = "UA-119156756-1"
 
