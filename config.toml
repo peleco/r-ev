@@ -9,6 +9,9 @@ summaryLength = 30
 # disqusShortname = "r-ev"
 # googleAnalytics = "UA-119156756-1"
 
+[params]
+  description = "Propaganda Latinoamericana Underground"
+
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
