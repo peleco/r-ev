@@ -5,16 +5,17 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- {{ template "_internal/opengraph.html" . }} -->
-
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@Revnet4">
 	<meta name="twitter:creator" content="@Revnet4">
 	{{ if .IsPage }}
-	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:description" content="{{ .Summary }}" />
 	<meta name="twitter:title" content="{{ .Title }}" />
-	<meta name="twitter:image" content="https//:www.r-ev.net{{ .Params.image }}" /> {{ else }}
+	<meta name="twitter:image" content="https//:www.r-ev.net{{ .Params.image }}" />
+	{{ else }}
 	<meta name="twitter:title" content="{{ .Site.Title }}" />
-	<meta name="twitter:description" content="{{ .Description }}" /> {{ end }}
+	<meta name="twitter:description" content="{{ .Description }}" />
+	{{ end }}
 
 	<!-- <meta name="twitter:site" content="@lar-ev" /> -->
 	<!-- {{ template "_internal/twitter_cards.html" . }} -->
