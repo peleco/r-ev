@@ -11,7 +11,7 @@ Venezolana radicada en Chile, donde ha tenido la oportunidad de exponer y public
 
 [Mandy Anselmo](https://mandyanselmo.artstation.com/) ha dibujado desde que tiene memoria, experimentado con diferentes técnicas, desde el grafito, pasando por el bolígrafo, las tintas y finalmente las acuarelas que lleva un tiempo desarrollando.
 
-Aquí les presentamos una breve muestra de sus trabajos con algunas de sus citaciones publicadas en el libro de [Latinoamerica, Circuitos del Arte](https://www.arteallimite.com/2018/12/12/latinoamerica-circuitos-del-arte/).
+Aquí les presentamos una breve muestra de su trabajo con algunas de sus citaciones publicadas en el libro de [Latinoamerica, Circuitos del Arte](https://www.arteallimite.com/2018/12/12/latinoamerica-circuitos-del-arte/).
 
 <br><br>
 **Avalokitesvara**
