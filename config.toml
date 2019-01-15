@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 enableEmoji = true
 SectionPagesMenu = "main"
 summaryLength = 30
-enableRobotsTXT = true
+# enableRobotsTXT = true
 # disqusShortname = "r-ev"
 # googleAnalytics = "UA-119156756-1"
 
