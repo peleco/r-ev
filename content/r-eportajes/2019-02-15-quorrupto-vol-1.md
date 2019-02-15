@@ -1,6 +1,6 @@
 ---
 draft: false
-image: /img/uploads/quorruptovol_1_r-ep_1.jpg
+image: /img/uploads/quorruptovol_1_r-ep_23.jpg
 type: article
 title: Quorrupto Zine Vol.1
 date: 2019-02-15T22:11:48.464Z
@@ -50,10 +50,6 @@ featured: false
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_21.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_22.jpg"></div>
-
-<div><img src="/img/uploads/QuorruptoVol_1_R-EP_23.jpg"></div>
-
-<div><img src="/img/uploads/QuorruptoVol_1_R-EP_24.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_25.jpg"></div>
 
