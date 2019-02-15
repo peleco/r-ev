@@ -7,7 +7,7 @@ date: 2019-02-15T22:11:48.464Z
 author: r-ev
 featured: false
 ---
-**Quorrupto Zine Vol.1:** La Revista De Gran Clase / 14 cm x 21.5 cm / 40 Páginas, blanco y negro / Carátula de papel dorado con impresión serigráfica e intervención individual con acrílico. Impreso por Psylo Graphics en La California Sur en Julio del 2018.
+**Quorrupto Zine Vol.1:** La Revista De Gran Clase / 14 cm x 21.5 cm / 40 Páginas, blanco y negro / Carátula de papel dorado con impresión serigráfica e intervención individual con acrílico. Impreso por [Psylo Graphics](http://www.psylographics.com) en La California Sur en Julio del 2018.
 
 **Propaganda Underground Latinoamericana:**  Sabina Sauce / Federico Parra / C.A Etcheverry / Yker Moreno / Erik Zitzermann / Gamebombing / Pingpong / Mao / Uble / Marek Zawisza 
 
