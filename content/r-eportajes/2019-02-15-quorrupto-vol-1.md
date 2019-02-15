@@ -13,6 +13,8 @@ featured: false
 
 Disponible a la venta por $9.99 [aquí](https://r-evshop.net/products/quorrupto-zine-vol-1)  
 
+La r-ev te invita a participar en el Zine del Quorrupto Vol.2. Los autores de los trabajos seleccionados y publicados recibirán copias del Zine + otros productos de la r-ev. Contáctanos [por aquí](https://www.r-ev.net/contacto/) o via DM por nuestra cuenta de instagram [@lar_ev](https://www.instagram.com/lar_ev) 
+
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_1.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_2.jpg"></div>
