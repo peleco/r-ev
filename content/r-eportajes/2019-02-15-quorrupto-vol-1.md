@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 image: /img/uploads/quorruptovol_1_r-ep_1.jpg
 type: article
 title: Quorrupto Zine Vol.1
