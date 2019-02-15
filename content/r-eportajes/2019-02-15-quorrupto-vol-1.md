@@ -60,3 +60,11 @@ Disponible a la venta por $9.99 [aquí](https://r-evshop.net/products/quorrupto-
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_25.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_26.jpg"></div>
+
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_27.jpg"></div>
+
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_28.jpg"></div>
+
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_29.jpg"></div>
+
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_30.jpg"></div>
