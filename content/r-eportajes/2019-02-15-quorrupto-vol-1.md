@@ -35,7 +35,7 @@ La r-ev te invita a participar en el Zine del Quorrupto Vol.2. Los autores de lo
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_10.jpg"></div>
 
-<div><img src="/img/uploads/QuorruptoVol_1_R-EP_11.jpg"></div>
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_31.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_12.jpg"></div>
 
