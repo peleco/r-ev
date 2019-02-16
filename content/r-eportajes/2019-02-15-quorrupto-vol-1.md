@@ -11,7 +11,7 @@ featured: false
 
 **Propaganda Underground Latinoamericana:**  Sabina Sauce / Federico Parra / C.A Etcheverry / Yker Moreno / Erik Zitzermann / Gamebombing / Pingpong / Mao / Uble / Marek Zawisza 
 
-Disponible a la venta por $9.99 [aquí](https://r-evshop.net/products/quorrupto-zine-vol-1)  
+**Disponible a la venta por $9.99** [**aquí**](https://r-evshop.net/products/quorrupto-zine-vol-1) **** 
 
 La r-ev te invita a participar en el Zine del Quorrupto Vol.2. Los autores de los trabajos seleccionados y publicados recibirán copias del Zine + otros productos de la r-ev. Contáctanos [por aquí](https://www.r-ev.net/contacto/) o via DM por nuestra cuenta de instagram [@lar_ev](https://www.instagram.com/lar_ev) 
 
@@ -70,3 +70,5 @@ La r-ev te invita a participar en el Zine del Quorrupto Vol.2. Los autores de lo
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_29.jpg"></div>
 
 <div><img src="/img/uploads/QuorruptoVol_1_R-EP_30.jpg"></div>
+
+<div><img src="/img/uploads/QuorruptoVol_1_R-EP_23.jpg"></div>
