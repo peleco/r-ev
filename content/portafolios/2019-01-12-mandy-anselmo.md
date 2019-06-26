@@ -5,7 +5,7 @@ type: article
 title: Mandy Anselmo
 date: '2019-01-12'
 author: la r-ev
-featured: true
+featured: false
 ---
 Venezolana radicada en Chile, donde ha tenido la oportunidad de exponer y publicar su trabajo.  Actualmente trabaja como directora de arte en Santiago de Chile. Arquitecto egresada de la UCV. Ilustradora y diseñadora autodidacta.
 
